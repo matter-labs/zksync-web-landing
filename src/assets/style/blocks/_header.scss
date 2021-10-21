@@ -1,14 +1,11 @@
-@import "../variables";
-
 body {
   .indexHeader {
     backdrop-filter: blur(83.3333px);
-    background: rgba(24, 24, 32, 0.01);
     height: 84px;
     position: fixed;
     width: 100%;
     z-index: 5;
-    background: -moz-linear-gradient(top, rgba(24, 24, 32, 0.9), rgba(24, 24, 32, 0.7));
+    background: rgba(24, 24, 32, 0.01) linear-gradient(to top, rgba(24, 24, 32, 0.9), rgba(24, 24, 32, 0.7));
     box-shadow: 1px 1px 5px 10px rgba(0, 0, 0, 0.01);
 
     .linksContainer {
@@ -25,7 +22,8 @@ body {
       }
     }
 
-    .container, .row {
+    .container,
+    .row {
       height: 100%;
     }
 
@@ -37,7 +35,6 @@ body {
       display: flex;
       align-items: center;
     }
-
 
     .headerWrapper {
       .projectLogo {
@@ -97,8 +94,6 @@ body {
             border-radius: 0 0 $borderRadius $borderRadius !important;
           }
         }
-
-
       }
 
       @media screen and (max-width: $mobile) {
@@ -114,7 +109,6 @@ body {
             position: fixed;
             left: -35px;
             z-index: 1004;
-
           }
         }
       }
@@ -128,15 +122,15 @@ body {
       align-items: center;
 
       &:before {
-        content: '';
+        content: "";
         top: 0;
         left: 0;
-
       }
 
-      i.fal {
+      svg {
         padding-left: 5px;
-        font-size: 15px;
+        height: 17px !important;
+        width: auto;
       }
 
       transition: color $transition1;
@@ -155,8 +149,8 @@ body {
       .mobileIndexHeader {
         padding: 0;
       }
-      &.opened {
 
+      &.opened {
         .mobileIndexHeader {
           padding: 0;
 
@@ -225,6 +219,7 @@ body {
           }
         }
       }
+
       .mainIndexHeader {
         z-index: -1;
         position: absolute;
@@ -271,12 +266,12 @@ body {
             font-size: 18px;
             padding: 15px 0;
             text-align: left;
-            &:first-child
-            {
+
+            &:first-child {
               padding-top: 0;
             }
-            &:last-child
-            {
+
+            &:last-child {
               padding-bottom: 0;
             }
           }
@@ -306,10 +301,12 @@ body {
           }
         }
       }
+
       .dropdown {
         transition: height $transition1;
         height: 62px;
         overflow: hidden;
+
         &.opened {
           height: 323px;
         }
@@ -324,7 +321,8 @@ body {
   }
 }
 
-.mainIndexHeader, .mainFooter {
+.mainIndexHeader,
+.mainFooter {
   .linksContainer {
     position: absolute;
     left: 50%;
@@ -338,6 +336,7 @@ body {
       padding: 0 10px;
       white-space: nowrap;
       color: $white !important;
+
       @media screen and (min-width: $mobile+1) and (max-width: 991px) {
         font-size: 14px;
         padding: 0 5px;

@@ -55,7 +55,6 @@ module.exports = {
 
       // Use prettierrc for prettier options or not (default: `true`)
       usePrettierrc: true,
-
       // Set the options for `prettier.getFileInfo`.
       // @see https://prettier.io/docs/en/api.html#prettiergetfileinfofilepath-options
       fileInfoOptions: {

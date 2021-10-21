@@ -5,8 +5,10 @@
       :key="numIndex"
       :href="socialProfile.url"
       class="socialItem"
-      target="_blank">
-      <i :class="[socialProfile.icon,'fab']"/>
+      target="_blank"
+      :class="`icon-${socialProfile.icon}`"
+    >
+      <v-icon :name="socialProfile.icon" scale="22px"/>
       <span>{{ socialProfile.name }}</span>
     </a>
   </div>
@@ -17,7 +19,7 @@ import Vue from "vue";
 
 interface socialIcon {
   name: string;
-  icon: Array<string>;
+  icon: string;
   url: string;
   hideIn?: string;
 }
@@ -35,32 +37,27 @@ export default Vue.extend({
       const socialIcons = [
         {
           name: "Medium Blog",
-          icon: ["fa-medium-m", "fab"],
+          icon: "co-medium-m",
           url: "https://medium.com/matter-labs",
         },
         {
-          name: "Gitter Rooms",
-          icon: ["fa-gitter", "fab"],
-          url: "https://gitter.im/matter-labs/zksync",
-        },
-        {
           name: "Discord Community",
-          icon: ["fa-discord", "fab"],
+          icon: "bi-discord",
           url: "https://discord.com/invite/px2aR7w",
         },
         {
           name: "Telegram Community",
-          icon: ["fa-telegram-plane", "fab"],
+          icon: "co-telegram-plane",
           url: "https://t.me/zksync",
         },
         {
           name: "Twitter Community",
-          icon: ["fa-twitter", "fab"],
+          icon: "bi-twitter",
           url: "https://twitter.com/zksync",
         },
         {
           name: "All Contacts",
-          icon: ["fa-at", "fal"],
+          icon: "bi-at",
           url: "/contact.html",
           hideIn: "footer",
         },

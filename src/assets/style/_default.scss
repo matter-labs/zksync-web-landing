@@ -1,10 +1,10 @@
-@import "variables";
-
 :root {
   --app-height: 100vh;
 }
 
-#__nuxt, #__layout, .defaultLayout {
+#__nuxt,
+#__layout,
+.defaultLayout {
   height: max-content;
   min-height: var(--app-height);
   width: 100%;
@@ -24,7 +24,7 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-input[type=number] {
+input[type="number"] {
   -moz-appearance: textfield;
 }
 
@@ -96,8 +96,8 @@ body.inkline {
   ._fancyUnderline {
     color: $white !important;
     transition: color $transition1 !important;
-    sup
-    {
+
+    sup {
       font-size: 12px;
       text-transform: uppercase;
       font-weight: 700;

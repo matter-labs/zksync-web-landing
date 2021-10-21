@@ -1,15 +1,25 @@
 # don't ever lint node_modules
-/node_modules/*
-# don't ever lint public
-*.css
-/.nuxt/*
-/src/assets/fonts/*
-/src/assets/images/*
-/.github/*
-/.idea/*
-/environments/*
-/public/*
-/src/static/sw.js
-/docs/*
-/drafts/*
-/dist/*
+node_modules
+
+# don't lint build output (make sure it's set to your correct build folder name)
+.nuxt
+public
+
+# don't lint service directories
+cypress
+src/static
+src/assets/fonts
+.github
+.idea
+_nuxt
+src/static/sw.js
+*.example
+src/assets/imgs/*
+**/*.css
+**/*.eot
+**/*.svg
+**/*.ttf
+**/*.woff
+**/*.woff2
+successCheckmark.json
+**sw.js

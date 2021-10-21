@@ -1,8 +1,9 @@
 #!/bin/bash
 
-ENV_VALUE="$1"
-FORCE_REWRITE="$2"
-LOCAL_RUN="$3"
+NETWORK="$1"
+ENV_VALUE="$2"
+FORCE_REWRITE="$3"
+LOCAL_RUN="$4"
 
 # Colors
 Red="\033[0;31m"     # Red
@@ -20,7 +21,7 @@ FILE=".env"
 printf "\n${BBlue}Configuration:\n\n" "" "$NC"
 
 printf "${Default}   Environment:"
-if [ "$ENV_VALUE" != "prod" ]; then
+if [ "$ENV_VALUE" = "prod" ]; then
   echo "${Red} dev"
 else
   echo "${Green} $ENV_VALUE"

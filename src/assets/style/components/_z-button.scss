@@ -1,22 +1,18 @@
-@import "../variables";
 
 .glow-button {
   margin: auto;
   position: relative;
   display: flex;
-  font-weight: 400;
   box-shadow: none;
   border-radius: $borderRadius;
   width: 246px;
   height: 60px;
-  font: 20px $openSans;
+  font: 400 20px $openSans;
   line-height: 27px;
   text-align: center;
   color: $white !important;
-
   transition: color $transition2 !important;
   background: #121429 !important;
-
 
   &::before,
   &::after {
@@ -49,20 +45,21 @@
     height: calc(100% + 4px);
     position: absolute;
     bottom: -1px;
-
     background: $gradientRegularPieceAfter;
     background-blend-mode: overlay, normal, normal, color-dodge, normal;
     mix-blend-mode: normal;
     filter: blur(48px);
   }
 
-
-  &.-lg.antilink:hover, &:focus {
+  &.-lg.antilink:hover,
+  &:focus {
     box-shadow: none !important;
     border: none !important;
+
     @media (min-width: $mobile) {
       color: $white !important;
       background: lighten(#121429, 10) !important;
+
       &::after,
       &::before {
         filter: blur(60px);

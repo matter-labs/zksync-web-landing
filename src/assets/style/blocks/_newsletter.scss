@@ -1,16 +1,9 @@
-@import "../variables";
 
 .newsletterContainer {
   .newsletterHeadline {
     font-size: 18px;
     line-height: 1;
     margin-bottom: 10px;
-  }
-
-  .succesBlock {
-    font-size: 14px;
-    min-height: 40px;
-    color: $green;
   }
 
   .newsletterInput {
@@ -54,7 +47,6 @@
 
     .submitBtn {
       overflow: hidden;
-
       color: $white;
       font-family: $openSans;
       height: 100%;
@@ -83,7 +75,6 @@
     }
   }
 
-
   max-width: 485px;
   margin: 0 auto;
 
@@ -95,7 +86,6 @@
     height: 56px;
 
     input[type="email"] {
-
       &::placeholder {
         color: $gray;
       }
@@ -107,26 +97,18 @@
     }
   }
 
-  .succesBlock {
-    text-align: center;
-    font-size: 18px;
-  }
-
   @media screen and (max-width: $mobile) {
     .newsletterInput {
       height: 45px;
 
-      input, .button {
+      input,
+      .button {
         font-size: 16px;
       }
 
       .submitBtn {
         width: 110px;
       }
-    }
-
-    .succesBlock {
-      font-size: 16px;
     }
   }
 }

@@ -1,5 +1,14 @@
 {
   "projects": {
-    "default": "zksync-js-docs"
+    "default": "zksync-website"
+  },
+  "targets": {
+    "zksync-website": {
+      "hosting": {
+        "live": [
+          "zksync-website"
+        ]
+      }
+    }
   }
 }

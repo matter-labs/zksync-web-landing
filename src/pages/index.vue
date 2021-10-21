@@ -1,10 +1,10 @@
 <template>
   <div class="indexPage">
-    <z-hero/>
-    <Partners/>
-    <reviews-slider class="_padding-y-2 _padding-top-md-4 _padding-bottom-md-4"/>
-    <about/>
-    <Comparison/>
+    <z-hero />
+    <Partners />
+    <reviews-slider class="_padding-y-2 _padding-top-md-4 _padding-bottom-md-4" />
+    <about />
+    <Comparison />
 
     <i-container class="codeContainer _padding-y-2 _padding-top-md-4 _padding-bottom-md-4 _margin-y-3 _margin-bottom-8">
       <div class="h2" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800" data-aos-offset="0">
@@ -12,7 +12,7 @@
       </div>
       <div class="grayText subheaderText _margin-bottom-3" data-aos="fade-up" data-aos-delay="50" data-aos-offset="0" data-aos-duration="1200">
         Ease and fun of development are at the<br> core of
-        <Emphasis/>
+        <Emphasis />
         design
       </div>
 
@@ -34,11 +34,11 @@
               Develop type-safe, functional style smart contracts on Zinc: a Rust-based framework.
             </div>
             <z-button
-              css-class='width-300'
-              href='https://zksync.curve.fi'
+              css-class="width-300"
+              href="https://zksync.curve.fi"
               outline="outline"
-              size='md'
-              target='_blank'
+              size="md"
+              target="_blank"
             >Try <strong>Curve + zkSync</strong> testnet
             </z-button>
           </div>
@@ -53,7 +53,7 @@
           </div>
         </div>
         <transition-group tag="div" class="codeBlockSpace" name="slideRight">
-          <code-block key="code"/>
+          <code-block key="code" />
         </transition-group>
       </div>
     </i-container>
@@ -69,26 +69,34 @@
           src="@/assets/images/pages/index/decentralized.jpg"
         >
         <div class="decentralizedGrid">
-          <div data-aos="fade-right" data-aos-delay="50" data-aos-offset="-100" data-aos-duration="1200" >
+          <div data-aos="fade-right" data-aos-delay="50" data-aos-offset="-100" data-aos-duration="1200">
             <div class="h2 _margin-bottom-2">
               Decentralized,<br>
               on principle
             </div>
             <div class="grayText">
               <p>
-                <Emphasis/>
+                <Emphasis />
                 is a mission-driven project. Its purpose is to break financial barriers and enhance world’s freedom — by accelerating the mass adoption of
-                public blockchains. We take this mission to heart: check out our public <z-cta
-                href="https://www.notion.so/matterlabs/Matter-Labs-Team-Handbook-43342b471fe14f05b2baf250cb7c7a02"
-              >Team Handbook</z-cta>
+                public blockchains. We take this mission to heart: check out our public
+                <z-cta
+                  href="https://www.notion.so/matterlabs/Matter-Labs-Team-Handbook-43342b471fe14f05b2baf250cb7c7a02"
+                >Team Handbook
+                </z-cta>
               </p>
               <p>While healthy pragmatism is necessary to move fast,
-                <emphasis/>
-                will never betray the ethos of crypto. Over the past two years, we’ve <z-cta
+                <emphasis />
+                will never betray the ethos of crypto. Over the past two years, we’ve
+                <z-cta
                   href="https://medium.com/matter-labs/tagged/l2" target="_blank"
-                >fought relentlessly</z-cta> to make sure that the widely adopted L2 is as secure, open, and reliable as Ethereum itself. We won’t rest until the original <z-cta
+                >fought relentlessly
+                </z-cta>
+                to make sure that the widely adopted L2 is as secure, open, and reliable as Ethereum itself. We won’t rest until the original
+                <z-cta
                   href="https://medium.com/matter-labs/introducing-zk-sync-the-missing-link-to-mass-adoption-of-ethereum-14c9cea83f58" target="_blank"
-                >zkSync vision</z-cta> is fully materialized.
+                >zkSync vision
+                </z-cta>
+                is fully materialized.
               </p>
             </div>
             <z-button class="_margin-x-xs-auto _margin-top-2" href="https://www.notion.so/matterlabs/Freedom-d36a797ff1aa47d2859f9e0c5ffbd0ab" size="lg" variant="secondary">More
@@ -106,7 +114,7 @@
               </div>
               <div class="grayText">
                 The rules of the game must be equal for all, with no preferences to the wealthy or powerful.
-                <emphasis/>
+                <emphasis />
                 reinforces this by making Ethereum affordable.
               </div>
             </div>
@@ -116,7 +124,7 @@
               </div>
               <div class="grayText">
                 Free access to finance is a fundamental right.
-                <Emphasis/>
+                <Emphasis />
                 is unconditionally permissionless from day one, and will also bring strong censorship-resistance to L2.
               </div>
             </div>
@@ -126,9 +134,15 @@
               </div>
               <div class="grayText">
                 We believe that only the paranoid survive.
-                To resist even the most powerful potential adversaries, <Emphasis/> is going down the path of <z-cta :href="'/faq/decentralization.html'"
-                                                                                                                     target="_blank">progressive
-                decentralization</z-cta>
+                To resist even the most powerful potential adversaries,
+                <Emphasis />
+                is going down the path of
+                <z-cta
+                  :href="'/faq/decentralization.html'"
+                  target="_blank"
+                >progressive
+                  decentralization
+                </z-cta>
               </div>
             </div>
           </div>
@@ -139,11 +153,15 @@
     <i-container class="_margin-y-lg-2 _margin-y-xs-2 communityOwned">
       <div class="topBlock _padding-bottom-2">
         <div class="h2 _padding-top-1">Owned by the community</div>
-        <div  class="grayText _margin-top-2 _margin-bottom-0">
-          <p class="_margin-bottom-0">
-            <Emphasis/>
-            is 100% <z-cta href="https://github.com/matter-labs/zksync"><i class="fab fa-github"/> open source</z-cta>
-          </p>
+        <div class="grayText _margin-top-2 _margin-bottom-0">
+          <div class="_margin-bottom-0 _display-flex _align-items-center _justify-content-center">
+            <Emphasis />
+            <span>&nbsp;is 100%&nbsp;</span>
+            <z-cta href="https://github.com/matter-labs/zksync" style="margin-top: -3px;">
+              <v-icon name="bi-github" class="githubInline" />
+              open source
+            </z-cta>
+          </div>
         </div>
       </div>
       <div class="bottomBlock">
@@ -151,9 +169,9 @@
         <div class="grayText _zk-font-18">
           Take part in the community discussions and don’t miss important updates
         </div>
-        <social-block class="_margin-y-lg-2 _margin-y-xs-1" location="footer"/>
-        <newsletter/>
-        <a id="community"/>
+        <social-block class="_margin-y-lg-2 _margin-y-xs-1" location="footer" />
+        <newsletter />
+        <a id="community" />
       </div>
     </i-container>
   </div>
@@ -161,18 +179,17 @@
 
 <script lang="ts">
 import Vue from "vue";
-
 import About from "@/blocks/About.vue";
 import codeBlock from "@/blocks/CodeBlock.vue";
 import newsletter from "@/blocks/Newsletter.vue";
 import ReviewsSlider from "@/blocks/ReviewsSlider.vue";
 import socialBlock from "@/blocks/SocialBlock.vue";
+import Comparison from "@/components/Comparison.vue";
 import Emphasis from "@/components/Emphasis.vue";
+import Partners from "@/components/Partners.vue";
 import ZButton from "@/components/ZButton.vue";
 import ZCta from "@/components/ZCta.vue";
 import ZHero from "@/components/ZHero.vue";
-import Comparison from "@/components/Comparison.vue";
-import Partners from "@/components/Partners.vue";
 
 export default Vue.extend({
   components: {

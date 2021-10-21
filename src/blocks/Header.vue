@@ -45,8 +45,9 @@
                 trigger="click"
                 variation="dark"
               >
-                <a class="dropDownHandler linkItem _position-top-0" @click.capture="dropdownOpened = !dropdownOpened">zkTools <i
-                  :class="{'fa-chevron-up': dropdownOpened, 'fa-chevron-down': !dropdownOpened}" class="fal"
+                <a class="dropDownHandler linkItem _position-top-0" @click.capture="dropdownOpened = !dropdownOpened">zkTools <v-icon
+                  :class="{'fa-chevron-up': dropdownOpened, 'fa-chevron-down': !dropdownOpened}" class="fal" :name="dropdownOpened ? 'bi-chevron-up'
+                  : 'bi-chevron-down'" scale="0.8"
                 /></a>
                 <i-dropdown-menu v-model="dropdownOpened">
                   <i-dropdown-item
@@ -74,10 +75,10 @@
 </template>
 
 <script lang="ts">
-import logo from "@/blocks/Logo.vue";
-import SocialBlock from "@/blocks/SocialBlock.vue";
 import ClickOutside from "@inkline/inkline/src/directives/click-outside";
 import Vue from "vue";
+import logo from "@/blocks/Logo.vue";
+import SocialBlock from "@/blocks/SocialBlock.vue";
 
 interface DropdownOption {
   name: string;
@@ -87,10 +88,10 @@ interface DropdownOption {
 export default Vue.extend({
   components: {
     logo,
-    SocialBlock
+    SocialBlock,
   },
   directives: {
-    ClickOutside
+    ClickOutside,
   },
   data() {
     return {
@@ -100,7 +101,7 @@ export default Vue.extend({
       dropdownOptions: [
         {
           name: "zkWallet",
-          link: "https://wallet.zksync.io/"
+          link: "https://wallet.zksync.io/",
         },
         {
           name: "zkLink",
@@ -108,23 +109,23 @@ export default Vue.extend({
         },
         {
           name: "zkScan",
-          link: "https://zkscan.io/"
+          link: "https://zkscan.io/",
         },
         {
           name: "Alternative Withdrawal",
-          link: "https://withdraw.zksync.io/"
+          link: "https://withdraw.zksync.io/",
         },
         {
           name: "Solution for Out-of-gas issue",
-          link: "https://out-of-gas.zksync.io/"
+          link: "https://out-of-gas.zksync.io/",
         },
         {
           name: "zkCheckout",
-          link: "https://www.npmjs.com/package/zksync-checkout/"
+          link: "https://www.npmjs.com/package/zksync-checkout/",
         },
         {
           name: "zkMint",
-          link: "https://mint.zksync.dev"
+          link: "https://mint.zksync.dev",
         },
       ] as Array<DropdownOption>,
     };
@@ -145,7 +146,7 @@ export default Vue.extend({
     },
     handleClose() {
       this.dropdownOpened = false;
-    }
+    },
   },
 });
 </script>

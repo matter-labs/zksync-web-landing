@@ -6,7 +6,7 @@
       <th class="tg-0pky"><span>State channels</span></th>
       <th class="tg-0pky">
         <i-tooltip placement="left-start">
-          <a class="_fancyUnderline" href="https://twitter.com/gakonst/status/1146793685545304064" target="_blank">Sidechains <i class="fad fa-question-circle"/></a>
+          <a class="_fancyUnderline" href="https://twitter.com/gakonst/status/1146793685545304064" target="_blank">Sidechains <v-icon name="bi-question-circle"/></a>
           <div slot="body" style="white-space: normal; width: 150px;">
             Some researchers do not consider them to be part of L2 space at all, see
           </div>
@@ -57,7 +57,7 @@
       <td class="tg-za14" style="background-color: #6aa84f !important"><span>No</span></td>
       <td class="tg-za14" style="color: #8c8dfc !important; background-color: #ff1717 !important">
         <i-tooltip placement="left-start">
-          <span class="_fancyUnderline">Yes <i class="fad fa-question-circle"/></span>
+          <span class="_fancyUnderline">Yes <v-icon name="bi-question-circle"/></span>
           <div slot="body" style="white-space: normal; width: 150px;">
             Depends on the implementation of the upgrade mechanism, but usually applies.
           </div>
@@ -101,7 +101,7 @@
 
       <td class="tg-za14" style="color: #000000; background-color: #b6d7a8 !important">
         <i-tooltip placement="left-start">
-          <span class="_fancyUnderline">1k..9k TPS <i class="fad fa-question-circle"/></span>
+          <span class="_fancyUnderline">1k..9k TPS <v-icon name="bi-question-circle"/></span>
           <div slot="body" style="white-space: normal; width: 150px;">
             Complex limitations apply
           </div>
@@ -110,7 +110,7 @@
       <td class="tg-za14" style="background-color: #6aa84f !important"><span>10k+ TPS</span></td>
       <td class="tg-za14" style="color: #000000; background-color: #b6d7a8 !important">
         <i-tooltip placement="left-start">
-          <span class="_fancyUnderline">1k..9k TPS <i class="fad fa-question-circle"/></span>
+          <span class="_fancyUnderline">1k..9k TPS <v-icon name="bi-question-circle"/></span>
           <div slot="body" style="white-space: normal; width: 150px;">
             Complex limitations apply
           </div>
@@ -118,7 +118,7 @@
       </td>
       <td class="tg-za14" style="color: #000000; background-color: #b6d7a8 !important">
         <i-tooltip placement="left-start">
-          <span class="_fancyUnderline">2k TPS <i class="fad fa-question-circle"/></span>
+          <span class="_fancyUnderline">2k TPS <v-icon name="bi-question-circle"/></span>
           <div slot="body" style="white-space: normal; width: 150px;">
             To keep compatibility with EVM throughput must be capped at 300 TPS
           </div>
@@ -131,7 +131,7 @@
       <td class="tg-za14"><span>Max throughput on ETH 2.0</span></td>
       <td class="tg-za14" style="color: #000000; background-color: #b6d7a8 !important">
         <i-tooltip placement="left-start">
-          <span class="_fancyUnderline">1..∞ TPS <i class="fad fa-question-circle"/></span>
+          <span class="_fancyUnderline">1..∞ TPS <v-icon name="bi-question-circle"/></span>
           <div slot="body" style="white-space: normal; width: 150px;">
             Complex limitations apply
           </div>
@@ -140,7 +140,7 @@
       <td class="tg-za14" style="background-color: #6aa84f !important"><span>10k+ TPS</span></td>
       <td class="tg-za14" style="color: #000000; background-color: #b6d7a8 !important">
         <i-tooltip placement="left-start">
-          <span class="_fancyUnderline">1k..9k TPS <i class="fad fa-question-circle"/></span>
+          <span class="_fancyUnderline">1k..9k TPS <v-icon name="bi-question-circle"/></span>
           <div slot="body" style="white-space: normal; width: 150px;">
             Complex limitations apply
           </div>
@@ -168,7 +168,7 @@
       <td class="tg-za14" style="background-color: #6aa84f !important"><span>No</span></td>
       <td class="tg-za14" style="background-color: #6aa84f !important">
         <i-tooltip placement="left-start">
-          <span class="_fancyUnderline">No <i class="fad fa-question-circle"/></span>
+          <span class="_fancyUnderline">No <v-icon name="bi-question-circle"/></span>
           <div slot="body" style="white-space: normal; width: 150px;">
             Depends on the implementation. Not needed in zkSync but required in Loopring.
           </div>
@@ -193,7 +193,7 @@
       <td class="tg-za14" style="background-color: #6aa84f !important"><span>1 confirm.</span></td>
       <td class="tg-za14" style="background-color: #ff1717 !important">
         <i-tooltip placement="left-start">
-          <span class="_fancyUnderline">1 week <i class="fad fa-question-circle"/></span>
+          <span class="_fancyUnderline">1 week <v-icon name="bi-question-circle"/></span>
           <div slot="body" style="white-space: normal; width: 150px;">
             This parameter is configurable, but most researchers consider 1 or 2 weeks to be secure.<br>
             Can be accelerated with liquidity providers but will make the solution capital-inefficient.
@@ -202,7 +202,7 @@
       </td>
       <td class="tg-za14" style="background-color: #ff1717 !important">
         <i-tooltip placement="left-start">
-          <span class="_fancyUnderline">1 week <i class="fad fa-question-circle"/></span>
+          <span class="_fancyUnderline">1 week <v-icon name="bi-question-circle"/></span>
           <div slot="body" style="white-space: normal; width: 150px;">
             This parameter is configurable, but most researchers consider 1 or 2 weeks to be secure.<br>
             Can be accelerated with liquidity providers but will make the solution capital-inefficient.
@@ -213,7 +213,7 @@
       </td>
       <td class="tg-za14" style="color: #000000; background-color: #b6d7a8 !important">
         <i-tooltip placement="left-start">
-          <span class="_fancyUnderline">1..10 min <i class="fad fa-question-circle"/></span>
+          <span class="_fancyUnderline">1..10 min <v-icon name="bi-question-circle"/></span>
           <div slot="body" style="white-space: normal; width: 150px;">
             Can be accelerated with liquidity providers but will make the solution capital-inefficient
           </div>
@@ -221,7 +221,7 @@
       </td>
       <td class="tg-za14" style="color: #000000; background-color: #b6d7a8 !important">
         <i-tooltip placement="left-start">
-          <span class="_fancyUnderline">1..10 min <i class="fad fa-question-circle"/></span>
+          <span class="_fancyUnderline">1..10 min <v-icon name="bi-question-circle"/></span>
           <div slot="body" style="white-space: normal; width: 150px;">
             Can be accelerated with liquidity providers but will make the solution capital-inefficient
           </div>

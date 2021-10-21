@@ -18,9 +18,16 @@
       color: $lightViolet !important;
     }
 
-    i {
-      font-size: 18px;
-      line-height: 20px;
+    svg {
+      font-size: initial !important;
+      height: 22px !important;
+      width: auto !important;
+      line-height: 1;
+    }
+
+    &.icon-bi-at svg {
+      height: 30px !important;
+      margin-top: -4px !important;
     }
 
     span {

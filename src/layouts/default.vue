@@ -13,12 +13,10 @@
 <script lang="ts">
 import Vue from "vue";
 
-import headerComponent from "@/blocks/Header.vue";
-
 /* AOS doesn't support TS */
 // @ts-ignore: Unreachable code error
 import AOS from "aos";
-
+import headerComponent from "@/blocks/Header.vue";
 import footerComponent from "@/blocks/Footer.vue";
 
 export default Vue.extend({

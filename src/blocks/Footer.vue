@@ -9,8 +9,9 @@
         </i-column>
         <i-column :xs="12" :md="6" class="_padding-right-0">
           <div class="rightSideLinks">
-            <a :href="'/contact.html'"><i class="fal fa-at"/>&nbsp;Contacts</a>
-            <a :href="'https://github.com/matter-labs/zksync'"><i class="fab fa-github"/>&nbsp;GitHub</a>
+            <a :href="'/contact.html'" class="icon-contact"><v-icon name="bi-at" scale="1.2"/>&nbsp;Contacts</a>
+            <a :href="'https://github.com/matter-labs/zksync'" class="icon-github">
+              <v-icon name="bi-github" scale="1" />&nbsp;GitHub</a>
             <a :href="'/legal/terms.html'">Terms</a>
             <a :href="'/legal/privacy.html'">Privacy Policy</a>
           </div>

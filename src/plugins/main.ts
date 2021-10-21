@@ -21,11 +21,8 @@ Vue.mixin({
  * 100vh issue fix
  * @refer https://dev.to/maciejtrzcinski/100vh-problem-with-ios-safari-3ge9
  */
-const appHeight = () => {
+const appHeight: () => void = () => {
   const doc = document.documentElement;
   doc.style.setProperty("--app-height", `${window.screen.availHeight}px`);
 };
-// listener removed to avoid changing set variable
-// window.addEventListener("resize", appHeight);
-
 appHeight();

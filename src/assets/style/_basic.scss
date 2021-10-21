@@ -1,5 +1,3 @@
-@import "variables";
-
 /**
  * Basics for the general elements like <a>, <p>, <blockquote>.
  * Text rendering with anti-aliasing
@@ -12,7 +10,6 @@ body {
   text-rendering: auto;
   font-size: 16px;
 
-
   /**
    * .antilink — special class to avoid generic links style application
    */
@@ -24,7 +21,6 @@ body {
       transition: color $transition1;
       color: $lightViolet !important;
       text-decoration: none !important;
-
     }
   }
 
@@ -55,7 +51,8 @@ body {
    * @refs: https://inkline.io/docs/components/tooltip
    */
   .tooltip-wrapper {
-    .tooltip.-dark, .tooltip {
+    .tooltip.-dark,
+    .tooltip {
       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
       border-radius: 8px;
       margin-right: -20px !important;

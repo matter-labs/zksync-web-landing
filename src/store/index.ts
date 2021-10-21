@@ -1,4 +1,4 @@
-import { ActionTree, GetterTree } from "vuex";
+import { ActionTree, GetterTree } from "vuex/types";
 
 export const state = () => {
   return {};

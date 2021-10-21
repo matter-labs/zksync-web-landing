@@ -1,4 +1,3 @@
-@import "../variables";
 
 .indexPage {
   .row.-center {
@@ -13,7 +12,8 @@
     text-align: center;
     margin: 10px auto;
 
-    &, & a {
+    &,
+    & a {
       color: $colorTxt;
     }
 
@@ -44,10 +44,10 @@
     justify-content: flex-start;
     padding-bottom: 20px;
     height: calc(var(--app-height) - 84px) !important;
+
     @media screen and (max-height: 770px) {
       height: calc(var(--app-height) - 84px);
     }
-
 
     h1 {
       font-family: $grotesk;
@@ -56,16 +56,16 @@
       font-size: 80px;
       line-height: 96px;
       text-align: center;
-      color: #ffffff;
+      color: #fff;
     }
 
     .grayText {
       margin: 0 auto 57px !important;
-
       font-style: normal;
       font-weight: normal;
       font-size: 24px;
       line-height: 140%;
+
       /* or 34px */
 
       text-align: center;
@@ -73,6 +73,7 @@
       /* Text/faded */
 
       color: rgba(255, 255, 255, 0.5);
+
       /* or 34px */
 
       .emphasis {
@@ -99,15 +100,16 @@
         line-height: 120%;
         margin: 10px auto 15px !important;
       }
-      .aboutZkSync
-      {
+
+      .aboutZkSync {
         margin-bottom: 20px !important;
       }
+
       a.exploreFAQ {
         margin-top: 20px !important;
       }
-      a.scrollDown
-      {
+
+      a.scrollDown {
         margin-top: 15px !important;
       }
     }
@@ -123,6 +125,7 @@
       font-weight: normal;
       font-size: 18px;
       line-height: 140%;
+
       /* or 25px */
 
       letter-spacing: 0.01em;
@@ -135,10 +138,12 @@
       @media (min-width: $mobile) {
         margin-top: 35px !important;
       }
+
       @media (max-width: $mobile) {
         margin-top: 10px;
         font-size: 14px !important;
         line-height: 140% !important;
+
         /* identical to box height, or 20px */
 
         letter-spacing: 0.01em;
@@ -158,18 +163,20 @@
       justify-content: center;
       align-items: center;
 
-      i {
+      svg {
         color: $white;
         display: block;
-        font-size: 24px;
+        height: 24px !important;
+        width: auto !important;
         line-height: 53px;
         text-align: center;
         transition: all $transition3;
       }
 
-      &::before, &::before {
+      &::before,
+      &::before {
         background-blend-mode: overlay, normal, normal, color-dodge, normal;
-        content: '';
+        content: "";
         filter: blur(30px) brightness(130%);
         height: 50px;
         mix-blend-mode: normal;
@@ -193,13 +200,14 @@
 
       @media screen and (min-width: $mobile) {
         margin: 90px 0 0 !important;
-        &:hover {
 
-          i {
+        &:hover {
+          svg {
             transform: scale(1.25);
           }
 
-          &::before, &::after {
+          &::before,
+          &::after {
             transform: scale(1.5);
             filter: blur(10px) brightness(100%);
           }
@@ -302,8 +310,6 @@
       white-space: nowrap;
       margin-bottom: 16px;
     }
-
-
   }
 
   .underlinedLink {
@@ -311,6 +317,7 @@
     cursor: pointer;
     font-size: 18px;
     line-height: 140%;
+
     /* or 25px */
     letter-spacing: 0.01em;
 
@@ -328,12 +335,12 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      word-spacing: .2em;
+      word-spacing: 0.2em;
 
       .headerWrapper {
         height: 40px;
         width: auto;
-        padding-right: .25em;
+        padding-right: 0.25em;
 
         .projectLogo {
           height: 100%;
@@ -402,7 +409,7 @@
         .button {
           margin-top: 25px;
           background: rgba(24, 24, 32, 0.01);
-          border: 1px solid #ffffff;
+          border: 1px solid #fff;
           box-sizing: border-box;
           line-height: 24px;
           font-size: 20px;
@@ -412,9 +419,7 @@
           width: 356px;
           height: 56px;
         }
-
       }
-
 
       .columnGrid {
         display: flex;
@@ -454,8 +459,8 @@
   }
 
   .CtaButton {
-    .fab.fa-github {
-      margin: 4px 7px 0;
+    svg {
+      margin: 0 7px;
     }
   }
 }
@@ -467,15 +472,19 @@
     display: block;
     width: 100%;
     border-radius: 16px;
+
     @media screen and (min-width: 0) {
       height: 39vw;
     }
+
     @media screen and (min-width: 576px) {
       height: 239px;
     }
+
     @media screen and (min-width: 768px) {
       height: 321px;
     }
+
     @media screen and (min-width: 992px) {
       height: 381px;
     }
@@ -492,7 +501,6 @@
     .h2 {
       text-align: left;
       margin: 0;
-
     }
 
     .grayText {
@@ -540,7 +548,7 @@
 
         a.button {
           background: rgba(24, 24, 32, 0.01);
-          border: 1px solid #ffffff;
+          border: 1px solid #fff;
           box-sizing: border-box;
           line-height: 24px;
           font-size: 20px;
@@ -558,7 +566,6 @@
   height: max-content;
   max-width: 900px;
   margin: 5rem auto;
-
   position: relative;
 
   .h2 {
@@ -573,6 +580,15 @@
     background-color: #171a49;
     padding: 30px;
     border-radius: $borderRadiusBig $borderRadiusBig 0 0;
+
+    .githubInline {
+      font-size: initial !important;
+      height: 30px !important;
+      width: auto !important;
+      line-height: initial !important;
+      display: inline-flex;
+      align-self: center;
+    }
   }
 
   .bottomBlock {
@@ -593,12 +609,13 @@
         height: 100%;
         text-decoration: none;
 
-        i {
+        svg {
           display: block;
           text-align: center;
-          margin: auto;
-          width: 50px;
-          line-height: 50px;
+          margin: 4px auto;
+          width: auto !important;
+          height: 36px !important;
+          line-height: 50px !important;
           font-size: 28px;
           background-color: transparent;
           border-radius: 8px;
@@ -613,13 +630,12 @@
         }
 
         &:hover {
-          i {
+          svg {
             color: lighten($color: $violet, $amount: 5);
           }
         }
       }
     }
-
   }
 }
 
@@ -628,12 +644,10 @@
   max-width: 100%;
   width: 100%;
 
-
   .h2 {
     margin-bottom: 50px;
 
     img {
-
       min-height: 52px;
     }
   }
@@ -659,13 +673,11 @@
       justify-content: flex-start;
       background: $darkBlack;
 
-
       &:not(.-active) {
         & > .header {
           border-radius: $borderRadiusBig !important;
           background-color: $obsidianBlack !important;
         }
-
       }
 
       & > .header {
@@ -687,7 +699,6 @@
           padding: 20px;
           height: 60px;
         }
-
 
         &:hover {
           background-color: $violet !important;
@@ -713,25 +724,21 @@
           padding: 0 !important;
           background: rgba(0, 0, 0, 0.4) !important;
 
-
           img {
             width: 100%;
             margin: 10px auto;
           }
         }
       }
-
     }
 
     @media (max-width: $mobile) {
-
       .h2 {
         margin-bottom: 15px;
         white-space: nowrap;
         font-size: 26px;
 
         img {
-
           min-height: 30px;
         }
       }
@@ -750,11 +757,9 @@
     }
   }
 
-
   body .openWallet {
     position: relative;
-    background: black;
-
+    background: $black;
     text-align: center;
     border: none;
     outline: none;
@@ -770,7 +775,8 @@
     }
 
     &:active {
-      &::before, &::after {
+      &::before,
+      &::after {
         transition-duration: 0.001s;
       }
 
@@ -783,9 +789,10 @@
       }
     }
 
-    &::before, &::after {
+    &::before,
+    &::after {
       z-index: -1;
-      content: '';
+      content: "";
       position: absolute;
       left: 0;
       top: 0;
@@ -818,8 +825,6 @@
       &.subheaderText {
         font-size: 18px !important;
         line-height: 20px;
-
-
       }
 
       br {
@@ -827,8 +832,6 @@
       }
 
       white-space: initial !important;
-
-
     }
 
     .h2 {
@@ -908,6 +911,7 @@
             margin-left: auto;
             margin-right: auto;
             line-height: 140%;
+
             /* or 20px */
 
             text-align: center;
@@ -937,11 +941,9 @@
       margin-bottom: 10px;
       padding: 0 12px;
 
-
       .codeGrid {
         width: auto;
         max-width: 100%;
-
         height: auto;
         display: block;
         padding: 0;
@@ -957,7 +959,6 @@
           max-width: 100%;
           margin: 0 auto;
           text-align: center;
-
           padding: 30px 0;
 
           .h2 {
@@ -969,7 +970,6 @@
               display: flex;
               flex-direction: column-reverse;
               min-height: 40px;
-
               white-space: initial;
 
               .badge {
@@ -989,7 +989,8 @@
             text-align: center;
           }
 
-          i.fal, i.fa {
+          i.fal,
+          i.fa {
             display: none !important;
           }
         }
@@ -1069,7 +1070,8 @@
     .communityOwned {
       margin: 2rem auto;
 
-      .topBlock, .bottomBlock {
+      .topBlock,
+      .bottomBlock {
         border-radius: 16px 16px 0 0 !important;
         padding: 1rem;
 
@@ -1095,15 +1097,14 @@
             background: transparent !important;
             border-radius: 6px;
 
-            i {
-              line-height: 35px;
-              font-size: 16px;
+            svg {
+              height: 35px !important;
+              font-size: 35px;
             }
 
             span {
               display: none;
             }
-
           }
         }
       }
@@ -1127,7 +1128,6 @@
       height: auto;
       display: flex;
       align-items: center;
-
       width: 100%;
       background-color: #1a1e3c;
       border-radius: $borderRadiusBig;
@@ -1141,10 +1141,7 @@
         letter-spacing: 0.01em;
         text-align: left;
         margin: 5px 0 !important;
-
         max-width: none !important;
-
-
       }
 
       br {
@@ -1161,6 +1158,7 @@
 
       .bottomBlock {
         width: 100%;
+
         /* width: 100%; */
         height: max-content;
         grid-template-columns: initial;
@@ -1184,14 +1182,14 @@
         max-height: 25px;
       }
 
-
       .bottomBlock {
         height: auto !important;
         padding: 10px;
         display: inline !important;
         text-align: center;
 
-        .arrowDown, .featureDescription:last-of-type {
+        .arrowDown,
+        .featureDescription:last-of-type {
           display: none;
         }
       }
@@ -1214,6 +1212,7 @@
         text-align: center;
         letter-spacing: 0.01em;
         min-width: 100%;
+
         /* display: inline-flex; */
         display: inline-block;
         max-width: 40%;
@@ -1224,16 +1223,13 @@
       }
     }
 
-
     /**
      * Compare mobile
      */
     #zksync-vs-rollup-solutions {
       min-width: 100%;
-
       margin: 30px auto 20px !important;
       padding: 30px 0 20px !important;
-
 
       & > .row:first-child {
         max-width: calc(100% - 24px) !important;
@@ -1286,7 +1282,6 @@
           justify-content: flex-start;
           background: $darkBlack;
 
-
           &:not(.-active) {
             & > .header {
               border-radius: $borderRadiusBig;
@@ -1295,11 +1290,8 @@
           }
 
           &.-active {
-          ;
             border-radius: $borderRadiusBig $borderRadiusBig 0 0;
-
           }
-
 
           & > .header {
             font: bold 18px/20px $grotesk;
@@ -1307,11 +1299,13 @@
             will-change: none !important;
             padding: 20px !important;
             height: 60px !important;
-            /*padding: 0.5rem 0.5rem 0.5rem 1rem !important;*/
+
+            /* padding: 0.5rem 0.5rem 0.5rem 1rem !important; */
             &:hover {
               background-color: initial !important;
             }
           }
+
           &.-active > .header {
             background-color: $violet !important;
           }
@@ -1326,14 +1320,12 @@
               background: rgba(0, 0, 0, 0.4) !important;
               border-radius: 0 !important;
 
-
               img {
                 width: 100%;
                 margin: 10px auto;
               }
             }
           }
-
         }
       }
     }
@@ -1368,8 +1360,8 @@
 
       .reviewsContainer {
         display: block !important;
-        & > .container
-        {
+
+        & > .container {
           width: auto !important;
         }
       }
@@ -1382,10 +1374,10 @@
 
       .reviewText {
         color: $whiteFaded !important;
+      }
 
-        .badge.-secondary._upcoming-h3 {
-          top: 0;
-        }
+      .badge.-secondary._upcoming-h3 {
+        top: 0;
       }
 
       .button.-xs {
@@ -1394,6 +1386,5 @@
         font-size: 16px;
       }
     }
-
   }
 }

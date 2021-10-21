@@ -1,4 +1,3 @@
-@import "../variables";
 
 #partners {
   .h2 {
@@ -23,7 +22,6 @@
     align-items: center;
     flex-wrap: wrap;
     margin: 0 auto;
-
 
     a {
       width: 20%;
@@ -71,12 +69,15 @@
         background: $gradientRegularPieceAfter;
       }
 
-      &:hover, &:focus {
+      &:hover,
+      &:focus {
         @media (min-width: $mobile) {
           color: $muted;
+
           img {
             transform: scale(1.35);
           }
+
           &::after,
           &::before {
             opacity: 0.75;
@@ -87,6 +88,7 @@
       @media screen and (max-width: 1000px) {
         width: 30%;
       }
+
       @media screen and (max-width: $mobile) {
         width: 50%;
         height: 100px;
@@ -96,11 +98,11 @@
           transform: none !important;
         }
       }
+
       @media screen and (max-width: 345px) {
         width: 100%;
         height: 90px;
       }
-
     }
 
     a#loopring > img {

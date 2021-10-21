@@ -27,18 +27,18 @@
       class="scrollDown _hidden-lg-and-up" data-aos-offset="-100" data-aos="fade-up" data-aos-delay="100"
       data-aos-duration="700" @click.capture="scrollTo('#reviews-about-zksync')"
     >
-      <i class="fal fa-arrow-down"/>
+      <v-icon name="pr-arrow-down" :scale="'40px'" />
     </a>
     <a
       class="scrollDown _hidden-md-and-down" data-aos-offset="-100" data-aos="fade-up" data-aos-delay="100"
       data-aos-duration="700" @click.capture="scrollTo('#partners')"
     >
-      <i class="fal fa-arrow-down"/>
+      <v-icon name="pr-arrow-down" :scale="'40px'" />
     </a>
   </i-container>
 </template>
 
-<script type="ts">
+<script lang="ts">
 import Vue from "vue";
 
 import Emphasis from "@/components/Emphasis.vue";
