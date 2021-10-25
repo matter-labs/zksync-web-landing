@@ -1,11 +1,12 @@
 body {
   .indexHeader {
     backdrop-filter: blur(83.3333px);
+    background: rgba(24, 24, 32, 0.01);
     height: 84px;
     position: fixed;
     width: 100%;
     z-index: 5;
-    background: rgba(24, 24, 32, 0.01) linear-gradient(to top, rgba(24, 24, 32, 0.9), rgba(24, 24, 32, 0.7));
+    background: -moz-linear-gradient(top, rgba(24, 24, 32, 0.9), rgba(24, 24, 32, 0.7));
     box-shadow: 1px 1px 5px 10px rgba(0, 0, 0, 0.01);
 
     .linksContainer {
