@@ -1,0 +1,547 @@
+[
+  {
+    "source": "/faq/",
+    "destination": "https://docs.zksync.oi/faq/",
+    "type": 301
+  },
+  {
+    "source": "/dev/",
+    "destination": "https://docs.zksync.oi/dev/",
+    "type": 301
+  },
+  {
+    "source": "/contact.html",
+    "destination": "https://docs.zksync.oi/contact.html",
+    "type": 301
+  },
+  {
+    "source": "/faq/tech.html",
+    "destination": "https://docs.zksync.oi/faq/tech.html",
+    "type": 301
+  },
+  {
+    "source": "/dev",
+    "destination": "https://docs.zksync.oi/dev",
+    "type": 301
+  },
+  {
+    "source": "/faq/decentralization.html",
+    "destination": "https://docs.zksync.oi/faq/decentralization.html",
+    "type": 301
+  },
+  {
+    "source": "/legal/terms.html",
+    "destination": "https://docs.zksync.oi/legal/terms.html",
+    "type": 301
+  },
+  {
+    "source": "/legal/privacy.html",
+    "destination": "https://docs.zksync.oi/legal/privacy.html",
+    "type": 301
+  },
+  {
+    "source": "/api/",
+    "destination": "https://docs.zksync.oi/api/",
+    "type": 301
+  },
+  {
+    "source": "/api/changelog.html",
+    "destination": "https://docs.zksync.oi/api/changelog.html",
+    "type": 301
+  },
+  {
+    "source": "/api/environments.html",
+    "destination": "https://docs.zksync.oi/api/environments.html",
+    "type": 301
+  },
+  {
+    "source": "/api/sdk/",
+    "destination": "https://docs.zksync.oi/api/sdk/",
+    "type": 301
+  },
+  {
+    "source": "/api/sdk/checkout/",
+    "destination": "https://docs.zksync.oi/api/sdk/checkout/",
+    "type": 301
+  },
+  {
+    "source": "/api/events.html",
+    "destination": "https://docs.zksync.oi/api/events.html",
+    "type": 301
+  },
+  {
+    "source": "/api/sdk/checkout/appendix-a.html",
+    "destination": "https://docs.zksync.oi/api/sdk/checkout/appendix-a.html",
+    "type": 301
+  },
+  {
+    "source": "/api/sdk/checkout/checkout-manager.html",
+    "destination": "https://docs.zksync.oi/api/sdk/checkout/checkout-manager.html",
+    "type": 301
+  },
+  {
+    "source": "/api/sdk/checkout/constants.html",
+    "destination": "https://docs.zksync.oi/api/sdk/checkout/constants.html",
+    "type": 301
+  },
+  {
+    "source": "/api/sdk/checkout/prodestinationcol.html",
+    "destination": "https://docs.zksync.oi/api/sdk/checkout/prodestinationcol.html",
+    "type": 301
+  },
+  {
+    "source": "/api/sdk/checkout/tudestinationrial.html",
+    "destination": "https://docs.zksync.oi/api/sdk/checkout/tudestinationrial.html",
+    "type": 301
+  },
+  {
+    "source": "/api/sdk/checkout/types.html",
+    "destination": "https://docs.zksync.oi/api/sdk/checkout/types.html",
+    "type": 301
+  },
+  {
+    "source": "/api/sdk/crypdestination.html",
+    "destination": "https://docs.zksync.oi/api/sdk/crypdestination.html",
+    "type": 301
+  },
+  {
+    "source": "/api/sdk/dart.html",
+    "destination": "https://docs.zksync.oi/api/sdk/dart.html",
+    "type": 301
+  },
+  {
+    "source": "/api/sdk/java/",
+    "destination": "https://docs.zksync.oi/api/sdk/java/",
+    "type": 301
+  },
+  {
+    "source": "/api/sdk/java/interfaces.html",
+    "destination": "https://docs.zksync.oi/api/sdk/java/interfaces.html",
+    "type": 301
+  },
+  {
+    "source": "/api/sdk/java/tudestinationrial.html",
+    "destination": "https://docs.zksync.oi/api/sdk/java/tudestinationrial.html",
+    "type": 301
+  },
+  {
+    "source": "/api/sdk/js/",
+    "destination": "https://docs.zksync.oi/api/sdk/js/",
+    "type": 301
+  },
+  {
+    "source": "/api/sdk/js/accounts.html",
+    "destination": "https://docs.zksync.oi/api/sdk/js/accounts.html",
+    "type": 301
+  },
+  {
+    "source": "/api/sdk/js/browser-bundled.html",
+    "destination": "https://docs.zksync.oi/api/sdk/js/browser-bundled.html",
+    "type": 301
+  },
+  {
+    "source": "/api/sdk/js/nfts.html",
+    "destination": "https://docs.zksync.oi/api/sdk/js/nfts.html",
+    "type": 301
+  },
+  {
+    "source": "/api/sdk/js/providers.html",
+    "destination": "https://docs.zksync.oi/api/sdk/js/providers.html",
+    "type": 301
+  },
+  {
+    "source": "/api/sdk/js/tudestinationrial.html",
+    "destination": "https://docs.zksync.oi/api/sdk/js/tudestinationrial.html",
+    "type": 301
+  },
+  {
+    "source": "/api/sdk/js/types.html",
+    "destination": "https://docs.zksync.oi/api/sdk/js/types.html",
+    "type": 301
+  },
+  {
+    "source": "/api/sdk/js/utils.html",
+    "destination": "https://docs.zksync.oi/api/sdk/js/utils.html",
+    "type": 301
+  },
+  {
+    "source": "/api/sdk/python/",
+    "destination": "https://docs.zksync.oi/api/sdk/python/",
+    "type": 301
+  },
+  {
+    "source": "/api/sdk/python/tudestinationrial.html",
+    "destination": "https://docs.zksync.oi/api/sdk/python/tudestinationrial.html",
+    "type": 301
+  },
+  {
+    "source": "/api/sdk/rust/",
+    "destination": "https://docs.zksync.oi/api/sdk/rust/",
+    "type": 301
+  },
+  {
+    "source": "/api/sdk/rust/tudestinationrial.html",
+    "destination": "https://docs.zksync.oi/api/sdk/rust/tudestinationrial.html",
+    "type": 301
+  },
+  {
+    "source": "/api/sdk/swift/",
+    "destination": "https://docs.zksync.oi/api/sdk/swift/",
+    "type": 301
+  },
+  {
+    "source": "/api/sdk/swift/tudestinationrial.html",
+    "destination": "https://docs.zksync.oi/api/sdk/swift/tudestinationrial.html",
+    "type": 301
+  },
+  {
+    "source": "/api/v0.1.html",
+    "destination": "https://docs.zksync.oi/api/v0.1.html",
+    "type": 301
+  },
+  {
+    "source": "/api/v0.2.html",
+    "destination": "https://docs.zksync.oi/api/v0.2.html",
+    "type": 301
+  },
+  {
+    "source": "/dev/bug-bounty.html",
+    "destination": "https://docs.zksync.oi/dev/bug-bounty.html",
+    "type": 301
+  },
+  {
+    "source": "/dev/contracts/",
+    "destination": "https://docs.zksync.oi/dev/contracts/",
+    "type": 301
+  },
+  {
+    "source": "/dev/events.html",
+    "destination": "https://docs.zksync.oi/dev/events.html",
+    "type": 301
+  },
+  {
+    "source": "/dev/nfts.html",
+    "destination": "https://docs.zksync.oi/dev/nfts.html",
+    "type": 301
+  },
+  {
+    "source": "/dev/payments/",
+    "destination": "https://docs.zksync.oi/dev/payments/",
+    "type": 301
+  },
+  {
+    "source": "/dev/payments/basic.html",
+    "destination": "https://docs.zksync.oi/dev/payments/basic.html",
+    "type": 301
+  },
+  {
+    "source": "/dev/payments/sending_transactions.html",
+    "destination": "https://docs.zksync.oi/dev/payments/sending_transactions.html",
+    "type": 301
+  },
+  {
+    "source": "/dev/swaps.html",
+    "destination": "https://docs.zksync.oi/dev/swaps.html",
+    "type": 301
+  },
+  {
+    "source": "/faq/intro.html",
+    "destination": "https://docs.zksync.oi/faq/intro.html",
+    "type": 301
+  },
+  {
+    "source": "/faq/learnbywatching.html",
+    "destination": "https://docs.zksync.oi/faq/learnbywatching.html",
+    "type": 301
+  },
+  {
+    "source": "/faq/privacy.html",
+    "destination": "https://docs.zksync.oi/faq/privacy.html",
+    "type": 301
+  },
+  {
+    "source": "/faq/roadmap.html",
+    "destination": "https://docs.zksync.oi/faq/roadmap.html",
+    "type": 301
+  },
+  {
+    "source": "/faq/sc.html",
+    "destination": "https://docs.zksync.oi/faq/sc.html",
+    "type": 301
+  },
+  {
+    "source": "/faq/security.html",
+    "destination": "https://docs.zksync.oi/faq/security.html",
+    "type": 301
+  },
+  {
+    "source": "/faq/status.html",
+    "destination": "https://docs.zksync.oi/faq/status.html",
+    "type": 301
+  },
+  {
+    "source": "/faq/destinationkenomics.html",
+    "destination": "https://docs.zksync.oi/faq/destinationkenomics.html",
+    "type": 301
+  },
+  {
+    "source": "/faq/destinationkens.html",
+    "destination": "https://docs.zksync.oi/faq/destinationkens.html",
+    "type": 301
+  },
+  {
+    "source": "/faq/wallets.html",
+    "destination": "https://docs.zksync.oi/faq/wallets.html",
+    "type": 301
+  },
+  {
+    "source": "/maintenance.html",
+    "destination": "https://docs.zksync.oi/maintenance.html",
+    "type": 301
+  },
+  {
+    "source": "/service/down-night.html",
+    "destination": "https://docs.zksync.oi/service/down-night.html",
+    "type": 301
+  },
+  {
+    "source": "/service/down.html",
+    "destination": "https://docs.zksync.oi/service/down.html",
+    "type": 301
+  },
+  {
+    "source": "/service/testnet-down-night.html",
+    "destination": "https://docs.zksync.oi/service/testnet-down-night.html",
+    "type": 301
+  },
+  {
+    "source": "/service/testnet-down.html",
+    "destination": "https://docs.zksync.oi/service/testnet-down.html",
+    "type": 301
+  },
+  {
+    "source": "/updates/2020-06-19-report.html",
+    "destination": "https://docs.zksync.oi/updates/2020-06-19-report.html",
+    "type": 301
+  },
+  {
+    "source": "/updates/2020-07-20-upgrade.html",
+    "destination": "https://docs.zksync.oi/updates/2020-07-20-upgrade.html",
+    "type": 301
+  },
+  {
+    "source": "/updates/2020-09-06-upgrade.html",
+    "destination": "https://docs.zksync.oi/updates/2020-09-06-upgrade.html",
+    "type": 301
+  },
+  {
+    "source": "/updates/2020-12-16-upgrade.html",
+    "destination": "https://docs.zksync.oi/updates/2020-12-16-upgrade.html",
+    "type": 301
+  },
+  {
+    "source": "/updates/2021-01-14-upgrade.html",
+    "destination": "https://docs.zksync.oi/updates/2021-01-14-upgrade.html",
+    "type": 301
+  },
+  {
+    "source": "/updates/2021-01-22-upgrade.html",
+    "destination": "https://docs.zksync.oi/updates/2021-01-22-upgrade.html",
+    "type": 301
+  },
+  {
+    "source": "/updates/2021-01-25-upgrade.html",
+    "destination": "https://docs.zksync.oi/updates/2021-01-25-upgrade.html",
+    "type": 301
+  },
+  {
+    "source": "/updates/2021-02-26-upgrade.html",
+    "destination": "https://docs.zksync.oi/updates/2021-02-26-upgrade.html",
+    "type": 301
+  },
+  {
+    "source": "/updates/2021-05-31-upgrade.html",
+    "destination": "https://docs.zksync.oi/updates/2021-05-31-upgrade.html",
+    "type": 301
+  },
+  {
+    "source": "/updates/2021-06-02-upgrade.html",
+    "destination": "https://docs.zksync.oi/updates/2021-06-02-upgrade.html",
+    "type": 301
+  },
+  {
+    "source": "/updates/2021-07-27-upgrade.html",
+    "destination": "https://docs.zksync.oi/updates/2021-07-27-upgrade.html",
+    "type": 301
+  },
+  {
+    "source": "/updates/2021-08-12-upgrade.html",
+    "destination": "https://docs.zksync.oi/updates/2021-08-12-upgrade.html",
+    "type": 301
+  },
+  {
+    "source": "/updates/security-audits.html",
+    "destination": "https://docs.zksync.oi/updates/security-audits.html",
+    "type": 301
+  },
+  {
+    "source": "/uptime.html",
+    "destination": "https://docs.zksync.oi/uptime.html",
+    "type": 301
+  },
+  {
+    "source": "/zkevm/",
+    "destination": "https://docs.zksync.oi/zkevm/",
+    "type": 301
+  },
+  {
+    "source": "/404.html",
+    "destination": "https://docs.zksync.oi/404.html",
+    "type": 301
+  },
+  {
+    "source": "/api",
+    "destination": "https://docs.zksync.oi/api",
+    "type": 301
+  },
+  {
+    "source": "/dev/payments",
+    "destination": "https://docs.zksync.oi/dev/payments",
+    "type": 301
+  },
+  {
+    "source": "/dev/contracts",
+    "destination": "https://docs.zksync.oi/dev/contracts",
+    "type": 301
+  },
+  {
+    "source": "/api/sdk",
+    "destination": "https://docs.zksync.oi/api/sdk",
+    "type": 301
+  },
+  {
+    "source": "/legal/privacy",
+    "destination": "https://docs.zksync.oi/legal/privacy",
+    "type": 301
+  },
+  {
+    "source": "/legal/terms",
+    "destination": "https://docs.zksync.oi/legal/terms",
+    "type": 301
+  },
+  {
+    "source": "/api/sdk/js",
+    "destination": "https://docs.zksync.oi/api/sdk/js",
+    "type": 301
+  },
+  {
+    "source": "/api/sdk/rust",
+    "destination": "https://docs.zksync.oi/api/sdk/rust",
+    "type": 301
+  },
+  {
+    "source": "/api/sdk/java",
+    "destination": "https://docs.zksync.oi/api/sdk/java",
+    "type": 301
+  },
+  {
+    "source": "/api/sdk/swift",
+    "destination": "https://docs.zksync.oi/api/sdk/swift",
+    "type": 301
+  },
+  {
+    "source": "/api/sdk/python",
+    "destination": "https://docs.zksync.oi/api/sdk/python",
+    "type": 301
+  },
+  {
+    "source": "/api/sdk/checkout",
+    "destination": "https://docs.zksync.oi/api/sdk/checkout",
+    "type": 301
+  },
+  {
+    "source": "/api/changelog",
+    "destination": "https://docs.zksync.oi/api/changelog",
+    "type": 301
+  },
+  {
+    "source": "/api/environments",
+    "destination": "https://docs.zksync.oi/api/environments",
+    "type": 301
+  },
+  {
+    "source": "/api/sdk/crypdestination",
+    "destination": "https://docs.zksync.oi/api/sdk/crypdestination",
+    "type": 301
+  },
+  {
+    "source": "/dev/providers.html",
+    "destination": "https://docs.zksync.oi/dev/providers.html",
+    "type": 301
+  },
+  {
+    "source": "/dev/bug-bounty",
+    "destination": "https://docs.zksync.oi/dev/bug-bounty",
+    "type": 301
+  },
+  {
+    "source": "/api/sdk/js/providers",
+    "destination": "https://docs.zksync.oi/api/sdk/js/providers",
+    "type": 301
+  },
+  {
+    "source": "/dev/payments/sending_transactions",
+    "destination": "https://docs.zksync.oi/dev/payments/sending_transactions",
+    "type": 301
+  },
+  {
+    "source": "/dev/nfts/",
+    "destination": "https://docs.zksync.oi/dev/nfts/",
+    "type": 301
+  },
+  {
+    "source": "/updates/2021-02-26-upgrade",
+    "destination": "https://docs.zksync.oi/updates/2021-02-26-upgrade",
+    "type": 301
+  },
+  {
+    "source": "/ABDK-ZkSync-Audit-v5.pdf",
+    "destination": "https://docs.zksync.oi/ABDK-ZkSync-Audit-v5.pdf",
+    "type": 301
+  },
+  {
+    "source": "/ABDK-ZKSync-Audit-v2-part1.pdf",
+    "destination": "https://docs.zksync.oi/ABDK-ZKSync-Audit-v2-part1.pdf",
+    "type": 301
+  },
+  {
+    "source": "/ABDK-ZKSync-Audit-v2-part2.pdf",
+    "destination": "https://docs.zksync.oi/ABDK-ZKSync-Audit-v2-part2.pdf",
+    "type": 301
+  },
+  {
+    "source": "/zksync-1.0-audit.pdf",
+    "destination": "https://docs.zksync.oi/zksync-1.0-audit.pdf",
+    "type": 301
+  },
+  {
+    "source": "/apiv02-docs.html",
+    "destination": "https://docs.zksync.oi/apiv02-docs.html",
+    "type": 301
+  },
+  {
+    "source": "/404/",
+    "destination": "https://docs.zksync.oi/404/",
+    "type": 301
+  },
+  {
+    "source": "/dev/payments/basic",
+    "destination": "https://docs.zksync.oi/dev/payments/basic",
+    "type": 301
+  },
+  {
+    "source": "/apiv02-docs/",
+    "destination": "https://docs.zksync.oi/apiv02-docs/",
+    "type": 301
+  }
+]
