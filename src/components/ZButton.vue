@@ -1,12 +1,7 @@
 <template>
-  <i-button
-      :class="buttonClass"
-      :href="href"
-      :size="size"
-      :target="target"
-      :variant="buttonVariant"
-      :outline="outline"
-  ><span><slot/></span></i-button>
+  <i-button :class="buttonClass" :href="href" :size="size" :target="target" :variant="buttonVariant" :outline="outline"
+    ><span><slot /></span
+  ></i-button>
 </template>
 
 <script lang="ts">
@@ -18,43 +13,43 @@ export default Vue.extend({
     glow: {
       required: false,
       type: Boolean,
-      default: false,
+      default: false
     },
     target: {
       required: false,
       type: String,
-      default: "_blank",
+      default: "_blank"
     },
     href: {
       required: false,
       type: String,
-      default: null,
+      default: null
     },
     size: {
       required: false,
       type: String,
-      default: null,
+      default: null
     },
     variant: {
       required: false,
       type: String,
-      default: "Primary",
+      default: "Primary"
     },
     content: {
       required: false,
       type: String,
-      default: null,
+      default: null
     },
     outline: {
       required: false,
       type: String,
-      default: null,
+      default: null
     },
     cssClass: {
       required: false,
       type: String,
-      default: null,
-    },
+      default: null
+    }
   },
   computed: {
     buttonVariant() {
@@ -72,7 +67,7 @@ export default Vue.extend({
         });
       }
       return cssClasses;
-    },
-  },
+    }
+  }
 });
 </script>

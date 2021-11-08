@@ -1,16 +1,13 @@
 <template>
   <div class="client-box-out">
     <div class="client-box">
-      <div
-        class="cover-box"
-        style="background-image: url('https://portal.arbitrum.one/wp-content/uploads/2021/09/1080x360.jpg')"
-      >
+      <div class="cover-box" style="background-image: url('https://portal.arbitrum.one/wp-content/uploads/2021/09/1080x360.jpg')">
         <span class="islive-notif"><img src="https://portal.arbitrum.one/wp-content/themes/arbitrumportal/images/live1.svg" class="uk-display-inline-block" /></span>
       </div>
       <div class="text-box">
         <div class="client-pic circle">
           <a href="https://app.1inch.io/#/42161/" target="_blank">
-            <img src="https://portal.arbitrum.one/wp-content/uploads/2021/09/LwPtET72_400x400.jpg" class="uk-display-inline-block"  alt=""/>
+            <img src="https://portal.arbitrum.one/wp-content/uploads/2021/09/LwPtET72_400x400.jpg" class="uk-display-inline-block" alt="" />
           </a>
         </div>
         <div class="text-box-in">

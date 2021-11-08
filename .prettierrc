@@ -5,7 +5,6 @@
   "jsxSingleQuote": false,
   "printWidth": 180,
   "tabWidth": 2,
-  "disableNextLine": true,
   "vueIndentScriptAndStyle": false,
   "jsxBracketSameLine": true
 }

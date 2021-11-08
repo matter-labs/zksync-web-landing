@@ -14,20 +14,31 @@ $muted: #565656;
 $whiteFaded: rgba(255, 255, 255, 0.5);
 $whiteFadedLight: rgba(255, 255, 255, 0.85);
 $colorTxt: rgba(255, 255, 255, 0.6);
-$dividerColor: transparentize($color: #525163, $amount: 0.5);
+$dividerColor: transparentize(
+  $color: #525163,
+  $amount: 0.5
+);
 
 $borderRadiusXs: 6.6px;
 $borderRadiusSm: 0.25rem;
 $borderRadius: 8px;
 $borderRadiusBig: 16px;
 
-$gradientRegularPieceBefore: radial-gradient(19.49% 58.52% at 50% 0%, rgba(249, 196, 60, 0.3) 0%, rgba(231, 166, 1, 0) 100%), radial-gradient(50% 50% at 100% 100%, #520aeb 10.27%, rgba(159, 115, 255, 0) 100%), radial-gradient(77.86% 77.86% at 100% 0%, #00a7ff 0%, rgba(0, 166, 254, 0.12) 100%), radial-gradient(50% 50% at 0% 0%, #ff8d6c 0%, rgba(255, 92, 0, 0.6) 100%), radial-gradient(70.24% 70.24% at 0% 100%, #e81d72 0%, rgba(255, 0, 0, 0) 100%);
+$gradientRegularPieceBefore: radial-gradient(19.49% 58.52% at 50% 0%, rgba(249, 196, 60, 0.3) 0%, rgba(231, 166, 1, 0) 100%),
+  radial-gradient(50% 50% at 100% 100%, #520aeb 10.27%, rgba(159, 115, 255, 0) 100%), radial-gradient(77.86% 77.86% at 100% 0%, #00a7ff 0%, rgba(0, 166, 254, 0.12) 100%),
+  radial-gradient(50% 50% at 0% 0%, #ff8d6c 0%, rgba(255, 92, 0, 0.6) 100%), radial-gradient(70.24% 70.24% at 0% 100%, #e81d72 0%, rgba(255, 0, 0, 0) 100%);
 
-$gradientRegularPieceBefore: radial-gradient(19.49% 58.52% at 50% 0%, rgba(249, 196, 60, 0.3) 0%, rgba(231, 166, 1, 0) 100%), radial-gradient(50% 50% at 100% 100%, #520aeb 10.27%, rgba(159, 115, 255, 0) 100%), radial-gradient(77.86% 77.86% at 100% 0%, #00a7ff 0%, rgba(0, 166, 254, 0.12) 100%), radial-gradient(50% 50% at 0% 0%, #ff8d6c 0%, rgba(255, 92, 0, 0.6) 100%), radial-gradient(70.24% 70.24% at 0% 100%, #e81d72 0%, rgba(255, 0, 0, 0) 100%);
+$gradientRegularPieceBefore: radial-gradient(19.49% 58.52% at 50% 0%, rgba(249, 196, 60, 0.3) 0%, rgba(231, 166, 1, 0) 100%),
+  radial-gradient(50% 50% at 100% 100%, #520aeb 10.27%, rgba(159, 115, 255, 0) 100%), radial-gradient(77.86% 77.86% at 100% 0%, #00a7ff 0%, rgba(0, 166, 254, 0.12) 100%),
+  radial-gradient(50% 50% at 0% 0%, #ff8d6c 0%, rgba(255, 92, 0, 0.6) 100%), radial-gradient(70.24% 70.24% at 0% 100%, #e81d72 0%, rgba(255, 0, 0, 0) 100%);
 
-$gradientRegularPieceAfter: radial-gradient(19.49% 58.52% at 50% 0%, rgba(249, 196, 60, 0.3) 0%, rgba(231, 166, 1, 0) 100%), radial-gradient(50% 50% at 100% 100%, #520aeb 10.27%, rgba(159, 115, 255, 0) 100%), radial-gradient(77.86% 77.86% at 100% 0%, #00a7ff 0%, rgba(0, 166, 254, 0.12) 100%), radial-gradient(50% 50% at 0% 0%, #ff8d6c 0%, rgba(255, 92, 0, 0.6) 100%), radial-gradient(70.24% 70.24% at 0% 100%, #e81d72 0%, rgba(255, 0, 0, 0) 100%);
+$gradientRegularPieceAfter: radial-gradient(19.49% 58.52% at 50% 0%, rgba(249, 196, 60, 0.3) 0%, rgba(231, 166, 1, 0) 100%),
+  radial-gradient(50% 50% at 100% 100%, #520aeb 10.27%, rgba(159, 115, 255, 0) 100%), radial-gradient(77.86% 77.86% at 100% 0%, #00a7ff 0%, rgba(0, 166, 254, 0.12) 100%),
+  radial-gradient(50% 50% at 0% 0%, #ff8d6c 0%, rgba(255, 92, 0, 0.6) 100%), radial-gradient(70.24% 70.24% at 0% 100%, #e81d72 0%, rgba(255, 0, 0, 0) 100%);
 
-$zBgGradient: radial-gradient(19.49% 58.52% at 50% 0%, rgba(249, 196, 60, 0.3) 0%, rgba(231, 166, 1, 0) 100%), radial-gradient(50% 50% at 100% 100%, #520aeb 10.27%, rgba(159, 115, 255, 0) 100%), radial-gradient(77.86% 77.86% at 100% 0%, #00a7ff 0%, rgba(0, 166, 254, 0.12) 100%), radial-gradient(50% 50% at 0% 0%, #ff8d6c 0%, rgba(255, 92, 0, 0.6) 100%), radial-gradient(70.24% 70.24% at 0% 100%, #e81d72 0%, rgba(255, 0, 0, 0) 100%);
+$zBgGradient: radial-gradient(19.49% 58.52% at 50% 0%, rgba(249, 196, 60, 0.3) 0%, rgba(231, 166, 1, 0) 100%),
+  radial-gradient(50% 50% at 100% 100%, #520aeb 10.27%, rgba(159, 115, 255, 0) 100%), radial-gradient(77.86% 77.86% at 100% 0%, #00a7ff 0%, rgba(0, 166, 254, 0.12) 100%),
+  radial-gradient(50% 50% at 0% 0%, #ff8d6c 0%, rgba(255, 92, 0, 0.6) 100%), radial-gradient(70.24% 70.24% at 0% 100%, #e81d72 0%, rgba(255, 0, 0, 0) 100%);
 
 /**
  * Colors
@@ -49,9 +60,13 @@ $zkColorVioletLight: #8c8dfc;
 $zkColorVioletGradient: hsl(240deg, 4%, 5%);
 $zkColorVioletGradientAngular: conic-gradient(from 180deg at 50% 50%, rgba(0, 47, 168, 0) 0deg, #7879ff 360deg);
 
-$gradientRegularPieceBefore: radial-gradient(19.49% 58.52% at 50% 0%, rgba(249, 196, 60, 0.3) 0%, rgba(231, 166, 1, 0) 100%), radial-gradient(50% 50% at 100% 100%, #520aeb 10.27%, rgba(159, 115, 255, 0) 100%), radial-gradient(77.86% 77.86% at 100% 0%, #00a7ff 0%, rgba(0, 166, 254, 0.12) 100%), radial-gradient(50% 50% at 0% 0%, #ff8d6c 0%, rgba(255, 92, 0, 0.6) 100%), radial-gradient(70.24% 70.24% at 0% 100%, #e81d72 0%, rgba(255, 0, 0, 0) 100%);
+$gradientRegularPieceBefore: radial-gradient(19.49% 58.52% at 50% 0%, rgba(249, 196, 60, 0.3) 0%, rgba(231, 166, 1, 0) 100%),
+  radial-gradient(50% 50% at 100% 100%, #520aeb 10.27%, rgba(159, 115, 255, 0) 100%), radial-gradient(77.86% 77.86% at 100% 0%, #00a7ff 0%, rgba(0, 166, 254, 0.12) 100%),
+  radial-gradient(50% 50% at 0% 0%, #ff8d6c 0%, rgba(255, 92, 0, 0.6) 100%), radial-gradient(70.24% 70.24% at 0% 100%, #e81d72 0%, rgba(255, 0, 0, 0) 100%);
 
-$gradientRegularPieceAfter: radial-gradient(19.49% 58.52% at 50% 0%, rgba(249, 196, 60, 0.3) 0%, rgba(231, 166, 1, 0) 100%), radial-gradient(50% 50% at 100% 100%, #520aeb 10.27%, rgba(159, 115, 255, 0) 100%), radial-gradient(77.86% 77.86% at 100% 0%, #00a7ff 0%, rgba(0, 166, 254, 0.12) 100%), radial-gradient(50% 50% at 0% 0%, #ff8d6c 0%, rgba(255, 92, 0, 0.6) 100%), radial-gradient(70.24% 70.24% at 0% 100%, #e81d72 0%, rgba(255, 0, 0, 0) 100%);
+$gradientRegularPieceAfter: radial-gradient(19.49% 58.52% at 50% 0%, rgba(249, 196, 60, 0.3) 0%, rgba(231, 166, 1, 0) 100%),
+  radial-gradient(50% 50% at 100% 100%, #520aeb 10.27%, rgba(159, 115, 255, 0) 100%), radial-gradient(77.86% 77.86% at 100% 0%, #00a7ff 0%, rgba(0, 166, 254, 0.12) 100%),
+  radial-gradient(50% 50% at 0% 0%, #ff8d6c 0%, rgba(255, 92, 0, 0.6) 100%), radial-gradient(70.24% 70.24% at 0% 100%, #e81d72 0%, rgba(255, 0, 0, 0) 100%);
 
 $link-color: $lightViolet;
 $color-secondary: $violet;
@@ -67,7 +82,9 @@ $input-border-color-light: #0000000a;
 $input-border-color-focus-light: #0003;
 
 /* Modal */
-$modal-border-radius: (md: 8px);
+$modal-border-radius: (
+  md: 8px
+);
 $modal-border-color-dark: #ffffff14;
 $modal-background-dark: $darkViolet;
 $modal-border-color-light: #180d0d14;

@@ -1,9 +1,6 @@
 <template>
-  <a v-if="scroll"
-    :class="classAttribute"
-    @click.capture="scrollTo(scroll)"
-  >
-    <slot/>
+  <a v-if="scroll" :class="classAttribute" @click.capture="scrollTo(scroll)">
+    <slot />
     <svg class="HoverArrow" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true">
       <g fill-rule="evenodd">
         <path class="HoverArrow__linePath" d="M0 5h7"></path>
@@ -11,12 +8,8 @@
       </g>
     </svg>
   </a>
-  <a v-else
-    :class="classAttribute"
-    :href="href"
-    :target="target"
-  >
-    <slot/>
+  <a v-else :class="classAttribute" :href="href" :target="target">
+    <slot />
     <svg class="HoverArrow" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true">
       <g fill-rule="evenodd">
         <path class="HoverArrow__linePath" d="M0 5h7"></path>
@@ -35,23 +28,23 @@ export default Vue.extend({
     scroll: {
       required: false,
       type: String,
-      default: "",
+      default: ""
     },
     href: {
       required: false,
       type: String,
-      default: "",
+      default: ""
     },
     target: {
       required: false,
       type: String,
-      default: "_blank",
+      default: "_blank"
     },
     cssClass: {
       required: false,
       type: String,
-      default: "",
-    },
+      default: ""
+    }
   },
   computed: {
     classAttribute() {
@@ -63,7 +56,7 @@ export default Vue.extend({
         });
       }
       return cssClasses;
-    },
-  },
+    }
+  }
 });
 </script>

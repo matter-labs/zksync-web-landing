@@ -25,7 +25,7 @@ import {
   BiDiscord,
   BiTwitter,
   BiChevronDown,
-  BiChevronUp,
+  BiChevronUp
 } from "oh-vue-icons/icons";
 import Vue from "vue";
 
@@ -46,7 +46,7 @@ const iconsPlugin: Plugin = (): void => {
     BiDiscord,
     BiTwitter,
     BiChevronDown,
-    BiChevronUp,
+    BiChevronUp
   );
   Vue.component("VIcon", OhVueIcon);
 };

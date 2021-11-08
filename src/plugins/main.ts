@@ -12,10 +12,10 @@ Vue.mixin({
         x: false,
         y: true,
         cancelable: true,
-        offset: -84,
+        offset: -84
       });
-    },
-  },
+    }
+  }
 });
 /**
  * 100vh issue fix

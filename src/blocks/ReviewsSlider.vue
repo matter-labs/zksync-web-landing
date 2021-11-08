@@ -31,21 +31,15 @@
           draggable="false"
         >
           <div class="reviewHeader">
-            <img v-if="singleReview.thumbnail" :src="getAssetUrl(singleReview.thumbnail)" :alt="singleReview.thumbnailAlt" :title="singleReview.thumbnailTitle" draggable="false">
+            <img v-if="singleReview.thumbnail" :src="getAssetUrl(singleReview.thumbnail)" :alt="singleReview.thumbnailAlt" :title="singleReview.thumbnailTitle" draggable="false" />
             <span v-if="singleReview.title">{{ singleReview.title }}</span>
           </div>
           <div class="reviewText">
             {{ singleReview.text }}
             <i-badge v-if="singleReview.isUpcoming" variant="secondary _upcoming-h3">upcoming</i-badge>
           </div>
-          <z-button
-            v-if="singleReview.isButton"
-            css-class="width-300"
-            href="https://zksync.curve.fi"
-            outline="outline"
-            size="xs"
-            target="_blank"
-          >Try <strong>Curve + zkSync</strong> testnet
+          <z-button v-if="singleReview.isButton" css-class="width-300" href="https://zksync.curve.fi" outline="outline" size="xs" target="_blank"
+            >Try <strong>Curve + zkSync</strong> testnet
           </z-button>
           <span v-if="!singleReview.isButton" class="arrowLink">
             <v-icon name="ri-arrow-up-line" :scale="'25px'" />
@@ -151,12 +145,12 @@ export default Vue.extend({
   computed: {
     preparedReviews(): Review[] {
       return (this.reviewsData as Review[]).sort((reviewItem1, reviewItem2) => {
-        const sortParam = window.screen.availWidth > 768 ? "order":"mobileOrder";
-        return reviewItem1[sortParam] > reviewItem2[sortParam] ? 1:-1;
+        const sortParam = window.screen.availWidth > 768 ? "order" : "mobileOrder";
+        return reviewItem1[sortParam] > reviewItem2[sortParam] ? 1 : -1;
       });
     },
     leftPosition(): number {
-      if (this.$refs.container && Math.max(1, this.itemsInView())===1) {
+      if (this.$refs.container && Math.max(1, this.itemsInView()) === 1) {
         return Math.max(0, this.currentItem * 257 - 10);
       }
       return Math.max(0, this.currentItem * 257 - 10);
@@ -184,7 +178,7 @@ export default Vue.extend({
     }
     const $hammer = new Hammer(galleryBlock as HTMLElement);
     $hammer.on("pan", (e) => {
-      if (e.direction!==2 && e.direction!==4) {
+      if (e.direction !== 2 && e.direction !== 4) {
         return;
       }
       this.scrollOffset = Math.min(Math.abs(e.deltaX), 360) * Math.sign(e.deltaX);

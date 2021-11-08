@@ -11,8 +11,8 @@ export default Vue.extend({
     size: {
       type: String,
       default: "md",
-      required: false,
-    },
-  },
+      required: false
+    }
+  }
 });
 </script>

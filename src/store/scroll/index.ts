@@ -4,7 +4,7 @@ import { RootState } from "@/store";
 export const state = () => {
   return {
     lastScroll: false as false | number,
-    lastPath: "" as string,
+    lastPath: "" as string
   };
 };
 
@@ -20,7 +20,7 @@ export const mutations: MutationTree<ScrollModuleState> = {
   },
   setLastPath(state: { lastPath: string }, lastPath: string) {
     state.lastPath = lastPath;
-  },
+  }
 };
 
 export const getters: GetterTree<ScrollModuleState, RootState> = {
@@ -29,5 +29,5 @@ export const getters: GetterTree<ScrollModuleState, RootState> = {
   },
   getLastPath(state: { lastPath: string }): string {
     return state.lastPath;
-  },
+  }
 };

@@ -1,6 +1,6 @@
 <template>
-  <div class="dropdownContainer" :class="{'toggled': toggled===true}" :style="[height?{'height': `${height}px`}:{}]">
-    <div ref="header" class="dropdownHeader" @click="toggled=!toggled">
+  <div class="dropdownContainer" :class="{ toggled: toggled === true }" :style="[height ? { height: `${height}px` } : {}]">
+    <div ref="header" class="dropdownHeader" @click="toggled = !toggled">
       <div class="textContainer">
         <slot name="header" />
       </div>
@@ -23,7 +23,7 @@ import Vue from "vue";
 export default Vue.extend({
   data() {
     return {
-      toggled: false,
+      toggled: false
     };
   },
   computed: {
@@ -37,7 +37,7 @@ export default Vue.extend({
         return header.getBoundingClientRect().height + body.getBoundingClientRect().height;
       }
       return false;
-    },
-  },
+    }
+  }
 });
 </script>

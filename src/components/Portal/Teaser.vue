@@ -12,9 +12,10 @@
         ecosystem
       </div>
       <div class="badgeFilterBar">
-        <i-badge size="md" :variant="filterType === null ? 'primary' : 'outline'" @click.native="filterData(null)"> All </i-badge>
-        <i-badge size="md" :variant="filterType === 'dapp' ? 'primary' : 'outline'" @click.native="filterData('dapp')">dApp</i-badge>
-        <i-badge size="md" :variant="filterType === 'wallet' ? 'primary' : 'outline'" @click.native="filterData('wallet')">Wallet</i-badge>
+        <i-badge :variant="filterType === null ? 'primary' : 'outline'" size="md" @click.native="filterData(null)"> All </i-badge>
+        <i-badge v-for="singleType in uniqueTypes" :key="singleType" :variant="filterType === singleType ? 'primary' : 'outline'" size="md" @click.native="filterData(singleType)">
+          {{ singleType }}
+        </i-badge>
       </div>
     </i-container>
     <i-container fluid>
@@ -30,7 +31,7 @@
           <img :src="getAssetUrl(singlePartner.img)" :alt="singlePartner.alt" :title="singlePartner.title" />
           <h3>
             {{ singlePartner.title }}
-            <i-badge variant="success" size="sm">{{ singlePartner.type }}</i-badge>
+            <i-badge v-show="!filterType" variant="success" size="sm">{{ singlePartner.type }}</i-badge>
           </h3>
         </a>
       </div>
@@ -162,33 +163,43 @@ export default Vue.extend({
       required: false
     }
   },
-  methods: {
-    getAssetUrl(img: string) {
-      return require("@/assets/images/investors/" + img);
-    },
-    filterData(filterType: any) {
-      console.log(filterType);
-      this.filterType = filterType;
-    }
+  data() {
+    return {
+      filterType: <null | string>null
+    };
   },
   computed: {
     filteredPartners(): IntegrationDataItem[] {
       let partnersData = this.partnersData as IntegrationDataItem[];
-      console.log("unfiltered", partnersData);
+      // console.log("unfiltered", partnersData);
       if (this.filterType !== null) {
         partnersData = partnersData.filter((singlePartner) => singlePartner.type === this.filterType);
       }
       if (this.limit > 0) {
         partnersData?.splice(this.limit + 1);
       }
-      console.log("filtered", partnersData);
+      // console.log("filtered", partnersData);
       return partnersData;
+    },
+    uniqueTypes(): string[] {
+      const types = <string[]>[];
+      const data = this.partnersData as IntegrationDataItem[];
+      data.forEach((singlePartner: IntegrationDataItem): void => {
+        if (!types.includes(singlePartner.type)) {
+          types.push(singlePartner.type);
+        }
+      });
+      return types;
     }
   },
-  data() {
-    return {
-      filterType: <null | string>null
-    };
+  methods: {
+    getAssetUrl(img: string) {
+      return require("@/assets/images/investors/" + img);
+    },
+    filterData(filterType: any) {
+      // console.log(filterType);
+      this.filterType = filterType;
+    }
   }
 });
 </script>

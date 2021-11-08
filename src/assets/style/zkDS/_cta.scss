@@ -9,25 +9,25 @@
 }
 
 .keyboard-navigation .CtaButton:focus {
-  box-shadow: var(--focusBoxShadow)
+  box-shadow: var(--focusBoxShadow);
 }
 
 .CtaButton.variant--Link {
   font-weight: var(--linkWeight, var(--fontWeightSemibold));
-  transition-property: color, opacity
+  transition-property: color, opacity;
 }
 
 @media (pointer: fine) {
   .CtaButton.variant--Link:hover {
     color: var(--linkHoverColor, var(--linkColor));
-    opacity: var(--linkHoverOpacity, 1)
+    opacity: var(--linkHoverOpacity, 1);
   }
 }
 
 @media (pointer: coarse) {
   .CtaButton.variant--Link:active {
     color: var(--linkHoverColor, var(--linkColor));
-    opacity: var(--linkHoverOpacity, 1)
+    opacity: var(--linkHoverOpacity, 1);
   }
 }
 
@@ -37,24 +37,24 @@
   background-color: var(--buttonColor);
   color: var(--knockoutColor);
   white-space: nowrap;
-  transition-property: background-color, opacity
+  transition-property: background-color, opacity;
 }
 
 .CtaButton.variant--Button.CtaButton--arrow {
-  padding-right: 12px
+  padding-right: 12px;
 }
 
 @media (pointer: fine) {
   .CtaButton.variant--Button:hover {
     background-color: var(--buttonHoverColor, var(--buttonColor));
-    opacity: var(--buttonHoverOpacity, 1)
+    opacity: var(--buttonHoverOpacity, 1);
   }
 }
 
 @media (pointer: coarse) {
   .CtaButton.variant--Button:active {
     background-color: var(--buttonHoverColor, var(--buttonColor));
-    opacity: var(--buttonHoverOpacity, 1)
+    opacity: var(--buttonHoverOpacity, 1);
   }
 }
 
@@ -68,44 +68,44 @@
   margin-left: var(--arrowSpacing);
   stroke-width: 2px;
   fill: none;
-  stroke: currentColor
+  stroke: currentColor;
 }
 
 .HoverArrow--sizeSmall {
   --arrowSpacing: 4px;
 
-  stroke-width: 1.5px
+  stroke-width: 1.5px;
 }
 
 .HoverArrow__linePath {
   opacity: 0;
-  transition: opacity var(--hoverTransition, var(--arrowHoverTransition))
+  transition: opacity var(--hoverTransition, var(--arrowHoverTransition));
 }
 
 .HoverArrow__tipPath {
-  transition: transform var(--hoverTransition, var(--arrowHoverTransition))
+  transition: transform var(--hoverTransition, var(--arrowHoverTransition));
 }
 
 @media (pointer: fine) {
   a:hover .HoverArrow__linePath,
   button:hover .HoverArrow__linePath {
-    opacity: 1
+    opacity: 1;
   }
 
   a:hover .HoverArrow__tipPath,
   button:hover .HoverArrow__tipPath {
-    transform: var(--arrowHoverOffset)
+    transform: var(--arrowHoverOffset);
   }
 }
 
 @media (pointer: coarse) {
   a:active .HoverArrow__linePath,
   button:active .HoverArrow__linePath {
-    opacity: 1
+    opacity: 1;
   }
 
   a:active .HoverArrow__tipPath,
   button:active .HoverArrow__tipPath {
-    transform: var(--arrowHoverOffset)
+    transform: var(--arrowHoverOffset);
   }
 }

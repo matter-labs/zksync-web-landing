@@ -22,14 +22,14 @@ import footerComponent from "@/blocks/Footer.vue";
 export default Vue.extend({
   components: {
     headerComponent,
-    footerComponent,
+    footerComponent
   },
   data() {
     return {};
   },
   created() {
     AOS.init({
-      once: true,
+      once: true
     });
     (this as any).$inkline.config.variant = "dark"; /* Vue 2 TS doesn't support custom global properties, therefore we need to bypass type checking */
   },
@@ -43,7 +43,7 @@ export default Vue.extend({
     handlePageScroll() {
       const lastScroll = this.$store.getters["scroll/getLastScroll"];
       document.documentElement.scrollTop = lastScroll !== false ? lastScroll.y : 0;
-    },
-  },
+    }
+  }
 });
 </script>
