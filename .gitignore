@@ -124,3 +124,4 @@ nuxt.d.ts
 /build/
 /.yarn/install-state.gz
 /public/.nojekyll
+/public/
