@@ -59,6 +59,7 @@
     "ci:prepare:mainnet": "sh cli-process-env.sh 'mainnet' prod 1",
     "nuxt-ci": "sh ./cli-process-env.sh 'prod' 1 1",
     "nuxt-ci:build": "yarn run nuxt-ci && yarn run generate --fail-on-error",
+    "dev": "yarn run nuxt-local && nuxt",
     "generate": "yarn run nuxt-local && nuxt generate",
     "cspell": "cspell src/**/*.{md,vue} *.md",
     "lint:check": "eslint --ext .ts,.vue,.js \"src/**/*\"",

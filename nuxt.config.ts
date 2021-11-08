@@ -192,7 +192,7 @@ const config = {
       { rel: "icon", sizes: "192x192", type: "image/png", href: "/android-icon-192x192.png" },
       { rel: "icon", sizes: "32x32", type: "image/png", href: "/android-icon-36x36.png" },
       { rel: "icon", sizes: "96x96", type: "image/png", href: "/android-icon-96x96.png" },
-      { rel: "icon", sizes: "16x16", type: "image/png", href: "/android-icon-16x16.png" },
+      { rel: "icon", sizes: "16x16", type: "image/png", href: "/favicon-16x16.png" },
       { rel: "manifest", href: "/manifest.json" },
       { rel: "preconnect", href: "https://fonts.gstatic.com" },
       { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" },
