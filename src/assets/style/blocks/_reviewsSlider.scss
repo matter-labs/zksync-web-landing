@@ -46,18 +46,21 @@
   }
 
   .itemsContainer {
-    width: max-content;
     height: fit-content;
     display: grid;
     align-items: stretch;
     grid-auto-flow: column;
     grid-auto-columns: 286px;
     grid-gap: 40px;
+    width: 100%;
+    justify-content: center;
     transition: transform $transition1;
     will-change: transform;
 
     //noinspection ALL
     @media (max-width: $mobile) {
+      width: max-content;
+      justify-content: initial !important;
       gap: 10px;
       grig-gap: 10px;
       transition: transform ease-out 0.2s;

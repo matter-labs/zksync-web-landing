@@ -1,30 +1,24 @@
 <template>
-  <div
-    class="reviewsContainer" data-aos="fade-up"
-    data-aos-delay="50" data-aos-duration="800"
-  >
-    <a id="reviews-about-zksync"/>
+  <div class="reviewsContainer" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
+    <a id="reviews-about-zksync" />
     <transition name="slideFromLeft">
-      <div
-        v-if="currentItem>0" class="arrow left"
-        @click="scrollItemBack()"
-      >
-        <v-icon name="ri-arrow-left-line" :scale="'25px'" />
+      <div v-if="currentItem > 0" class="arrow left" @click="scrollItemBack()">
+        <v-icon name="ri-arrow-left-line" :scale="25" />
       </div>
     </transition>
     <transition name="slideFromRight">
       <div v-if="rightArrowDisplayed" class="arrow right" @click="scrollItemForward()">
-        <v-icon name="ri-arrow-right-line" :scale="'25px'" />
+        <v-icon name="ri-arrow-right-line" :scale="25" />
       </div>
     </transition>
     <transition name="fade">
-      <div v-if="rightArrowDisplayed" class="gradient right"/>
+      <div v-if="rightArrowDisplayed" class="gradient right" />
     </transition>
     <transition name="fade">
-      <div v-if="currentItem>0" class="gradient left"/>
+      <div v-if="currentItem > 0" class="gradient left" />
     </transition>
     <i-container ref="container" :fluid="true">
-      <div class="itemsContainer" :style="{'transform': `translateX(-${leftPosition-scrollOffset}px)`}">
+      <div class="itemsContainer" :style="{ transform: `translateX(-${leftPosition - scrollOffset}px)` }">
         <a
           v-for="(singleReview, index) in preparedReviews"
           :id="singleReview.id"
@@ -37,13 +31,7 @@
           draggable="false"
         >
           <div class="reviewHeader">
-            <img
-              v-if="singleReview.thumbnail"
-              :src="getAssetUrl(singleReview.thumbnail)"
-              :alt="singleReview.thumbnailAlt"
-              :title="singleReview.thumbnailTitle"
-              draggable="false"
-            >
+            <img v-if="singleReview.thumbnail" :src="getAssetUrl(singleReview.thumbnail)" :alt="singleReview.thumbnailAlt" :title="singleReview.thumbnailTitle" draggable="false">
             <span v-if="singleReview.title">{{ singleReview.title }}</span>
           </div>
           <div class="reviewText">
@@ -89,7 +77,7 @@ interface Review {
 
 export default Vue.extend({
   components: {
-    ZButton,
+    ZButton
   },
   props: {
     reviewsData: {
@@ -102,7 +90,7 @@ export default Vue.extend({
             thumbnailTitle: "Curve + zkSync L2: Ethereum’s first user-defined ZK rollup smart contract!",
             text: "ZK rollups are extremely secure even with a single validator, as they rely on pure math",
             order: 0,
-            mobileOrder: 1,
+            mobileOrder: 1
           },
           {
             title: "imToken",
@@ -112,7 +100,7 @@ export default Vue.extend({
             thumbnailTitle: "imToken is an easy and secure digital wallet trusted by millions",
             text: "Natively supporting zkSync brings us one step further towards our goal of providing a simple, easy-to-use, reliable wallet product.",
             order: 1,
-            mobileOrder: 2,
+            mobileOrder: 2
           },
           {
             link: "https://vitalik.ca/general/2021/01/05/rollup.html#conclusions",
@@ -122,7 +110,7 @@ export default Vue.extend({
             text: "In the medium to long term ZK rollups will win out in all use cases as ZK-SNARK technology improves.",
             title: "Vitalik Buterin",
             order: 2,
-            mobileOrder: 0,
+            mobileOrder: 0
           },
           {
             classes: "small-text round-thumbnail",
@@ -134,7 +122,7 @@ export default Vue.extend({
             text: `...Our choice came down to the fact that zkSync has been live on mainnet for months, has lower transaction costs and fast finality.
             ZkSync also does not have a one week delay on withdrawals`,
             order: 3,
-            mobileOrder: 3,
+            mobileOrder: 3
           },
           {
             id: "balancer-review",
@@ -144,44 +132,44 @@ export default Vue.extend({
             thumbnailTitle: "Mike McDonal, Co-founder & CTO @BalancerLabs. Security Engineer about ZK Rollups",
             text: "ZK rollups are the most promising (and the only scaling path Balancer is exploring internally atm).",
             order: 4,
-            mobileOrder: 4,
-          },
+            mobileOrder: 4
+          }
         ] as Array<Review>;
       },
       required: false,
-      type: Array,
-    } as PropOptions<Review[]>,
+      type: Array
+    } as PropOptions<Review[]>
   },
   data() {
     return {
       totalItems: this.reviewsData.length,
       currentItem: 0,
       displayRightArrow: true,
-      scrollOffset: 0,
+      scrollOffset: 0
     };
   },
   computed: {
     preparedReviews(): Review[] {
       return (this.reviewsData as Review[]).sort((reviewItem1, reviewItem2) => {
-        const sortParam = window.screen.availWidth > 768 ? "order" : "mobileOrder";
-        return reviewItem1[sortParam] > reviewItem2[sortParam] ? 1 : -1;
+        const sortParam = window.screen.availWidth > 768 ? "order":"mobileOrder";
+        return reviewItem1[sortParam] > reviewItem2[sortParam] ? 1:-1;
       });
     },
     leftPosition(): number {
-      if (this.$refs.container && Math.max(1, this.itemsInView()) === 1) {
+      if (this.$refs.container && Math.max(1, this.itemsInView())===1) {
         return Math.max(0, this.currentItem * 257 - 10);
       }
       return Math.max(0, this.currentItem * 257 - 10);
     },
     rightArrowDisplayed(): boolean {
       return this.currentItem < this.totalItems - 1 && this.displayRightArrow;
-    },
+    }
   },
   watch: {
     currentItem() {
       this.checkArrowDisplay();
       this.scrollOffset = 0;
-    },
+    }
   },
   mounted() {
     setTimeout(() => {
@@ -196,7 +184,7 @@ export default Vue.extend({
     }
     const $hammer = new Hammer(galleryBlock as HTMLElement);
     $hammer.on("pan", (e) => {
-      if (e.direction !== 2 && e.direction !== 4) {
+      if (e.direction!==2 && e.direction!==4) {
         return;
       }
       this.scrollOffset = Math.min(Math.abs(e.deltaX), 360) * Math.sign(e.deltaX);
@@ -250,7 +238,7 @@ export default Vue.extend({
      */
     getAssetUrl(img: string) {
       return require("@/assets/images/pages/index/" + img);
-    },
-  },
+    }
+  }
 });
 </script>

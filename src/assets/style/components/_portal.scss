@@ -1,0 +1,174 @@
+
+#portalIntegrations {
+  .h2 {
+    span {
+      color: $white;
+      display: inline-flex;
+      position: relative;
+      background: $gradientRegularPieceBefore;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .badge img {
+      min-height: 35px;
+    }
+  }
+
+  .badgeFilterBar {
+    text-align: center;
+    padding: 1rem;
+
+    .badge {
+      padding: 0.25rem 0.8rem;
+      color: #ffffff4d !important;
+      margin-right: 1rem;
+      background: transparent;
+      font-weight: 300 !important;
+      font-size: 1.25rem;
+      letter-spacing: -0.01rem;
+      transition: background-color $transitionMedium;
+      will-change: background-color;
+      &.-primary {
+        background: #8c8dfc;
+        color: #fff !important;
+      }
+    }
+  }
+
+  .sponsorsContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1600px;
+
+    a {
+      width: 21%;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2% 1% 4rem;
+      height: 12rem;
+      margin: 0.5rem 2% 3rem;
+
+      h3
+      {
+        position: absolute;
+        white-space: nowrap;
+        bottom: 0;
+        margin: 0;
+        text-align: center;
+        font-size: 18px;
+        font-family: "Open Sans", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 140%;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.01em;
+        color: #ffffff4d !important;
+        transition: color $transitionMedium;
+        will-change: color;
+
+        .badge.-success {
+          color: rgba(255, 255, 255, 0.6) !important;
+          background: transparent;
+          padding: 0.25rem 0.35rem;
+          top: -5px;
+          left: initial;
+          right: -0.5rem;
+          position: relative;
+          font-weight: 300 !important;
+          letter-spacing: -0.01rem;
+          transition: background-color $transitionMedium;
+          will-change: background-color;
+        }
+      }
+
+      img {
+        display: inline-flex;
+        user-select: none;
+        transition: all $transitionMedium;
+        width: 60%;
+        height: auto;
+        object-fit: contain;
+      }
+
+      &::before,
+      &::after {
+        opacity: 0;
+        transition: opacity $transitionMedium;
+        display: inline-block;
+        content: "";
+        position: absolute;
+        filter: blur(20px);
+        z-index: -1;
+        width: 150px;
+        border-radius: 50%;
+        height: 50px;
+        left: calc((100% - 150px) / 2);
+        background-blend-mode: overlay, normal, normal, color-dodge, normal;
+        mix-blend-mode: normal;
+        will-change: opacity;
+      }
+
+      &::before {
+        top: calc((100% - 50px) / 2);
+        background: $gradientRegularPieceBefore;
+      }
+
+      &::after {
+        top: calc((100% - 30px) / 2);
+        background: $gradientRegularPieceAfter;
+      }
+
+      &:hover,
+      &:focus {
+        @media (min-width: $mobile) {
+          color: $muted;
+
+          img {
+            transform: scale(1.35);
+          }
+
+          &::after,
+          &::before {
+            opacity: 0.75;
+          }
+        }
+        h3
+        {
+          color: #8c8dfc !important
+        }
+
+        .badge.-success {
+          background: $violet !important;
+          color: $white;
+        }
+      }
+
+      @media screen and (max-width: 1000px) {
+        width: 30%;
+      }
+
+      @media screen and (max-width: $mobile) {
+        width: 50%;
+        height: 100px;
+
+        img:hover {
+          will-change: none;
+          transform: none !important;
+        }
+      }
+
+      @media screen and (max-width: 345px) {
+        width: 100%;
+        height: 90px;
+      }
+    }
+  }
+}

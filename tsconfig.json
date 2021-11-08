@@ -1,6 +1,4 @@
 {
-  "$schema": "https://json.schemastore.org/tsconfig",
-
   "compilerOptions": {
     "allowJs": true,
     "baseUrl": "./src",
@@ -11,7 +9,6 @@
     "lib": [
       "es2019",
       "dom",
-      "es2019.object",
       "esnext",
       "esnext.asynciterable"
     ],
@@ -40,13 +37,5 @@
       "vue-router",
       "@inkline/inkline/types"
     ]
-  },
-  "exclude": [
-    "node_modules",
-    "dist",
-    ".yarn",
-    "public",
-    ".nuxt",
-    ".github"
-  ]
+  }
 }
