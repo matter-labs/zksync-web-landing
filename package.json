@@ -47,7 +47,6 @@
       "not op_mini all"
     ],
     "development": [
-      "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
     ]
@@ -56,12 +55,17 @@
     "node": "^14.16.0 || ^16.11.0"
   },
   "scripts": {
-    "dev": "nuxt dev",
-    "build": "nuxt build",
-    "start": "node .output/server/index.mjs",
-    "lint:check": "eslint --ext .ts,.vue,.js \"src/**\"",
-    "lint:fix": "eslint --ext .ts,.vue,.js --quiet --fix \"src/**\"",
-    "format": "prettier --write \"src/**/*.{ts,vue,js,scss}\""
+    "nuxt-local": "sh ./cli-process-env.sh 'dev' 1 1",
+    "ci:prepare:mainnet": "sh cli-process-env.sh 'mainnet' prod 1",
+    "nuxt-ci": "sh ./cli-process-env.sh 'prod' 1 1",
+    "nuxt-ci:build": "yarn run nuxt-ci && yarn run generate --fail-on-error",
+    "generate": "yarn run nuxt-local && nuxt generate",
+    "cspell": "cspell src/**/*.{md,vue} *.md",
+    "lint:check": "eslint --ext .ts,.vue,.js \"src/**/*\"",
+    "lint:fix": "eslint --ext .ts,.vue,.js --quiet --fix \"src/**/*\"",
+    "format": "prettier --write \"src/**/*.{ts,vue,js,scss}\" --fix",
+    "ci": "yarn run lint:check; yarn run cspell",
+    "zk-ci-prepare": "yarn run nuxt-ci && yarn run generate --fail-on-error"
   },
   "bugs": {
     "url": "https://github.com/matter-labs/zksync-web-portal/issues"

@@ -7,7 +7,6 @@
     "plugin:prettier/recommended"
   ],
   "rules": {
-
     "linebreak-style": [
       "error",
       "unix"
@@ -17,7 +16,7 @@
       "error",
       2
     ],
-    "jsxBracketSameLine": true,
+    "jsxBracketSameLine": 2,
     "quotes": [
       "error",
       "double"
@@ -31,7 +30,7 @@
       "error",
       "always"
     ],
-    "prettier/prettier": "warning"
+    "prettier/prettier": 1
   },
   "overrides": [
     {
@@ -41,7 +40,6 @@
       ],
       "parserOptions": {
         "eol-last": 0,
-        "jsxBracketSameLine": true,
         "vue/max-attributes-per-line": [
           "error",
           {
@@ -57,6 +55,7 @@
     }
   ],
   "parserOptions": {
+    "parser": "@typescript-eslint/parser",
     "project": [
       "./tsconfig.json"
     ],
@@ -66,9 +65,7 @@
       "experimentalObjectRestSpread": true
     },
     "extraFileExtensions": [
-      ".vue",
-      ".ts",
-      ".js"
+      ".vue"
     ]
   },
   "plugins": [

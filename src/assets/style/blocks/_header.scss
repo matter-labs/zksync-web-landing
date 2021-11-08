@@ -82,7 +82,7 @@ body {
             transition: color, background-color $transition1 !important;
             background-color: lighten($darkViolet, 10) !important;
             color: $lightViolet;
-            will-change: color, backgroud;
+            will-change: color, background;
           }
 
           &:first-of-type {
