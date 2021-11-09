@@ -1,7 +1,6 @@
 <template>
   <div class="indexPage">
     <z-hero />
-    <partners />
     <reviews-slider class="_padding-y-2 _padding-top-md-4 _padding-bottom-md-4" />
     <portal-teaser />
     <about />
