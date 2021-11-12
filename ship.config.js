@@ -7,7 +7,7 @@ module.exports = {
   /**
    * By default, it's running package install (silent)
    */
-  installCommand: ({ isYarn }) => isYarn ? 'yarn install --silent' : 'npm install',
+  installCommand: ({ isYarn }) => isYarn ? "yarn install --silent" : "npm install",
 
   /**
    * This is a lifecycle hook where you can decide whether to proceed with the preparation.
@@ -18,7 +18,7 @@ module.exports = {
     nextVersion,
     releaseType,
     releaseTag,
-    commitNumbersPerType,
+    commitNumbersPerType
   }) => {
     /* ... */
   },
@@ -59,8 +59,8 @@ module.exports = {
    * By default, it's skipped
    */
   afterPublish: ({ exec }) => {
-    exec(`git config --global user.email "your@email.com"`);
-    exec(`git config --global user.name "Your Name"`);
+    exec("git config --global user.email \"your@email.com\"");
+    exec("git config --global user.name \"Your Name\"");
 
     exec("git checkout master");
     exec("git merge develop");
