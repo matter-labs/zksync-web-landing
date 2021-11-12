@@ -1,13 +1,16 @@
-.husky/**
+.husky
+.ide-setup
 .idea
+.nuxt
+.yarn
+environments
 node_modules
-.output/**
-.github
-**/*.d.ts
-.editorconfig
-.env*
-package*
-*firebase*
-src/public
+public
+tests
 
-.ignore
+## src-exceptions
+src/assets/fonts
+.github/workflows
+.github/ISSUE_TEMPLATE
+src/locales
+*sw.*

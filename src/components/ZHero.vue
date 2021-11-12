@@ -19,10 +19,10 @@
       data-aos-duration="700"
       @click.capture="scrollTo('#reviews-about-zksync')"
     >
-      <v-icon name="pr-arrow-down" :scale="'40px'" />
+      <v-icon name="pr-arrow-down"/>
     </a>
-    <a class="scrollDown _hidden-md-and-down" data-aos-offset="-100" data-aos="fade-up" data-aos-delay="100" data-aos-duration="700" @click.capture="scrollTo('#partners')">
-      <v-icon name="pr-arrow-down" :scale="'40px'" />
+    <a class="scrollDown _hidden-md-and-down" data-aos-offset="-100" data-aos="fade-up" data-aos-delay="100" data-aos-duration="700" @click.capture="scrollTo('#portalIntegrations')">
+      <v-icon name="pr-arrow-down"/>
     </a>
   </i-container>
 </template>
@@ -30,16 +30,7 @@
 <script lang="ts">
 import Vue from "vue";
 
-import Emphasis from "@/components/Emphasis.vue";
-import ZButton from "@/components/ZButton.vue";
-import ZCta from "@/components/ZCta.vue";
-
 export default Vue.extend({
   name: "ZHero",
-  components: {
-    ZCta,
-    Emphasis,
-    ZButton
-  }
 });
 </script>

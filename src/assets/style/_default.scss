@@ -77,7 +77,7 @@ body.inkline {
     .button {
       &.-link {
         &:hover {
-          background-color: #ffffff14 !important;
+          background-color: $input-border-color-dark !important;
         }
       }
     }

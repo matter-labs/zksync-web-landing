@@ -13,7 +13,7 @@
           <div class="divider _margin-y-1" />
           <div class="bottomBlock">
             <p class="featureDescription grayText">Unlike any other scaling approach, ZK rollup has no upper bound on the value it can securely handle in L2.</p>
-            <v-icon name="pr-arrow-down" class="arrowDown" :scale="'40px'" />
+            <v-icon name="pr-arrow-down" class="arrowDown" />
             <p class="featureDescription grayText">zkSync DeFi ecosystem can grow without limits.</p>
           </div>
         </div>
@@ -23,7 +23,7 @@
           <div class="divider _margin-y-1" />
           <div class="bottomBlock">
             <p class="featureDescription grayText">Unlike optimistic rollups, all assets can be moved capital-efficiently and fast between ZK rollup and L1.</p>
-            <v-icon name="pr-arrow-down" class="arrowDown" :scale="'40px'" />
+            <v-icon name="pr-arrow-down" class="arrowDown" />
             <p class="featureDescription grayText">
               Protocols can migrate<br />
               from L1 to L2 gradually.
@@ -56,11 +56,8 @@
 </template>
 <script lang="ts">
 import Vue from "vue";
-import Emphasis from "@/components/Emphasis.vue";
-import ZCta from "@/components/ZCta.vue";
 
 export default Vue.extend({
   name: "About",
-  components: { Emphasis, ZCta }
 });
 </script>

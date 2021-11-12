@@ -1,10 +1,14 @@
 <template>
-  <section id="portalIntegrations" class="_padding-y-2 _margin-bottom-0 _margin-top-2 _hidden-md-and-down">
+  <section id="portalIntegrations" class="_padding-y-2 _margin-bottom-2 _margin-top-2">
     <i-container>
-      <div class="h2" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1200">
+      <div class="h2" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1200" v-if="!singlePage">
         A growing
         <emphasis brand-name="" :show-logo="true" />
         movement
+      </div>
+      <div class="h2" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1200" v-else>
+        <emphasis :show-logo="true" />
+        <span class="bg-clip-text text-transparent headerGradientTxt">Portal</span>
       </div>
       <div class="subheaderText grayText">
         Join the for<span>eth</span>inkers in the
@@ -12,7 +16,7 @@
         ecosystem
       </div>
       <div class="badgeFilterBar">
-        <i-badge :variant="filterType === null ? 'primary' : 'outline'" size="md" @click.native="filterData(null)"> All </i-badge>
+        <i-badge :variant="filterType === null ? 'primary' : 'outline'" size="md" @click.native="filterData(null)">All</i-badge>
         <i-badge v-for="singleType in uniqueTypes" :key="singleType" :variant="filterType === singleType ? 'primary' : 'outline'" size="md" @click.native="filterData(singleType)">
           {{ singleType }}
         </i-badge>
@@ -36,6 +40,9 @@
         </a>
       </div>
     </i-container>
+    <i-row center data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000" v-if="!singlePage">
+      <z-button to="/portal" variant="glow" size="lg" css-class="antilink">More integrations</z-button>
+    </i-row>
   </section>
 </template>
 
@@ -57,6 +64,11 @@ export default Vue.extend({
     filter: {
       type: String,
       default: null,
+      required: false
+    },
+    singlePage: {
+      type: Boolean,
+      default: false,
       required: false
     },
     limit: {
@@ -135,7 +147,8 @@ export default Vue.extend({
             id: "ripio",
             img: "ripio.svg",
             alt: "Ripio",
-            title: "Ripio"
+            title: "Ripio",
+            type: "integration"
           },
           {
             id: "argent",

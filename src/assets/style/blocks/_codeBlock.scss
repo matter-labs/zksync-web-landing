@@ -128,11 +128,11 @@
       }
 
       &::-webkit-scrollbar-thumb {
-        background-color: transparentize($color: #8c8dfc, $amount: 0.6);
+        background-color: transparentize($color: $lightViolet, $amount: 0.6);
         will-change: background-color;
 
         &:hover {
-          background-color: transparentize($color: #8c8dfc, $amount: 0.4);
+          background-color: transparentize($color: $lightViolet, $amount: 0.4);
         }
       }
     }

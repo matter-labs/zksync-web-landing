@@ -3,9 +3,9 @@
     <div class="codeBlockTop">
       <div class="codeBlockHeader">
         <div class="codeBlockCircles">
-          <div class="red"></div>
-          <div class="yellow"></div>
-          <div class="green"></div>
+          <div class="red"/>
+          <div class="yellow"/>
+          <div class="green"/>
         </div>
         <div class="fileTab codeText" :class="{ error: !!error }">filename.{{ transpiled ? "zinc" : "sol" }}</div>
         <div class="errorText">{{ error }}</div>
@@ -43,14 +43,15 @@ import Vue from "vue";
 /**
  * @var document
  */
-
 export default Vue.extend({
-  data: () => ({
-    error: "",
-    loading: false,
-    opened: false,
-    transpiled: false as false | string
-  }),
+  data() {
+    return {
+      error: "",
+      loading: false,
+      opened: false,
+      transpiled: false as false | string
+    };
+  },
   methods: {
     copy() {
       if (process.client && document) {

@@ -5,8 +5,7 @@
       class="logoImg"
       src="@/assets/images/pages/index/symbol-logo.svg"
       alt="zkSync is Ethereum’s most user-centric ZK rollup"
-      title="zkSync solves Ethereum scalability
-with zero security compromises"
+      title="zkSync solves Ethereum scalability with zero security compromises"
     />
     {{ brandName }}
   </i-badge>
@@ -16,6 +15,7 @@ with zero security compromises"
 import Vue from "vue";
 
 export default Vue.extend({
+  name: "Emphasis",
   props: {
     showLogo: {
       default: false,

@@ -16,24 +16,41 @@
 
   .badgeFilterBar {
     text-align: center;
-    padding: 1rem;
+    padding: 1rem 1rem 0.5rem;
+    margin: 2.6rem auto 0;
 
     .badge {
       padding: 0.25rem 0.8rem;
-      color: #ffffff4d !important;
+      color: $whiteFaded !important;
       margin-right: 1rem;
       background: transparent;
       font-weight: 300 !important;
       font-size: 1.25rem;
       letter-spacing: -0.01rem;
-      transition: background-color $transitionMedium;
-      will-change: background-color;
+      transition: color, background-color $transitionMedium;
+      will-change: color, background-color;
       cursor: pointer;
+
+      &:hover {
+        color: $lightViolet !important;
+      }
 
       &.-primary {
         cursor: default;
-        background: #8c8dfc;
-        color: #fff !important;
+        background: #292b43;
+        color: #fff9 !important;
+      }
+    }
+
+    @media screen and (max-width: $mobile) {
+      padding: 0;
+      white-space: nowrap;
+      line-height: 1;
+
+      .badge {
+        font-size: 0.8rem !important;
+        padding: 0.3rem 0.5rem;
+        margin: 0 !important;
       }
     }
   }
@@ -64,19 +81,19 @@
         margin: 0;
         text-align: center;
         font-size: 18px;
-        font-family: "Open Sans", sans-serif;
+        font-family: $openSans;
         font-style: normal;
         font-weight: normal;
         line-height: 140%;
         display: flex;
         align-items: center;
         letter-spacing: 0.01em;
-        color: #ffffff4d !important;
+        color: $whiteFaded !important;
         transition: color $transitionMedium;
         will-change: color;
 
         .badge.-success {
-          color: rgba(255, 255, 255, 0.6) !important;
+          color: $colorTxt !important;
           background: transparent;
           padding: 0.25rem 0.35rem;
           top: -5px;
@@ -142,12 +159,12 @@
           }
         }
         h3 {
-          color: #8c8dfc !important;
+          color: $lightViolet !important;
         }
 
         .badge.-success {
           background: $violet !important;
-          color: $white;
+          color: $colorTxt;
         }
       }
 

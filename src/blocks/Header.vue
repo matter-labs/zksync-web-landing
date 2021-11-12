@@ -5,7 +5,7 @@
         <i-row>
           <i-column>
             <transition name="fade">
-              <logo />
+              <block-logo />
             </transition>
           </i-column>
           <i-column class="_padding-right-0">
@@ -30,7 +30,7 @@
       <i-container>
         <i-row>
           <i-column :xs="12" :md="4" class="_padding-left-0 desktopOnly">
-            <logo />
+            <block-logo />
           </i-column>
           <i-column :xs="12" :md="4" class="_padding-y-0">
             <div class="linksContainer">
@@ -63,7 +63,7 @@
             </div>
           </i-column>
           <i-column :xs="12" :md="4" class="_padding-right-0 _justify-content-end">
-            <social-block />
+            <block-social-block />
           </i-column>
         </i-row>
       </i-container>
@@ -74,8 +74,6 @@
 <script lang="ts">
 import ClickOutside from "@inkline/inkline/src/directives/click-outside";
 import Vue from "vue";
-import logo from "@/blocks/Logo.vue";
-import SocialBlock from "@/blocks/SocialBlock.vue";
 
 interface DropdownOption {
   name: string;
@@ -83,10 +81,6 @@ interface DropdownOption {
 }
 
 export default Vue.extend({
-  components: {
-    logo,
-    SocialBlock
-  },
   directives: {
     ClickOutside
   },
@@ -128,18 +122,18 @@ export default Vue.extend({
     };
   },
   beforeMount() {
-    if (process.client && window.pageXOffset < 768) {
+    if (process.client && window.scrollX < 768) {
       window.addEventListener("scroll", this.handleScroll);
     }
   },
   beforeDestroy() {
-    if (process.client && window.pageXOffset < 768) {
+    if (process.client && window.scrollX < 768) {
       window.removeEventListener("scroll", this.handleScroll);
     }
   },
   methods: {
     handleScroll() {
-      this.showLogo = window.pageYOffset > 300;
+      this.showLogo = window.scrollY > 300;
     },
     handleClose() {
       this.dropdownOpened = false;

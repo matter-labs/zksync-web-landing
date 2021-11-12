@@ -14,29 +14,14 @@ with zero security compromises"
         <i-collapsible variant="dark" class="_width-full" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1200">
           <i-collapsible-item>
             <template slot="title">zkSync vs <span>optimistic rollups</span></template>
-            <optimistic />
+            <block-compare-optimistic />
           </i-collapsible-item>
           <i-collapsible-item>
             <template slot="title">zkSync vs <span>other ZK rollups</span></template>
-            <other-zk />
+            <block-compare-other-zk />
           </i-collapsible-item>
         </i-collapsible>
       </i-column>
     </i-row>
   </i-container>
 </template>
-
-<script lang="ts">
-import Vue from "vue";
-
-import Optimistic from "@/blocks/compare/optimistic.vue";
-import OtherZk from "@/blocks/compare/other-zk.vue";
-
-export default Vue.extend({
-  name: "Comparison",
-  components: {
-    Optimistic,
-    OtherZk
-  }
-});
-</script>

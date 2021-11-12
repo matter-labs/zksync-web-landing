@@ -52,7 +52,7 @@ export default Vue.extend({
     }
   },
   computed: {
-    buttonVariant() {
+    buttonVariant(): string {
       return this.variant === "glow" ? "Primary" : this.variant;
     },
     buttonClass() {

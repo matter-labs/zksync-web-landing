@@ -3,12 +3,12 @@
     <a id="reviews-about-zksync" />
     <transition name="slideFromLeft">
       <div v-if="currentItem > 0" class="arrow left" @click="scrollItemBack()">
-        <v-icon name="ri-arrow-left-line" :scale="25" />
+        <v-icon name="ri-arrow-left-line" />
       </div>
     </transition>
     <transition name="slideFromRight">
       <div v-if="rightArrowDisplayed" class="arrow right" @click="scrollItemForward()">
-        <v-icon name="ri-arrow-right-line" :scale="25" />
+        <v-icon name="ri-arrow-right-line" />
       </div>
     </transition>
     <transition name="fade">
@@ -28,8 +28,7 @@
           :class="singleReview.classes"
           class="reviewItem"
           target="_blank"
-          draggable="false"
-        >
+          draggable="false">
           <div class="reviewHeader">
             <img v-if="singleReview.thumbnail" :src="getAssetUrl(singleReview.thumbnail)" :alt="singleReview.thumbnailAlt" :title="singleReview.thumbnailTitle" draggable="false" />
             <span v-if="singleReview.title">{{ singleReview.title }}</span>
@@ -42,7 +41,7 @@
             >Try <strong>Curve + zkSync</strong> testnet
           </z-button>
           <span v-if="!singleReview.isButton" class="arrowLink">
-            <v-icon name="ri-arrow-up-line" :scale="'25px'" />
+            <v-icon name="ri-arrow-up-line" :scale="25" />
           </span>
         </a>
       </div>
@@ -54,7 +53,6 @@
 import Hammer from "hammerjs";
 import Vue from "vue";
 import { PropOptions } from "vue/types";
-import ZButton from "@/components/ZButton.vue";
 
 interface Review {
   id?: string;
@@ -70,9 +68,6 @@ interface Review {
 }
 
 export default Vue.extend({
-  components: {
-    ZButton
-  },
   props: {
     reviewsData: {
       default: (): Review[] => {
@@ -208,10 +203,10 @@ export default Vue.extend({
     },
     itemsInView() {
       let inViewTotal = 0;
-      const containerSizes = ((this.$refs.container as Vue).$el as Element).getBoundingClientRect();
+      const containerSizes = ((this.$refs.container as Vue)?.$el as Element)?.getBoundingClientRect();
       const reviewItems = this.$refs.reviewItem as HTMLElement[];
       for (const itemEl of reviewItems) {
-        if (!itemEl.getBoundingClientRect) {
+        if (!itemEl?.getBoundingClientRect) {
           continue;
         }
         const itemSizes = itemEl.getBoundingClientRect();

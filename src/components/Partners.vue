@@ -30,8 +30,6 @@
 <script lang="ts">
 import Vue from "vue";
 
-import Emphasis from "@/components/Emphasis.vue";
-
 interface PartnerDataItem {
   id: string;
   img: string;
@@ -42,7 +40,6 @@ interface PartnerDataItem {
 
 export default Vue.extend({
   name: "Partners",
-  components: { Emphasis },
   props: {
     partnersData: {
       type: Array,

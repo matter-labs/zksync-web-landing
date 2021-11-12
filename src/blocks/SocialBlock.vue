@@ -1,7 +1,7 @@
 <template>
   <div class="socialIcons">
     <a v-for="(socialProfile, numIndex) in socialNetworks" :key="numIndex" :href="socialProfile.url" class="socialItem" target="_blank" :class="`icon-${socialProfile.icon}`">
-      <v-icon :name="socialProfile.icon" scale="22px" />
+      <v-icon :name="socialProfile.icon" :scale="22" />
       <span>{{ socialProfile.name }}</span>
     </a>
   </div>

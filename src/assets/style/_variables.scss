@@ -11,7 +11,7 @@ $obsidianBlack: #0a0c1a;
 $lightViolet: #8c8dfc;
 $red: #f25f5c;
 $muted: #565656;
-$whiteFaded: rgba(255, 255, 255, 0.5);
+$whiteFaded: #FFFFFF7F;
 $whiteFadedLight: rgba(255, 255, 255, 0.85);
 $colorTxt: rgba(255, 255, 255, 0.6);
 $dividerColor: transparentize(
@@ -24,28 +24,28 @@ $borderRadiusSm: 0.25rem;
 $borderRadius: 8px;
 $borderRadiusBig: 16px;
 
-$gradientRegularPieceBefore: radial-gradient(19.49% 58.52% at 50% 0%, rgba(249, 196, 60, 0.3) 0%, rgba(231, 166, 1, 0) 100%),
-  radial-gradient(50% 50% at 100% 100%, #520aeb 10.27%, rgba(159, 115, 255, 0) 100%), radial-gradient(77.86% 77.86% at 100% 0%, #00a7ff 0%, rgba(0, 166, 254, 0.12) 100%),
-  radial-gradient(50% 50% at 0% 0%, #ff8d6c 0%, rgba(255, 92, 0, 0.6) 100%), radial-gradient(70.24% 70.24% at 0% 100%, #e81d72 0%, rgba(255, 0, 0, 0) 100%);
+$gradientRegularPieceBefore: radial-gradient(19.49% 58.52% at 50% 0%, #F9C43C4C 0%, rgba(231, 166, 1, 0) 100%),
+  radial-gradient(50% 50% at 100% 100%, #520aeb 10.27%, #9F73FF00), radial-gradient(77.86% 77.86% at 100% 0%, #00a7ff 0%, #00A6FE1E 100%),
+  radial-gradient(50% 50% at 0% 0%, #ff8d6c 0%, #FF5C0099 100%), radial-gradient(70.24% 70.24% at 0% 100%, #e81d72 0%, #FF000000 100%);
 
-$gradientRegularPieceBefore: radial-gradient(19.49% 58.52% at 50% 0%, rgba(249, 196, 60, 0.3) 0%, rgba(231, 166, 1, 0) 100%),
-  radial-gradient(50% 50% at 100% 100%, #520aeb 10.27%, rgba(159, 115, 255, 0) 100%), radial-gradient(77.86% 77.86% at 100% 0%, #00a7ff 0%, rgba(0, 166, 254, 0.12) 100%),
-  radial-gradient(50% 50% at 0% 0%, #ff8d6c 0%, rgba(255, 92, 0, 0.6) 100%), radial-gradient(70.24% 70.24% at 0% 100%, #e81d72 0%, rgba(255, 0, 0, 0) 100%);
+$gradientRegularPieceBefore: radial-gradient(19.49% 58.52% at 50% 0%, #F9C43C4C 0%, rgba(231, 166, 1, 0) 100%),
+  radial-gradient(50% 50% at 100% 100%, #520aeb 10.27%, #9F73FF00), radial-gradient(77.86% 77.86% at 100% 0%, #00a7ff 0%, #00A6FE1E 100%),
+  radial-gradient(50% 50% at 0% 0%, #ff8d6c 0%, #FF5C0099 100%), radial-gradient(70.24% 70.24% at 0% 100%, #e81d72 0%, #FF000000);
 
-$gradientRegularPieceAfter: radial-gradient(19.49% 58.52% at 50% 0%, rgba(249, 196, 60, 0.3) 0%, rgba(231, 166, 1, 0) 100%),
-  radial-gradient(50% 50% at 100% 100%, #520aeb 10.27%, rgba(159, 115, 255, 0) 100%), radial-gradient(77.86% 77.86% at 100% 0%, #00a7ff 0%, rgba(0, 166, 254, 0.12) 100%),
-  radial-gradient(50% 50% at 0% 0%, #ff8d6c 0%, rgba(255, 92, 0, 0.6) 100%), radial-gradient(70.24% 70.24% at 0% 100%, #e81d72 0%, rgba(255, 0, 0, 0) 100%);
+$gradientRegularPieceAfter: radial-gradient(19.49% 58.52% at 50% 0%, #F9C43C4C 0%, rgba(231, 166, 1, 0) 100%),
+  radial-gradient(50% 50% at 100% 100%, #520aeb 10.27%, #9F73FF00), radial-gradient(77.86% 77.86% at 100% 0%, #00a7ff 0%, #00A6FE1E 100%),
+  radial-gradient(50% 50% at 0% 0%, #ff8d6c 0%, #FF5C0099 100%), radial-gradient(70.24% 70.24% at 0% 100%, #e81d72 0%, #FF000000);
 
-$zBgGradient: radial-gradient(19.49% 58.52% at 50% 0%, rgba(249, 196, 60, 0.3) 0%, rgba(231, 166, 1, 0) 100%),
-  radial-gradient(50% 50% at 100% 100%, #520aeb 10.27%, rgba(159, 115, 255, 0) 100%), radial-gradient(77.86% 77.86% at 100% 0%, #00a7ff 0%, rgba(0, 166, 254, 0.12) 100%),
-  radial-gradient(50% 50% at 0% 0%, #ff8d6c 0%, rgba(255, 92, 0, 0.6) 100%), radial-gradient(70.24% 70.24% at 0% 100%, #e81d72 0%, rgba(255, 0, 0, 0) 100%);
+$zBgGradient: radial-gradient(19.49% 58.52% at 50% 0%, #F9C43C4C 0%, rgba(231, 166, 1, 0) 100%),
+  radial-gradient(50% 50% at 100% 100%, #520aeb 10.27%, #9F73FF00), radial-gradient(77.86% 77.86% at 100% 0%, #00a7ff 0%, #00A6FE1E 100%),
+  radial-gradient(50% 50% at 0% 0%, #ff8d6c 0%, #FF5C0099 100%), radial-gradient(70.24% 70.24% at 0% 100%, #e81d72 0%, #FF000000);
 
 /**
  * Colors
  */
 $zkColorTxtHeading: #c4c4c4;
 $zkColorTxtCommon: $white;
-$zkColorTxtFaded: rgba(255, 255, 255, 0.5);
+$zkColorTxtFaded: $whiteFaded;
 $zkColorTxtFadedLight: rgba(255, 255, 255, 0.3);
 
 $zkColorBgFadedDark: rgba(0, 0, 0, 0.3);
@@ -55,18 +55,16 @@ $zkColorBorderLight: rgba(255, 255, 255, 0.1);
 
 $zkColorHover: rgba(0, 0, 0, 0.4);
 $zkColorLightWhite: rgba(24, 24, 32, 0.01);
-$zkColorVioletDark: #4e529a;
-$zkColorVioletLight: #8c8dfc;
 $zkColorVioletGradient: hsl(240deg, 4%, 5%);
-$zkColorVioletGradientAngular: conic-gradient(from 180deg at 50% 50%, rgba(0, 47, 168, 0) 0deg, #7879ff 360deg);
+$zkColorVioletGradientAngular: conic-gradient(from 180deg at 50% 50%, rgba(0, 47, 168, 0) 0deg, $lightViolet 360deg);
 
-$gradientRegularPieceBefore: radial-gradient(19.49% 58.52% at 50% 0%, rgba(249, 196, 60, 0.3) 0%, rgba(231, 166, 1, 0) 100%),
-  radial-gradient(50% 50% at 100% 100%, #520aeb 10.27%, rgba(159, 115, 255, 0) 100%), radial-gradient(77.86% 77.86% at 100% 0%, #00a7ff 0%, rgba(0, 166, 254, 0.12) 100%),
-  radial-gradient(50% 50% at 0% 0%, #ff8d6c 0%, rgba(255, 92, 0, 0.6) 100%), radial-gradient(70.24% 70.24% at 0% 100%, #e81d72 0%, rgba(255, 0, 0, 0) 100%);
+$gradientRegularPieceBefore: radial-gradient(19.49% 58.52% at 50% 0%, #F9C43C4C 0%, rgba(231, 166, 1, 0) 100%),
+  radial-gradient(50% 50% at 100% 100%, #520aeb 10.27%, #9F73FF00), radial-gradient(77.86% 77.86% at 100% 0%, #00a7ff 0%, #00A6FE1E 100%),
+  radial-gradient(50% 50% at 0% 0%, #ff8d6c 0%, #FF5C0099 100%), radial-gradient(70.24% 70.24% at 0% 100%, #e81d72 0%, #FF000000);
 
-$gradientRegularPieceAfter: radial-gradient(19.49% 58.52% at 50% 0%, rgba(249, 196, 60, 0.3) 0%, rgba(231, 166, 1, 0) 100%),
-  radial-gradient(50% 50% at 100% 100%, #520aeb 10.27%, rgba(159, 115, 255, 0) 100%), radial-gradient(77.86% 77.86% at 100% 0%, #00a7ff 0%, rgba(0, 166, 254, 0.12) 100%),
-  radial-gradient(50% 50% at 0% 0%, #ff8d6c 0%, rgba(255, 92, 0, 0.6) 100%), radial-gradient(70.24% 70.24% at 0% 100%, #e81d72 0%, rgba(255, 0, 0, 0) 100%);
+$gradientRegularPieceAfter: radial-gradient(19.49% 58.52% at 50% 0%, #F9C43C4C 0%, rgba(231, 166, 1, 0) 100%),
+  radial-gradient(50% 50% at 100% 100%, #520aeb 10.27%, #9F73FF00), radial-gradient(77.86% 77.86% at 100% 0%, #00a7ff 0%, #00A6FE1E 100%),
+  radial-gradient(50% 50% at 0% 0%, #ff8d6c 0%, #FF5C0099 100%), radial-gradient(70.24% 70.24% at 0% 100%, #e81d72 0%, #FF000000);
 
 $link-color: $lightViolet;
 $color-secondary: $violet;
@@ -85,7 +83,7 @@ $input-border-color-focus-light: #0003;
 $modal-border-radius: (
   md: 8px
 );
-$modal-border-color-dark: #ffffff14;
+$modal-border-color-dark: $input-border-color-dark;
 $modal-background-dark: $darkViolet;
 $modal-border-color-light: #180d0d14;
 $modal-background-light: $white;
@@ -108,7 +106,7 @@ $mobile: 768px;
 $maxWidth: 1370px;
 
 /* Shadows */
-$shadowTop: 0 -3px 10px rgba(0, 0, 0, 0.1);
+$shadowTop: 0 -3px 10px #00000019;
 
 /* Borders */
 $borderInsetRadius: 8px;

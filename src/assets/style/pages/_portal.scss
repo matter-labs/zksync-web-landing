@@ -1,7 +1,26 @@
-.indexPage {
+.portalPage {
   .row.-center {
     p {
       white-space: nowrap !important;
+    }
+  }
+
+  .badgeFilterBar {
+
+  }
+
+  .linearGradient {
+    font-size: 16px;
+    font-variant: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: transparent;
+    color: transparent !important;
+
+    @supports (-webkit-background-clip: text) and (-webkit-text-fill-color: transparent) {
+      background-image: linear-gradient(272.04deg, #cbcbff 46.24%, $lightViolet 99.45%) !important;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
   }
 
@@ -32,6 +51,11 @@
     text-align: center;
     font-weight: 700;
     margin-bottom: 15px;
+
+    .emphasis {
+      font-size: 2rem !important;
+      color: #fff9 !important
+    }
   }
 
   .indexFullScreen {
@@ -44,8 +68,8 @@
     padding-bottom: 20px;
     height: calc(var(--app-height) - 84px) !important;
 
-    @media screen and (max-height: 770px) {
-      height: calc(var(--app-height) - 84px);
+    @media screen and (max-width: $mobile) {
+      overflow: hidden scroll;
     }
 
     h1 {
@@ -55,7 +79,7 @@
       font-size: 80px;
       line-height: 96px;
       text-align: center;
-      color: #fff;
+      color: $white;
     }
 
     .grayText {
@@ -64,16 +88,8 @@
       font-weight: normal;
       font-size: 24px;
       line-height: 140%;
-
-      /* or 34px */
-
       text-align: center;
-
-      /* Text/faded */
-
       color: $whiteFaded;
-
-      /* or 34px */
 
       .emphasis {
         color: $white !important;

@@ -1,41 +1,49 @@
 {
+  "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
-    "allowJs": true,
-    "baseUrl": "./src",
-    "checkJs": false,
-    "declaration": true,
-    "esModuleInterop": true,
-    "experimentalDecorators": true,
+    "jsx": "preserve",
+    "target": "ES2018",
+    "module": "ESNext",
+    "moduleResolution": "Node",
     "lib": [
-      "es2019",
-      "dom",
-      "esnext",
-      "esnext.asynciterable"
+      "ESNext",
+      "ESNext.AsyncIterable",
+      "dom"
     ],
-    "module": "esnext",
-    "moduleResolution": "node",
-    "noEmit": true,
-    "noImplicitAny": true,
-    "paths": {
-      "@/*": [
-        "*"
-      ],
-      "~/*": [
-        "*"
-      ]
-    },
-    "suppressImplicitAnyIndexErrors": true,
-    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowJs": true,
     "sourceMap": true,
     "strict": true,
-    "target": "ESNext",
+    "noEmit": true,
+    "baseUrl": "./src",
+    "paths": {
+      "~/*": [
+        "./*"
+      ],
+      "@/*": [
+        "./*"
+      ],
+      "~~/*": [
+        "./*"
+      ],
+      "@@/*": [
+        "./*"
+      ]
+    },
     "types": [
       "@types/node",
       "@nuxt/types",
-      "@nuxtjs/sentry",
       "@nuxt/vue-app",
-      "vue-router",
-      "@inkline/inkline/types"
+      "lodash",
+      "@inkline/inkline"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    ".nuxt",
+    "dist",
+    "public",
+    ".github",
+    "environments"
     ]
   }
-}
