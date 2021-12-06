@@ -10,9 +10,22 @@
       class="newsletterInput"
       @submit="submit"
     >
-      <input v-model="email" :disabled="loading" placeholder="Your e-mail" required type="email" name="EMAIL" @blur="focused = false" @focus="focused = true" />
-      <i-button type="submit" class="submitBtn" size="lg" variant="secondary"> Subscribe </i-button>
-      <div class="_display-none" aria-hidden="true"><input name="b_ef8545da9c594ae082297352d_fa715c9af0" tabindex="-1" value="" /></div>
+      <input
+        v-model="email"
+        :disabled="loading"
+        placeholder="Your e-mail"
+        required
+        type="email"
+        name="EMAIL"
+        @blur="focused = false"
+        @focus="focused = true"
+      >
+      <i-button type="submit" class="submitBtn" size="lg" variant="secondary">
+        Subscribe
+      </i-button>
+      <div class="_display-none" aria-hidden="true">
+        <input name="b_ef8545da9c594ae082297352d_fa715c9af0" tabindex="-1" value="">
+      </div>
     </form>
   </div>
 </template>

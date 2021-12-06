@@ -1,16 +1,8 @@
-.husky
-.ide-setup
-.idea
-.nuxt
-.yarn
-environments
 node_modules
+.nuxt
+src/static/*
+.github
+.idea
 public
-tests
-
-## src-exceptions
-src/assets/fonts
-.github/workflows
-.github/ISSUE_TEMPLATE
-src/locales
-*sw.*
+.eslintrc.js
+/.yarn/

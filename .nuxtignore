@@ -1,3 +1,7 @@
-.github/*
-.idea/*
-environments/*
+tsconfig.json
+public
+.nuxt
+.github
+.yarn
+.firebase
+.idea

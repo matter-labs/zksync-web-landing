@@ -603,6 +603,11 @@
       line-height: initial !important;
       display: inline-flex;
       align-self: center;
+
+      @media screen and (max-width: $mobile) {
+        height: 20px !important;
+        margin: 0 5px !important;
+      }
     }
   }
 
@@ -761,6 +766,10 @@
       .bottomBlock {
         .socialIcons {
           margin: 2rem auto 2.3rem;
+
+          .socialItem svg {
+            height: 20px !important;
+          }
         }
       }
 
@@ -835,7 +844,7 @@
   .indexPage {
     .grayText {
       font-size: 18px !important;
-      max-width: calc(100vw - 30px) !important;
+      max-width: 70vw !important;
 
       &.subheaderText {
         font-size: 18px !important;
@@ -847,6 +856,18 @@
       }
 
       white-space: initial !important;
+
+      & > div {
+        align-items: baseline !important;
+      }
+
+      a.CtaButton {
+        align-items: baseline !important;
+
+        .HoverArrow {
+          align-self: center !important;
+        }
+      }
     }
 
     .h2 {
@@ -1115,6 +1136,10 @@
             svg {
               height: 35px !important;
               font-size: 35px;
+
+              @media screen and (max-width: $mobile) {
+                height: 20px !important;
+              }
             }
 
             span {

@@ -1,7 +1,15 @@
 <template>
-  <i-button :class="buttonClass" :href="href" :size="size" :target="target" :variant="buttonVariant" :outline="outline"
-    ><span><slot /></span
-  ></i-button>
+  <i-button
+    :class="buttonClass"
+    :href="href"
+    :outline="outline"
+    :size="size"
+    :target="target"
+    :to="to"
+    :variant="buttonVariant"
+  >
+    <span><slot /></span>
+  </i-button>
 </template>
 
 <script lang="ts">
@@ -21,6 +29,11 @@ export default Vue.extend({
       default: "_blank"
     },
     href: {
+      required: false,
+      type: String,
+      default: null
+    },
+    to: {
       required: false,
       type: String,
       default: null

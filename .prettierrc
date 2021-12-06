@@ -1,11 +1,4 @@
 {
-  "semi": true,
-  "trailingComma": "none",
-  "singleQuote": false,
-  "jsxSingleQuote": false,
   "printWidth": 180,
-  "tabWidth": 2,
-  "vueIndentScriptAndStyle": false,
-  "endOfLine": "auto",
-  "eol-last": "always"
+  "semi": true
 }

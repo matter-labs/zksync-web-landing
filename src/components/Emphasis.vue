@@ -6,7 +6,7 @@
       src="@/assets/images/pages/index/symbol-logo.svg"
       alt="zkSync is Ethereum’s most user-centric ZK rollup"
       title="zkSync solves Ethereum scalability with zero security compromises"
-    />
+    >
     {{ brandName }}
   </i-badge>
 </template>
@@ -30,3 +30,14 @@ export default Vue.extend({
   }
 });
 </script>
+<style lang="scss">
+.emphasis {
+  display: inline-flex !important;
+  align-items: baseline;
+  flex-flow: row nowrap;
+
+  img {
+    margin-right: 0.25rem;
+  }
+}
+</style>

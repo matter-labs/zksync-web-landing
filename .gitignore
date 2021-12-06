@@ -1,13 +1,11 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Node template
 # Logs
-logs
+/logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-lerna-debug.log*
-
-# Diagnostic reports (https://nodejs.org/api/report.html)
-report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
 # Runtime data
 pids
@@ -20,12 +18,14 @@ lib-cov
 
 # Coverage directory used by tools like istanbul
 coverage
-*.lcov
 
 # nyc test coverage
 .nyc_output
 
-# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+# cypress coverage
+cypress
+
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
 # Bower dependency directory (https://bower.io/)
@@ -44,20 +44,11 @@ jspm_packages/
 # TypeScript v1 declaration files
 typings/
 
-# TypeScript cache
-*.tsbuildinfo
-
 # Optional npm cache directory
 .npm
 
 # Optional eslint cache
 .eslintcache
-
-# Microbundle cache
-.rpt2_cache/
-.rts2_cache_cjs/
-.rts2_cache_es/
-.rts2_cache_umd/
 
 # Optional REPL history
 .node_repl_history
@@ -70,61 +61,57 @@ typings/
 
 # dotenv environment variables file
 .env
-.env.test
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 
-# Next.js build output
+# parcel-bundler cache (https://parceljs.org/)
+.brotli_cache/
+.gzip_cache/
+.assets_cache/
+.buildx-cache/
+
+# next.js build output
 .next
 
-# Nuxt.js build / generate output
+# nuxt.js build output
 .nuxt
-dist
+_nuxt
+public
 
-# Gatsby files
-.cache/
-# Comment in the public line in if your project uses Gatsby and *not* Next.js
-# https://nextjs.org/blog/next-9-1#public-directory-support
-# public
+
+# Nuxt generate
+dist
 
 # vuepress build output
 .vuepress/dist
 
 # Serverless directories
-.serverless/
+.serverless
 
-# FuseBox cache
-.fusebox/
+# IDE / Edito
+.idea
+.vscode
 
-# Firebase cache
-.firebase/
+# Service worker
+sw.*
 
-# DynamoDB Local files
-.dynamodb/
-
-# TernJS port file
-.tern-port
-
-# MacOS garbage
+# macOS
 .DS_Store
 
+# Vim swap files
+*.swp
+.yarn
 
-# Nuxt dev/build outputs
-.output
-# Node dependencies
-node_modules
-# System files
-/.idea/
-!/.editorconfig
+# Unignore yarn release
+!.yarn/releases/*.cjs
+.firebase
 
-
-# Nuxt3 ignores
-nuxt.d.ts
-*.env.*
-/.netlify/
-/.yarn/cache/
-/build/
-/.yarn/install-state.gz
-/public/.nojekyll
-/public/
+# unignore
+!public/.gitignore
+!.yarn/releases/*
+!.yarn/plugins/@yarnpkg/plugin-interactive-tools.cjs
+!.yarn/plugins/@yarnpkg/plugin-version.cjs
+/cypress/screenshots/examples/misc.spec.js/
+/cypress/videos/examples/
+/.eslintcache

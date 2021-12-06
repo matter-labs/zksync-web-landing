@@ -1,49 +1,49 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
-    "jsx": "preserve",
-    "target": "ES2018",
-    "module": "ESNext",
-    "moduleResolution": "Node",
+    "allowJs": true,
+    "baseUrl": "./src/",
+    "checkJs": false,
+    "declaration": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
     "lib": [
       "ESNext",
       "ESNext.AsyncIterable",
-      "dom"
+      "DOM"
     ],
-    "esModuleInterop": true,
-    "allowJs": true,
-    "sourceMap": true,
-    "strict": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
     "noEmit": true,
-    "baseUrl": "./src",
+    "noImplicitAny": true,
     "paths": {
       "~/*": [
         "./*"
       ],
       "@/*": [
         "./*"
-      ],
-      "~~/*": [
-        "./*"
-      ],
-      "@@/*": [
-        "./*"
       ]
     },
+    "suppressImplicitAnyIndexErrors": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "ES2018",
     "types": [
-      "@types/node",
       "@nuxt/types",
-      "@nuxt/vue-app",
-      "lodash",
-      "@inkline/inkline"
+      "@types/node",
+      "@nuxtjs/sentry",
     ]
   },
   "exclude": [
     "node_modules",
     ".nuxt",
-    "dist",
     "public",
+    ".husky",
+    "dist",
+    ".nuxt",
     ".github",
-    "environments"
-    ]
-  }
+    ".yarn",
+    "tests"
+  ]
+}

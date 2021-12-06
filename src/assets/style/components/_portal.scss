@@ -1,3 +1,26 @@
+.portalPage {
+  #portalIntegrations {
+    .container {
+      width: 90%;
+      padding-right: 0;
+      padding-left: 0;
+
+      @media screen and (min-width: 992px) {
+        min-width: fit-content;
+        max-width: 1200px;
+        width: auto;
+
+        .badgeFilterBar {
+          display:flex;
+          flex-flow: row nowrap;
+        }
+
+      }
+    }
+  }
+}
+
+
 #portalIntegrations {
   .h2 {
     span {

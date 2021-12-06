@@ -1,11 +1,12 @@
 <template>
-  <div class="portalPage">
-    <div class="indexFullScreen">
-      <portal-teaser :single-page="true" />
-    </div>
+  <div class="indexPage">
+    <z-hero />
+    <block-zk-tools class="_padding-y-2 _padding-top-md-4 _padding-bottom-md-4" />
+    <portal-teaser />
+    <block-community />
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
   </div>
 </template>
-
 <script lang="ts">
 import Vue from "vue";
 
@@ -53,3 +54,6 @@ export default Vue.extend({
   }
 });
 </script>
+<style lang="scss">
+
+</style>

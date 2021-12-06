@@ -1,6 +1,13 @@
 <template>
-  <div class="reviewsContainer" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
-    <a id="reviews-about-zksync" />
+  <div class="blockZkTools reviewsContainer" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
+    <a id="zksync-native-tools" />
+    <zk-atom-section-header>
+      <template>
+        Made by
+        <emphasis :show-logo="true" />
+      </template>
+    </zk-atom-section-header>
+
     <transition name="slideFromLeft">
       <div v-if="currentItem > 0" class="arrow left" @click="scrollItemBack()">
         <v-icon name="ri-arrow-left-line" />
@@ -26,28 +33,21 @@
           ref="reviewItem"
           :href="singleReview.link"
           :class="singleReview.classes"
-          class="reviewItem"
+          class="zkToolItem reviewItem"
           target="_blank"
           draggable="false"
         >
-          <div class="reviewHeader">
-            <img v-if="singleReview.thumbnail" :src="getAssetUrl(singleReview.thumbnail)" :alt="singleReview.thumbnailAlt" :title="singleReview.thumbnailTitle" draggable="false">
-            <span v-if="singleReview.title">{{ singleReview.title }}</span>
-          </div>
           <div class="reviewText">
+            <div
+              data-v-93352a30=""
+              class="badge zk-badge -sm -success"
+              style=""
+            >{{ singleReview.version }}
+            </div>
+            <h4 class="zkToolName _text-gradient-zk">{{ singleReview.title }}</h4>
             {{ singleReview.text }}
-            <i-badge v-if="singleReview.isUpcoming" variant="secondary _upcoming-h3">upcoming</i-badge>
           </div>
-          <z-button
-            v-if="singleReview.isButton"
-            css-class="width-300"
-            href="https://zksync.curve.fi"
-            outline="outline"
-            size="xs"
-            target="_blank"
-          >Try <strong>Curve + zkSync</strong> testnet
-          </z-button>
-          <span v-if="!singleReview.isButton" class="arrowLink">
+          <span class="arrowLink">
             <v-icon name="ri-arrow-up-line" :scale="25" />
           </span>
         </a>
@@ -58,114 +58,88 @@
 
 <script lang="ts">
 import Hammer from "hammerjs";
-import Vue from "vue";
-import { PropOptions } from "vue/types";
+import Vue, { PropOptions } from "vue";
 
 interface Review {
   id?: string;
   classes?: string;
   title?: string;
   link: string;
-  thumbnail: string;
-  thumbnailAlt: string;
-  thumbnailTitle: string;
   text: string;
   order: number;
   mobileOrder: number;
+  version: string;
 }
 
 export default Vue.extend({
+  name: "BlockZkTools",
   props: {
     reviewsData: {
       default: (): Review[] => {
         return [
           {
-            link: "https://resources.curve.fi/guides/more.../layer-2-meets-curve-with-zksync",
-            thumbnail: "curve.svg",
-            thumbnailAlt: "Curve Finance - automatic market-making for stablecoins and not only",
-            thumbnailTitle: "Curve + zkSync L2: Ethereum’s first user-defined ZK rollup smart contract!",
-            text: "ZK rollups are extremely secure even with a single validator, as they rely on pure math",
+            title: "zkWallet",
+            link: "https://wallet.zksync.io",
+            text: "Safe 🔒 L2-wallet that just works: enjoy accessible & intuitive UI, low-fees & NFT-support. Top-up by fiat directly into L2. Safely withdraw to L1 any time.\n" +
+              "Pay or get paid & forget about congested network",
             order: 0,
-            mobileOrder: 1,
-          },
-          {
-            title: "imToken",
-            link: "https://medium.com/imtoken/imtoken-and-matter-labs-join-forces-to-support-zksync-5554e931db48",
-            thumbnail: "imtoken.svg",
-            thumbnailAlt: "imToken is an easy and secure digital wallet trusted by millions",
-            thumbnailTitle: "imToken is an easy and secure digital wallet trusted by millions",
-            text: "Natively supporting zkSync brings us one step further towards our goal of providing a simple, easy-to-use, reliable wallet product.",
-            order: 1,
             mobileOrder: 2,
+            version: "1.x"
           },
           {
-            link: "https://vitalik.ca/general/2021/01/05/rollup.html#conclusions",
-            thumbnail: "buter.png",
-            thumbnailAlt: "Vitalik Buterin, co-founder of Ethereum about zkSynk",
-            thumbnailTitle: "Writer who is best known as one of the co-founders of Ethereum, involved with cryptocurrency early in its inception",
-            text: "In the medium to long term ZK rollups will win out in all use cases as ZK-SNARK technology improves.",
-            title: "Vitalik Buterin",
+            title: "zkEvm",
+            link: "https://uni.zksync.io",
+            text: "We ported Uniswap v2 smart contracts and frontend on the first ever fully functional zk-EVM testnet. It uses native Solidity compiled contract, " +
+              "made with original frontend using standard web3 API and is signed natively",
             order: 2,
-            mobileOrder: 0,
+            mobileOrder: 1,
+            version: "2.0"
           },
           {
-            classes: "small-text round-thumbnail",
-            title: "Argent",
-            link: "https://www.argent.xyz/blog/layer-2-plans/",
-            thumbnail: "argent.svg",
-            thumbnailAlt: "Argent at @argentHQ",
-            thumbnailTitle: "Argent at @argentHQ",
-            text: `...Our choice came down to the fact that zkSync has been live on mainnet for months, has lower transaction costs and fast finality.
-            ZkSync also does not have a one-week delay on withdrawals`,
-            order: 3,
+            title: "Checkout",
+            link: "https://checkout.zksync.io",
+            text: "Getting paid in crypto never been easier. Spent minutes to set your own crypto-checkout up without single code line & use our hosted dApp to get paid\n" +
+              "fast, easy, permissionless and 🔒 secured on L2",
+            order: 1,
             mobileOrder: 3,
-          },
-          {
-            id: "balancer-review",
-            link: "https://twitter.com/mikeraymcdonald/status/1321095035539148800?s=21",
-            thumbnail: "balancer.svg",
-            thumbnailAlt: "Mike McDonal, CTO @BalancerLabs",
-            thumbnailTitle: "Mike McDonal, Co-founder & CTO @BalancerLabs. Security Engineer about ZK Rollups",
-            text: "ZK rollups are the most promising (and the only scaling path Balancer is exploring internally atm).",
-            order: 4,
-            mobileOrder: 4,
-          },
+            version: "1.x"
+          }
         ] as Array<Review>;
       },
       required: false,
-      type: Array,
-    } as PropOptions<Review[]>,
+      type: Array
+    } as PropOptions<Review[]>
   },
   data() {
     return {
       totalItems: this.reviewsData.length,
       currentItem: 0,
       displayRightArrow: true,
-      scrollOffset: 0,
+      scrollOffset: 0
     };
   },
   computed: {
     preparedReviews(): Review[] {
       return (this.reviewsData as Review[]).sort((reviewItem1, reviewItem2) => {
-        const sortParam = window.screen.availWidth > 768 ? "order" : "mobileOrder";
-        return reviewItem1[sortParam] > reviewItem2[sortParam] ? 1 : -1;
+        const sortParam = window.screen.availWidth > 768 ? "order":"mobileOrder";
+        return reviewItem1[sortParam] > reviewItem2[sortParam] ? 1:-1;
       });
     },
     leftPosition(): number {
-      if (this.$refs.container && Math.max(1, this.itemsInView()) === 1) {
+      if (this.$refs.container && Math.max(1, this.itemsInView())===1) {
         return Math.max(0, this.currentItem * 257 - 10);
       }
       return Math.max(0, this.currentItem * 257 - 10);
     },
     rightArrowDisplayed(): boolean {
       return this.currentItem < this.totalItems - 1 && this.displayRightArrow;
-    },
+    }
   },
   watch: {
     currentItem() {
       this.checkArrowDisplay();
       this.scrollOffset = 0;
-    },
+    }
   },
   mounted() {
     setTimeout(() => {
@@ -180,7 +154,7 @@ export default Vue.extend({
     }
     const $hammer = new Hammer(galleryBlock as HTMLElement);
     $hammer.on("pan", (e) => {
-      if (e.direction !== 2 && e.direction !== 4) {
+      if (e.direction!==2 && e.direction!==4) {
         return;
       }
       this.scrollOffset = Math.min(Math.abs(e.deltaX), 360) * Math.sign(e.deltaX);
@@ -234,7 +208,42 @@ export default Vue.extend({
      */
     getAssetUrl(img: string) {
       return require("@/assets/images/pages/index/" + img);
-    },
-  },
+    }
+  }
 });
 </script>
+<style lang="scss">
+.blockZkTools {
+  a.zkToolItem {
+    padding: 1.6rem 1.25rem !important;
+
+
+    .zk-badge {
+      line-height: 19px !important;
+      text-align: center !important;
+      font-size: 12px !important;
+      vertical-align: middle !important;
+      padding: 0 6px 0 4px !important;
+      top: -5 px !important;
+      left: initial !important;
+      right: -0.5 rem !important;
+      position: relative !important;
+      font-weight: 300 !important;
+      letter-spacing: -0.01rem;
+      transition: background-color ease 0.27s !important;
+      will-change: background-color;
+      background: #4e529a !important;
+      height: 20px;
+    }
+
+    h4.zkToolName {
+      font-size: 2.25rem;
+      line-height: 3rem;
+      display: block;
+      margin: 0 0 0.75rem;
+      text-align: left;
+      font-weight: 700;
+    }
+  }
+}
+</style>

@@ -27,7 +27,7 @@ export default Vue.extend({
     (this as any).$inkline.config.variant = "dark"; /* Vue 2 TS doesn't support custom global properties, therefore we need to bypass type checking */
   },
   mounted() {
-    if (process.client) {
+    if (!this.$isServer) {
       window.history.scrollRestoration = "manual";
     }
     this.handlePageScroll();
@@ -35,7 +35,7 @@ export default Vue.extend({
   methods: {
     handlePageScroll() {
       const lastScroll = this.$store.getters["scroll/getLastScroll"];
-      document.documentElement.scrollTop = lastScroll !== false ? lastScroll.y : 0;
+      document.documentElement.scrollTop = lastScroll!==false ? lastScroll.y:0;
     }
   }
 });

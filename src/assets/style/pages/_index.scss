@@ -1077,6 +1077,9 @@
         .h2 {
           font-size: 24px;
         }
+        span, a {
+          white-space: nowrap;
+        }
       }
 
       .bottomBlock {

@@ -1,14 +1,29 @@
 {
   "projects": {
-    "default": "zksync-website"
+    "default": "zsync-dapp-checkout"
   },
   "targets": {
-    "zksync-website": {
+    "zsync-dapp-checkout": {
       "hosting": {
-        "live": [
-          "zksync-website"
+        "prod-mainnet": [
+          "zsync-dapp-checkout"
+        ],
+        "prod-rinkeby": [
+          "rinkeby-checkout-zksync"
+        ],
+        "prod-ropsten": [
+          "ropsten-checkout-zksync"
+        ],
+        "rinkeby-beta": [
+          "rinkeby-beta-checkout-zksync"
+        ],
+        "ropsten-beta": [
+          "ropsten-beta-checkout-zksync"
+        ],
+        "staging": [
+          "staging-checkout-v1-zksync"
         ]
       }
+    }
   }
-}
 }

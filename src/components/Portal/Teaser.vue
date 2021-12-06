@@ -1,30 +1,25 @@
 <template>
   <section id="portalIntegrations" class="_padding-y-2 _margin-bottom-2 _margin-top-2">
     <i-container>
-      <div class="h2" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1200" v-if="!singlePage">
-        A growing
-        <emphasis brand-name="" :show-logo="true" />
-        movement
-      </div>
-      <div class="h2" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1200" v-else>
-        <emphasis :show-logo="true" />
-        <span class="bg-clip-text text-transparent headerGradientTxt">Portal</span>
+      <div class="h2" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1200">
+        Explore the
+        <emphasis brand-name="Ecosystem" :show-logo="true" />
       </div>
       <div class="subheaderText grayText">
-        Join the for<span>eth</span>inkers in the
-        <emphasis brand-name="zkSync" :show-logo="false" />
-        ecosystem
+        These integrations are created by growing zkSync-community
       </div>
       <div class="badgeFilterBar">
-        <i-badge :variant="filterType === null ? 'primary' : 'outline'" size="md" @click.native="filterData(null)">All</i-badge>
+        <i-badge :variant="filterType === '' ? 'primary' : 'outline'" size="md" @click.native="filterData('')">
+          All
+        </i-badge>
         <i-badge v-for="singleType in uniqueTypes" :key="singleType" :variant="filterType === singleType ? 'primary' : 'outline'" size="md" @click.native="filterData(singleType)">
           {{ singleType }}
         </i-badge>
       </div>
     </i-container>
     <i-container fluid>
-      <div class="sponsorsContainer _margin-y-2" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1200">
-        <a
+      <div class="itemsIntegrationContainer _margin-y-2" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1200">
+        <portal-item-card
           v-for="singlePartner in filteredPartners"
           :id="singlePartner.id"
           :key="singlePartner.id"
@@ -32,22 +27,22 @@
           target="_blank"
           class="integration"
         >
-          <img :src="getAssetUrl(singlePartner.img)" :alt="singlePartner.alt" :title="singlePartner.title" />
+          <img :src="getAssetUrl(singlePartner.img)" :alt="singlePartner.alt" :title="singlePartner.title">
           <h3>
             {{ singlePartner.title }}
-            <i-badge v-show="!filterType" variant="success" size="sm">{{ singlePartner.type }}</i-badge>
+            <i-badge v-show="!filterType" variant="success" size="sm">
+              {{ singlePartner.type }}
+            </i-badge>
           </h3>
-        </a>
+        </portal-item-card>
       </div>
     </i-container>
-    <i-row center data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000" v-if="!singlePage">
-      <z-button to="/portal" variant="glow" size="lg" css-class="antilink">More integrations</z-button>
-    </i-row>
   </section>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
+import PortalItemCard from "~/components/Portal/ItemBlock.vue";
 
 interface IntegrationDataItem {
   id: string;
@@ -60,6 +55,7 @@ interface IntegrationDataItem {
 
 export default Vue.extend({
   name: "PortalTeaser",
+  components: { PortalItemCard },
   props: {
     filter: {
       type: String,
@@ -178,15 +174,15 @@ export default Vue.extend({
   },
   data() {
     return {
-      filterType: <null | string>null
+      filterType: ""
     };
   },
   computed: {
     filteredPartners(): IntegrationDataItem[] {
       let partnersData = this.partnersData as IntegrationDataItem[];
       // console.log("unfiltered", partnersData);
-      if (this.filterType !== null) {
-        partnersData = partnersData.filter((singlePartner) => singlePartner.type === this.filterType);
+      if (this.filterType!=="") {
+        partnersData = partnersData.filter((singlePartner) => singlePartner.type===this.filterType);
       }
       if (this.limit > 0) {
         partnersData?.splice(this.limit + 1);
@@ -195,7 +191,7 @@ export default Vue.extend({
       return partnersData;
     },
     uniqueTypes(): string[] {
-      const types = <string[]>[];
+      const types = [] as string[];
       const data = this.partnersData as IntegrationDataItem[];
       data.forEach((singlePartner: IntegrationDataItem): void => {
         if (!types.includes(singlePartner.type)) {
@@ -216,3 +212,11 @@ export default Vue.extend({
   }
 });
 </script>
+<style lang="scss">
+.itemsIntegrationContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+</style>

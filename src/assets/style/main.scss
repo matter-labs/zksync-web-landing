@@ -4,12 +4,14 @@
 @import "./basic";
 @import "./transitions";
 @import "./fonts";
+
 @import "./aos.css";
 
 //zk
 @import "./zkDS/base";
 @import "./zkDS/table";
 @import "./zkDS/cta";
+@import "./utils";
 
 //Layouts
 @import "./layouts/default";

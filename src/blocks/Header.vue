@@ -45,17 +45,26 @@
                 trigger="click"
                 variation="dark"
               >
-                <a class="dropDownHandler linkItem _position-top-0" @click.capture="dropdownOpened = !dropdownOpened"
-                  >zkTools
+                <a
+                  class="dropDownHandler linkItem _position-top-0"
+                  @click.capture="dropdownOpened = !dropdownOpened"
+                >zkTools
                   <v-icon
                     :class="{ 'fa-chevron-up': dropdownOpened, 'fa-chevron-down': !dropdownOpened }"
                     class="fal"
                     :name="dropdownOpened ? 'bi-chevron-up' : 'bi-chevron-down'"
                     scale="0.8"
-                /></a>
+                  />
+                </a>
                 <i-dropdown-menu v-model="dropdownOpened">
-                  <i-dropdown-item v-for="(item, index) in dropdownOptions" :key="index" :href="item.link" target="_blank" @click.capture="dropdownOpened = false"
-                    >{{ item.name }}
+                  <i-dropdown-item
+                    v-for="(item, index) in dropdownOptions"
+                    :key="index"
+                    :href="item.link"
+                    target="_blank"
+                    @click.capture="dropdownOpened = false"
+                  >
+                    {{ item.name }}
                   </i-dropdown-item>
                 </i-dropdown-menu>
               </i-dropdown>
@@ -122,12 +131,12 @@ export default Vue.extend({
     };
   },
   beforeMount() {
-    if (process.client && window.scrollX < 768) {
+    if (window.scrollX < 768) {
       window.addEventListener("scroll", this.handleScroll);
     }
   },
   beforeDestroy() {
-    if (process.client && window.scrollX < 768) {
+    if (window.scrollX < 768) {
       window.removeEventListener("scroll", this.handleScroll);
     }
   },
