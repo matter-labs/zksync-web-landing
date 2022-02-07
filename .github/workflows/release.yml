@@ -12,6 +12,7 @@ jobs:
   release:
     if: ${{ github.event.repository.full_name == github.repository }} && {{ !contains(github.event.head_commit.message, "skip ci") }}
     runs-on: ubuntu-latest
+    environment: dev
     steps:
       - uses: actions/checkout@v2
         with:
@@ -54,7 +55,7 @@ jobs:
           HUSKY: 0
           CI: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_TOKEN: ${{ secrets.SEMANTIC_RELEASE_TOKEN }}
+          GH_TOKEN: ${{ secrets.SEMANTIC_RELEASE_GITHUB_TOKEN }}
       - name: Publish artifact
         uses: actions/upload-artifact@v2
         with:
