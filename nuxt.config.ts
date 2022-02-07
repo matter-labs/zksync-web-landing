@@ -375,6 +375,10 @@ export default {
    * Nuxt.js dev-modules (built from devDependencies
    */
   buildModules: [
+    // https://go.nuxtjs.dev/typescript
+    "@nuxt/typescript-build",
+    // https://go.nuxtjs.dev/stylelint
+    "@nuxtjs/stylelint-module",
     "@nuxtjs/composition-api/module",
     "@nuxt/postcss8",
     [
@@ -383,7 +387,6 @@ export default {
         scss: ["@/assets/variables.scss"],
       },
     ],
-    "@nuxt/typescript-build",
   ],
 
   /**

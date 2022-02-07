@@ -1,12 +1,7 @@
 <template>
-  <i-button
-      :class="buttonClass"
-      :href="href"
-      :size="size"
-      :target="target"
-      :variant="buttonVariant"
-      :outline="outline"
-  ><span><slot/></span></i-button>
+  <i-button :class="buttonClass" :href="href" :size="size" :target="target" :variant="buttonVariant" :outline="outline"
+    ><span><slot /></span
+  ></i-button>
 </template>
 
 <script lang="ts">

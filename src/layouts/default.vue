@@ -13,12 +13,8 @@
 <script lang="ts">
 import Vue from "vue";
 
-import headerComponent from "@/blocks/Header.vue";
-
-/* AOS doesn't support TS */
-// @ts-ignore: Unreachable code error
 import AOS from "aos";
-
+import headerComponent from "@/blocks/Header.vue";
 import footerComponent from "@/blocks/Footer.vue";
 
 export default Vue.extend({
@@ -33,12 +29,10 @@ export default Vue.extend({
     AOS.init({
       once: true,
     });
-    (this as any).$inkline.config.variant = "dark"; /* Vue 2 TS doesn't support custom global properties, therefore we need to bypass type checking */
+    this.$inkline.config.variant = "dark"; /* Vue 2 TS doesn't support custom global properties, therefore we need to bypass type checking */
   },
   mounted() {
-    if (process.client) {
-      window.history.scrollRestoration = "manual";
-    }
+    window.history.scrollRestoration = "manual";
     this.handlePageScroll();
   },
   methods: {

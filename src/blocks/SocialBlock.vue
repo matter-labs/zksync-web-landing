@@ -1,12 +1,7 @@
 <template>
   <div class="socialIcons">
-    <a
-      v-for="(socialProfile, numIndex) in socialNetworks"
-      :key="numIndex"
-      :href="socialProfile.url"
-      class="socialItem"
-      target="_blank">
-      <i :class="[socialProfile.icon,'fab']"/>
+    <a v-for="(socialProfile, numIndex) in socialNetworks" :key="numIndex" :href="socialProfile.url" class="socialItem" target="_blank">
+      <i :class="[socialProfile.icon, 'fab']" />
       <span>{{ socialProfile.name }}</span>
     </a>
   </div>

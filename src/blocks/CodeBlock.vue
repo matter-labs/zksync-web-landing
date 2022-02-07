@@ -7,29 +7,31 @@
           <div class="yellow"></div>
           <div class="green"></div>
         </div>
-        <div class="fileTab codeText" :class="{'error': !!error}">filename.{{ transpiled ? 'zinc' : 'sol' }}</div>
+        <div class="fileTab codeText" :class="{ error: !!error }">filename.{{ transpiled ? "zinc" : "sol" }}</div>
         <div class="errorText">{{ error }}</div>
       </div>
       <transition name="fade">
-        <div v-if="opened===false || loading===true" class="overlay">
-          <img v-if="!loading" alt="By developers, for developers" src="@/assets/images/pages/index/code.jpg">
+        <div v-if="opened === false || loading === true" class="overlay">
+          <img v-if="!loading" alt="By developers, for developers" src="@/assets/images/pages/index/code.jpg" />
           <div v-else class="loaderContainer">
-            <loader/>
+            <loader />
           </div>
         </div>
       </transition>
     </div>
     <div class="codeBlockFooter">
       <div class="buttonBlock">
-        <i-button v-if="opened===false" class="_padding-x-2 antilink" size="lg" variant="secondary" :href="'/dev'" target="_blank">
-          Get started!
-        </i-button>
-        <div v-else-if="transpiled===false" class="buttonGrid">
-          <i-button class="_padding-x-2" size="lg" variant="secondary"
-                    :disabled="!code || code.length<=0 || loading" @click="transpile()">
-            Transpile!
-          </i-button>
-          <i-button size="lg" class="fal fa-times-circle _text-white _padding-x-2" @click="transpiled=false;opened=false;">
+        <i-button v-if="opened === false" class="_padding-x-2 antilink" size="lg" variant="secondary" :href="'/dev'" target="_blank"> Get started! </i-button>
+        <div v-else-if="transpiled === false" class="buttonGrid">
+          <i-button class="_padding-x-2" size="lg" variant="secondary" :disabled="!code || code.length <= 0 || loading" @click="transpile()"> Transpile! </i-button>
+          <i-button
+            size="lg"
+            class="fal fa-times-circle _text-white _padding-x-2"
+            @click="
+              transpiled = false;
+              opened = false;
+            "
+          >
           </i-button>
         </div>
         <div v-else class="buttonGrid">
@@ -39,8 +41,8 @@
             </i-button>
             <template slot="body">Copied!</template>
           </i-tooltip>
-          <i-button class="_padding-x-2" size="lg" variant="transparent" @click="transpiled=false">
-            <em class="fal fa-pen-alt _text-white"/>
+          <i-button class="_padding-x-2" size="lg" variant="transparent" @click="transpiled = false">
+            <em class="fal fa-pen-alt _text-white" />
           </i-button>
         </div>
       </div>

@@ -6,7 +6,7 @@
 /public/
 *.example
 node_modules
-.eslintrc.js
+.eslintrc
 src/assets/fonts
 *.css
 *.svg

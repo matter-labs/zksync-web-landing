@@ -7,49 +7,22 @@
     "declaration": true,
     "esModuleInterop": true,
     "experimentalDecorators": true,
-    "lib": [
-      "ESNext",
-      "ESNext.AsyncIterable",
-      "DOM"
-    ],
+    "lib": ["ESNext", "ESNext.AsyncIterable", "DOM"],
     "module": "ESNext",
     "moduleResolution": "Node",
     "noEmit": true,
     "noImplicitAny": true,
     "paths": {
-      "~/*": [
-        "./*"
-      ],
-      "@/*": [
-        "./*"
-      ]
+      "~/*": ["./*"],
+      "@/*": ["./*"]
     },
     "suppressImplicitAnyIndexErrors": true,
     "resolveJsonModule": true,
     "sourceMap": true,
     "strict": true,
     "target": "ESNext",
-    "types": [
-      "@inkline/inkline",
-      "@nuxt/types",
-      "@types/node",
-      "@types/aos"
-    ]
+    "types": ["@inkline/inkline", "@nuxt/types", "@types/node", "@types/aos"]
   },
-  "include": [
-    "./src/{**/*,*}.{js,ts,vue}",
-    "nuxt.config.ts"
-  ],
-  "exclude": [
-    "src/assets/images",
-    "node_modules",
-    ".nuxt",
-    "public",
-    ".husky",
-    "dist",
-    ".nuxt",
-    ".github",
-    ".yarn",
-    "tests"
-  ]
+  "include": ["./src/{**/*,*}.{js,ts,vue}", "nuxt.config.ts"],
+  "exclude": ["node_modules", ".nuxt", "dist", "public", "./src/static", "./src/assets/fonts", "./src/assets/images"]
 }

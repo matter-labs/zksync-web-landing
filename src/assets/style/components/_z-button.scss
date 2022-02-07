@@ -1,5 +1,3 @@
-@import "../variables";
-
 .glow-button {
   margin: auto;
   position: relative;
@@ -58,7 +56,8 @@
     border-color: transparent !important;
   }
 
-  &.-lg.antilink:hover, &:focus {
+  &.-lg.antilink:hover,
+  &:focus {
     box-shadow: none !important;
     border: none !important;
     @media (min-width: $mobile) {

@@ -3,5 +3,5 @@
 .github
 .idea
 public
-.eslintrc.js
+.eslintrc
 /.yarn/

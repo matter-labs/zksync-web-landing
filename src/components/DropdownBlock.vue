@@ -1,6 +1,6 @@
 <template>
-  <div class="dropdownContainer" :class="{'toggled': toggled===true}" :style="[height?{'height': `${height}px`}:{}]">
-    <div ref="header" class="dropdownHeader" @click="toggled=!toggled">
+  <div class="dropdownContainer" :class="{ toggled: toggled === true }" :style="[height ? { height: `${height}px` } : {}]">
+    <div ref="header" class="dropdownHeader" @click="toggled = !toggled">
       <div class="textContainer">
         <slot name="header" />
       </div>

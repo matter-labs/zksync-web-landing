@@ -1,4 +1,4 @@
-# [zkSync.io](https://zksync.io/)  [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/matter-labs/zksync-web-landing/blob/main/LICENSE-MIT) [![GitHub license](https://img.shields.io/badge/license-Apache%202-blue)](https://github.com/matter-labs/zksync-web-landing/blob/main/LICENSE-MIT)
+# [zkSync.io](https://zksync.io/) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/matter-labs/zksync-web-landing/blob/main/LICENSE-MIT) [![GitHub license](https://img.shields.io/badge/license-Apache%202-blue)](https://github.com/matter-labs/zksync-web-landing/blob/main/LICENSE-MIT)
 
 # Website zkSync.io
 
@@ -8,7 +8,7 @@ First public release of the updated zkSync.io landing page design
 
 ## Build Setup
 
-``` bash
+```bash
 # clear possible cache && install dependencies (clear install)
 $ sh cli-dev.sh ci
 
@@ -19,8 +19,8 @@ $ yarn dev
 $ build:stage
 # afterward you'll have prepared distributive in /public folder
 
-# build for production (only if you have firebase:auth) 
-$ bash cli-dev.sh ci && yarn zk-ci-prepare 
+# build for production (only if you have firebase:auth)
+$ bash cli-dev.sh ci && yarn zk-ci-prepare
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
@@ -29,6 +29,6 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 
 ## Solutions used
 
-* [Nuxt.js](https://nuxtjs.org)
-* [TS Lang](https://www.typescriptlang.org)
-* [Vue.js](https://vuejs.org)
+- [Nuxt.js](https://nuxtjs.org)
+- [TS Lang](https://www.typescriptlang.org)
+- [Vue.js](https://vuejs.org)

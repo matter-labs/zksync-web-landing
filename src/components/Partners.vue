@@ -3,12 +3,12 @@
     <i-container>
       <div class="h2" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1200">
         A growing
-        <emphasis brand-name="" :show-logo="true"/>
+        <emphasis brand-name="" :show-logo="true" />
         movement
       </div>
       <div class="subheaderText grayText">
         Join the for<span>eth</span>inkers in the
-        <emphasis/>
+        <emphasis />
         ecosystem
       </div>
       <div class="sponsorsContainer _margin-y-2" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1200">
@@ -18,14 +18,10 @@
           :key="singlePartner.id"
           :href="!singlePartner.link ? `https://medium.com/matter-labs/leading-defi-projects-and-exchanges-invest-to-bring-solidity-to-zksync-9a3df978f824` : singlePartner.link"
           class="antilink"
-          :class="{'show-on-mobile': itemIndex < pagesShown * partnersPerPage }"
+          :class="{ 'show-on-mobile': itemIndex < pagesShown * partnersPerPage }"
           target="_blank"
         >
-          <img
-            :src="getAssetUrl(singlePartner.img)"
-            :alt="singlePartner.alt"
-            :title="singlePartner.title"
-          />
+          <img :src="getAssetUrl(singlePartner.img)" :alt="singlePartner.alt" :title="singlePartner.title" />
         </a>
       </div>
       <div v-if="morePagesAvailable" class="_padding-bottom-2">

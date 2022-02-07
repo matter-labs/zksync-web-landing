@@ -60,30 +60,24 @@
     "start:firebase": "firebase serve --only hosting",
     "dev": "yarn nuxt-local && nuxt",
     "cspell": "cspell src/**/*.{md,vue} *.md",
-    "ci": "yarn format:prettier; yarn cspell; yarn lint-style:check; yarn lint-ts:check",
+    "ci": "yarn format:prettier && yarn cspell && yarn lint-style && yarn lint-ts",
     "ci:build": "yarn nuxt-ci && nuxt build",
-    "format:prettier": "prettier --config .prettierrc --ignore-path .prettierignore --write",
-    "lint-ts:check": "eslint --ext \".js,.vue\" --ignore-path .gitignore",
-    "lint-style:check": "stylelint --config stylelint.config.js --ignore-path .stylelintignore",
-    "lint-ts:fix": "yarn lint-ts:check --fix",
-    "lint-style:fix": "yarn lint-style:check --fix -f verbose",
+    "lint:prettier": "prettier --check .",
+    "lint-ts": "eslint --ext \".js,.ts,.vue\" --ignore-path .eslintignore .",
+    "lint-style": "stylelint \"**/*.{css,scss,vue}\" --ignore-path .stylelintignore",
+    "lint": "yarn lint-ts && yarn lint-style && yarn lint:prettier",
+    "lint:fix": "prettier --write --list-different . && yarn lint-ts --fix && yarn lint-style --fix",
     "spell-check": "cspell -c cspell.json ./src/**/*.{ts,vue,js} *.md",
     "semantic-release": "semantic-release",
-    "postinstall": "husky install"
+    "prepare": "husky install"
   },
   "bugs": {
     "url": "https://linear.app/matterlabs/team/ZKF/label/zksync.io"
   },
   "lint-staged": {
-    "*.{ts,tsx,vue}": [
-      "yarn lint-ts:check",
-      "yarn format:prettier",
-      "yarn spell-check"
-    ],
-    "*.{scss,css}": [
-      "yarn lint-style:check",
-      "yarn format:prettier"
-    ]
+    "*.{js,ts,vue}": "eslint --cache",
+    "*.{css,scss,sass,html,vue}": "stylelint",
+    "*.**": "prettier --check --ignore-unknown"
   },
   "dependencies": {
     "@nuxtjs/google-gtag": "^1.0.4",
@@ -92,35 +86,46 @@
     "nuxt-social-meta": "^0.0.5"
   },
   "devDependencies": {
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0",
     "@inkline/nuxt": "^2.3.6",
     "@nuxt/postcss8": "latest",
     "@nuxt/types": "^2.15.8",
     "@nuxt/typescript-build": "^2.1.0",
     "@nuxtjs/composition-api": "^0.31.0",
     "@nuxtjs/eslint-config-typescript": "^8.0.0",
+    "@nuxtjs/eslint-module": "^3.0.2",
     "@nuxtjs/google-fonts": "^1.3.0",
     "@nuxtjs/sentry": "latest",
     "@nuxtjs/style-resources": "^1.2.1",
+    "@nuxtjs/stylelint-module": "^4.1.0",
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
     "@types/aos": "^3.0.4",
+    "@types/hammerjs": "^2.0.41",
     "commitlint": "^11.0.0",
     "cspell": "^5.12.6",
     "dotenv": "^14.2.0",
-    "eslint": "^7.2.0",
+    "eslint": "^8.4.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-nuxt": "^3.1.0",
+    "eslint-plugin-vue": "^8.2.0",
     "hammerjs": "^2.0.8",
     "husky": "^7.0.0",
-    "lint-staged": "^12.3.3",
+    "lint-staged": "^12.1.2",
     "node-sass": "4.14.1",
-    "postcss-scss": "^4.0.3",
-    "prettier": "latest",
+    "postcss-html": "^1.3.0",
+    "prettier": "^2.5.1",
     "sass-loader": "10.1.1",
     "semantic-release": "^18.0.0",
     "semantic-release-github-pullrequest": "^1.1.2",
-    "stylelint": "^13.13.1",
+    "stylelint": "^14.1.0",
     "stylelint-config-prettier": "^9.0.3",
-    "stylelint-config-standard": "^22.0.0",
+    "stylelint-config-recommended-vue": "^1.1.0",
+    "stylelint-config-standard": "^24.0.0",
     "stylelint-scss": "^3.21.0",
+    "ts-loader": "8.2.0",
+    "typescript": "~4.3",
     "vue-scrollto": "^2.20.0"
   },
   "optionalDependencies": {

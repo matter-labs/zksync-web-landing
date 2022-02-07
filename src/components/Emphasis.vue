@@ -1,10 +1,14 @@
 <template>
   <i-badge class="emphasis" variant="light">
     <img
-      v-if="showLogo" class="logoImg" src="@/assets/images/pages/index/symbol-logo.svg"
-      alt="zkSync is Ethereum’s most user-centric ZK rollup" title="zkSync solves Ethereum scalability
-with zero security compromises">
-    {{brandName}}
+      v-if="showLogo"
+      class="logoImg"
+      src="@/assets/images/pages/index/symbol-logo.svg"
+      alt="zkSync is Ethereum’s most user-centric ZK rollup"
+      title="zkSync solves Ethereum scalability
+with zero security compromises"
+    />
+    {{ brandName }}
   </i-badge>
 </template>
 
