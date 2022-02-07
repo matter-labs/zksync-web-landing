@@ -33,9 +33,7 @@
       "@inkline/inkline",
       "@nuxt/types",
       "@types/node",
-      "@types/aos",
-      "nuxt-webpack-optimisations",
-      "oh-vue-icons"
+      "@types/aos"
     ]
   },
   "include": [

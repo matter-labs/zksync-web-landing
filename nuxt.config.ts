@@ -7,22 +7,25 @@ const pageDescription = `${process.env.SITE_DESCRIPTION}`;
 const pageKeywords = `${process.env.SITE_KEYWORDS}`;
 const env = `${process.env.APP_ENV ?? "dev"}`;
 const isProduction = env === "prod";
+const isLocalhost = process.env.IS_LOCALHOST || false;
 
 const pageImg = "/social.jpg";
 
-const optimization = isProduction ? {
-  removeAvailableModules: true,
-  flagIncludedChunks: true,
-  mergeDuplicateChunks: true,
-  minimize: isProduction,
-  removeEmptyChunks: true,
-  providedExports: true,
-  usedExports: true,
-  splitChunks: {
-    chunks: "async",
-    maxSize: 10 * 1024,
-  },
-}:{};
+const optimization = isProduction
+  ? {
+      removeAvailableModules: true,
+      flagIncludedChunks: true,
+      mergeDuplicateChunks: true,
+      minimize: isProduction,
+      removeEmptyChunks: true,
+      providedExports: true,
+      usedExports: true,
+      splitChunks: {
+        chunks: "async",
+        maxSize: 10 * 1024,
+      },
+    }
+  : {};
 
 export default {
   /************************************
@@ -72,12 +75,12 @@ export default {
     },
     meta: [
       {
-        name: 'seobility',
-        content: '782740f1dfd8b20131dd892a71c3d72b',
+        name: "seobility",
+        content: "782740f1dfd8b20131dd892a71c3d72b",
       },
       {
-        name: 'google-site-verification',
-        content: 'hrWPMoXfTOG40VQGoOgWmIW4shMGIsObggR1BNBm5bg',
+        name: "google-site-verification",
+        content: "hrWPMoXfTOG40VQGoOgWmIW4shMGIsObggR1BNBm5bg",
       },
       /**
        * Cache-control
@@ -347,11 +350,7 @@ export default {
   /**
    * Plugins that should be loaded before the mounting
    */
-  plugins: [
-    "@/plugins/oh-vue-icons",
-    "@/plugins/loader-plugin",
-    "@/plugins/scroll-to-plugin",
-  ],
+  plugins: ["@/plugins/loader-plugin", "@/plugins/scroll-to-plugin"],
   render: {
     injectScripts: true,
     ssr: false,
@@ -379,57 +378,65 @@ export default {
     "@nuxtjs/composition-api/module",
     "@nuxt/postcss8",
     [
-      "@nuxtjs/style-resources", {
-      scss: ["@/assets/variables.scss"],
-    }],
-    "@nuxt/typescript-build"
+      "@nuxtjs/style-resources",
+      {
+        scss: ["@/assets/variables.scss"],
+      },
+    ],
+    "@nuxt/typescript-build",
   ],
 
   /**
    * Nuxt.js modules
    */
   modules: [
-    '@nuxtjs/google-gtag',
-    '@inkline/nuxt',
-    ["@nuxtjs/google-fonts", {
-      prefetch: true,
-      preconnect: true,
-      preload: true,
-      display: "swap",
-      families: {
-        "Open+Sans": [400, 600, 700],
-      },
-    }],
+    "vue-scrollto/nuxt",
+    "@nuxtjs/google-gtag",
+    "@inkline/nuxt",
     [
-      'nuxt-social-meta',
+      "@nuxtjs/google-fonts",
       {
-        url: 'https://zksync.io',
+        prefetch: true,
+        preconnect: true,
+        preload: true,
+        display: "swap",
+        families: {
+          "Open+Sans": [400, 600, 700],
+        },
+      },
+    ],
+    [
+      "nuxt-social-meta",
+      {
+        url: "https://zksync.io",
         title: pageTitle,
         site_name: pageTitle,
         description: pageDescription,
-        img: 'https://zksync.io/social.jpg',
-        locale: 'en_US',
-        twitter: '@zksync',
-        twitter_card: 'https://zksync.io/social.jpg',
-        themeColor: '#4e529a',
+        img: "/social.jpg",
+        locale: "en_US",
+        twitter: "@zksync",
+        twitter_card: "/social.jpg",
+        themeColor: "#4e529a",
       },
     ],
-    '@nuxtjs/sentry',
+    "@nuxtjs/sentry",
   ],
   inkline: {
     config: {
-      variant: 'dark',
+      variant: "dark",
     },
   },
   sentry: {
     disableServerSide: true,
     lazy: true,
+    disabled: isLocalhost,
     dsn: process.env.SENTRY_DSN,
     config: {
-      tracesSampleRate: 1.0,
+      tracesSampleRate: 0.1,
+      environment: isProduction ? "production" : process.env.APP_ENV === "dev" ? "development" : process.env.APP_ENV,
     },
   },
-  'google-gtag': {
+  "google-gtag": {
     id: process.env.GTAG_ID,
     config: {
       anonymize_ip: true, // anonymize IP
@@ -456,9 +463,9 @@ export default {
       compact: true,
     },
     filenames: {
-      chunk: ({ isDev }) => (isDev ? "[name].js":"[id].[contenthash].js"),
+      chunk: ({ isDev }) => (isDev ? "[name].js" : "[id].[contenthash].js"),
     },
-    transpile: ["oh-vue-icons", "scroll-to-plugin", "loader-plugin"], // [v.2.4.0]: oh-vue-icons package
+    transpile: ["scroll-to-plugin", "loader-plugin"],
     ssr: false,
     devtools: false,
     optimization,
@@ -471,10 +478,10 @@ export default {
       };
       if (!config.output) {
         config.output = {
-          crossOriginLoading: isProduction ? "anonymous":false,
+          crossOriginLoading: isProduction ? "anonymous" : false,
         };
       } else {
-        config.output.crossOriginLoading = isProduction ? "anonymous":false;
+        config.output.crossOriginLoading = isProduction ? "anonymous" : false;
       }
     },
   },
