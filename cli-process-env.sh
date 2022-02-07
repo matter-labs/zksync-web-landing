@@ -21,9 +21,9 @@ printf "\n${BBlue}Configuration:\n\n" "" "$NC"
 
 printf "${Default}   Environment:"
 if [ "$ENV_VALUE" = "prod" ]; then
-  echo "${Red} dev"
-else
   echo "${Green} $ENV_VALUE"
+else
+  echo "${Default} $ENV_VALUE"
 fi
 
 printf "${Default}   Localhost:"

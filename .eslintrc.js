@@ -1,28 +1,57 @@
 module.exports = {
   root: true,
+  env: {
+    browser: true,
+    node: true,
+  },
+  parserOptions: {
+    parser: "@typescript-eslint/parser",
+    sourceType: "module",
+    ecmaVersion: 12,
+    ecmaFeatures: {
+      jsx: false,
+      experimentalObjectRestSpread: true
+    },
+    extraFileExtensions: [".vue"]
+  },
+  /**
+   * SEE: https://ja.nuxtjs.org/guide/development-tools/
+   */
   extends: [
-    "plugin:vue/recommended",
-    "@nuxtjs/eslint-config-typescript",
-    "plugin:prettier-vue/recommended",
-    // Do not add `'prettier/vue'` if you don't want to use prettier for `<template>` blocks
-    "prettier/vue",
+    '@nuxtjs/eslint-config-typescript',
+    'plugin:vue/recommended',
+    'plugin:prettier-vue/recommended',
+    'prettier',
   ],
-
+  plugins: ['prettier'],
+  // add your custom rules here
+  rules: {
+    "vue/multi-word-component-names": 0,
+    "vue/html-self-closing": 0,
+    "prettier/prettier": "error",
+    semi: [2, 'never'],
+    'no-console': 'off',
+    'vue/max-attributes-per-line': 'off',
+  },
   settings: {
-    "prettier-vue": {
+    'prettier-vue': {
       // Settings for how to process Vue SFC Blocks
       SFCBlocks: {
         /**
          * Use prettier to process `<template>` blocks or not
          *
-         * If set to `false`, remember not to `extends: ['prettier/vue']`, as you need the rules from `eslint-plugin-vue` to lint `<template>` blocks
+         * If set to `false`, you may need to enable those vue rules that are disabled by `eslint-config-prettier`,
+         * because you need them to lint `<template>` blocks
          *
          * @default true
          */
-        template: false,
+        template: true,
 
         /**
          * Use prettier to process `<script>` blocks or not
+         *
+         * If set to `false`, you may need to enable those rules that are disabled by `eslint-config-prettier`,
+         * because you need them to lint `<script>` blocks
          *
          * @default true
          */
@@ -38,47 +67,18 @@ module.exports = {
         // Settings for how to process custom blocks
         customBlocks: {
           // Treat the `<docs>` block as a `.markdown` file
-          docs: { lang: "markdown" },
+          docs: { lang: 'markdown' },
 
           // Treat the `<config>` block as a `.json` file
-          config: { lang: "json" },
+          config: { lang: 'json' },
 
           // Treat the `<module>` block as a `.js` file
-          module: { lang: "js" },
+          module: { lang: 'js' },
 
           // Ignore `<comments>` block (omit it or set it to `false` to ignore the block)
           comments: false,
-
-          // Other custom blocks that are not listed here will be ignored
         },
-      },
-
-      // Use prettierrc for prettier options or not (default: `true`)
-      usePrettierrc: true,
-
-      // Set the options for `prettier.getFileInfo`.
-      // @see https://prettier.io/docs/en/api.html#prettiergetfileinfofilepath-options
-      fileInfoOptions: {
-        // Path to ignore file (default: `'.prettierignore'`)
-        // Notice that the ignore file is only used for this plugin
-        ignorePath: ".testignore",
-
-        // Process the files in `node_modules` or not (default: `false`)
-        withNodeModules: false,
-      },
+      }
     },
-  },
-  rules: {
-    "prettier-vue/prettier": [
-      "error",
-      {
-        semi: true,
-        trailingComma: "all",
-        singleQuote: false,
-        jsxSingleQuote: false,
-        printWidth: 180,
-        tabWidth: 2,
-      },
-    ],
   },
 };

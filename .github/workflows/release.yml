@@ -1,7 +1,13 @@
 name: "Semantic release"
-"on":
+
+concurrency:
+  group: semantic-release
+  cancel-in-progress: true
+
+on:
   push:
-    branches: [ master ]
+    branches:
+      - main
 jobs:
   release:
     if: ${{ github.event.repository.full_name == github.repository }} && {{ !contains(github.event.head_commit.message, "skip ci") }}
@@ -27,10 +33,33 @@ jobs:
           yarn set version 3.1.1
           yarn install
 
+      - name: "Build & deploy to staging"
+        run: yarn ci:generate
+      - uses: matter-labs/action-hosting-deploy@v0
+        with:
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_ZSYNC_WEB_LANDING_DEV }}"
+          target: staging
+          projectId: zksync-web-landing
+          channelId: live
+        env:
+          APP_ENV: production
+
+      - name: "Pack generated distributive"
+        run: zip -r dist.zip public firebase.json .firebaserc
+
       - name: "Semantic release"
         run: yarn semantic-release
         env:
           HUSKY: 0
           CI: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_TOKEN: ${{ secrets.SEMANTIC_RELEASE_GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.SEMANTIC_RELEASE_TOKEN }}
+      - name: Publish artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: dist
+          path: dist.zip
+
+      - name: "Staging deployment"
+        run: yarn ci:generate

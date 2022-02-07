@@ -1,15 +1,7 @@
-# don't ever lint node_modules
-/node_modules/*
-# don't ever lint public
-*.css
-/.nuxt/*
-/src/assets/fonts/*
-/src/assets/images/*
-/.github/*
-/.idea/*
-/environments/*
-/public/*
-/src/static/sw.js
-/docs/*
-/drafts/*
-/dist/*
+/node_modules/
+/src/static/
+.github
+.idea
+public
+.eslintrc.js
+/.yarn/

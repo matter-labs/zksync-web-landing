@@ -1,0 +1,12 @@
+.nuxt/*
+/src/static/
+/.github/
+/.yarn/
+.idea/
+/public/
+*.example
+node_modules
+.eslintrc.js
+src/assets/fonts
+*.css
+*.svg
