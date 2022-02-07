@@ -248,16 +248,23 @@ export default Vue.extend({
 
 <style lang="scss">
 .indexPage .codeContainer .codeGrid .textItem .button {
+  //noinspection CssInvalidPropertyValue
   .gradient-zk-evm {
-    display: inline-flex;
+    display: inline;
+    letter-spacing: 0.0075rem;
     color: transparent !important;
-    background: linear-gradient(272.04deg, #cbcbff 46.24%, #8c8dfc 99.45%) !important;
     background-image: linear-gradient(272.04deg, #cbcbff 46.24%, #8c8dfc 99.45%) !important;
     box-sizing: border-box !important;
     font-weight: 700;
     transition: all 210ms ease;
     -webkit-background-clip: text !important;
-    -webkit-text-fill-color: transparent !important;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -ms-background-clip: text;
+    -ms-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
   }
 
   &:hover .gradient-zk-evm {
