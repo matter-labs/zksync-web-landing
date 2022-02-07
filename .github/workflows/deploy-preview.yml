@@ -32,8 +32,5 @@ jobs:
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_ZSYNC_WEB_LANDING_DEV }}"
-          target: prod
           projectId: zksync-web-landing
-          channelId: v-${{ github.ref }}
-        env:
-          APP_ENV: production
+          channelId: v-${{ github.head_ref || github.run_id }}
