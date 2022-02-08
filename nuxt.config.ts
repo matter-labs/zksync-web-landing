@@ -416,7 +416,8 @@ export default {
         title: pageTitle,
         site_name: pageTitle,
         description: pageDescription,
-        img: "/social.jpg",
+        img: "https://zksync.io/social.jpg",
+        img_size: { width: "1048px", height: "605px" },
         locale: "en_US",
         twitter: "@zksync",
         twitter_card: "/social.jpg",
@@ -442,12 +443,15 @@ export default {
   },
   "google-gtag": {
     id: "GTM-T5WRP8N",
-    config: {
-      anonymize_ip: true, // anonymize IP
-      send_page_view: true, // might be necessary to avoid duplicated page track on page reload
-    },
     debug: !isProduction, // enable to track in dev mode
     disableAutoPageTrack: false, // disable if you don't want to track each page route with router.afterEach(...).
+    config: {
+      anonymize_ip: true, // anonymize IP
+      send_page_view: false, // might be necessary to avoid duplicated page track on page reload
+      linker: {
+        domains: ["zksync.io"],
+      },
+    },
   },
 
   /**

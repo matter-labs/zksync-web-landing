@@ -25,11 +25,3 @@ with zero security compromises"
     </i-row>
   </i-container>
 </template>
-
-<script lang="ts">
-import Vue from "vue";
-
-export default Vue.extend({
-  name: "Comparison",
-});
-</script>

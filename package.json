@@ -65,7 +65,7 @@
     ]
   },
   "engines": {
-    "node": "^14.17.3"
+    "node": "^14.16.0 || ^16.11.0"
   },
   "scripts": {
     "ci": "yarn format:prettier && yarn cspell && yarn lint-style && yarn lint-ts",
@@ -94,6 +94,7 @@
     "@nuxtjs/google-gtag": "^1.0.4",
     "aos": "next",
     "nuxt": "^2.15.8",
+    "oh-vue-icons": "^1.0.0-rc1",
     "nuxt-social-meta": "^0.0.5"
   },
   "devDependencies": {

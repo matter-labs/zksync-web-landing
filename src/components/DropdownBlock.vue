@@ -1,5 +1,5 @@
 <template>
-  <div class="dropdownContainer" :class="{ toggled: toggled === true }" :style="[height ? { height: `${height}px` } : {}]">
+  <div class="dropdownContainer" :class="{ toggled: toggled === true }" :style="[{ height: heightValue }]">
     <div ref="header" class="dropdownHeader" @click="toggled = !toggled">
       <div class="textContainer">
         <slot name="header" />
@@ -27,16 +27,16 @@ export default Vue.extend({
     };
   },
   computed: {
-    height() {
+    heightValue(): string {
       if (!this.toggled) {
-        return false;
+        return "auto";
       }
       const header = this.$refs.header as HTMLElement;
       const body = this.$refs.body as HTMLElement;
       if (header && body) {
-        return header.getBoundingClientRect().height + body.getBoundingClientRect().height;
+        return `${header.getBoundingClientRect().height + body.getBoundingClientRect().height}px`;
       }
-      return false;
+      return "auto";
     },
   },
 });

@@ -1,12 +1,12 @@
 <template>
   <div class="indexLayout">
-    <header-component />
+    <block-header />
     <div class="routerContainer">
       <transition name="fade" mode="out-in">
         <nuxt />
       </transition>
     </div>
-    <footer-component />
+    <block-footer />
   </div>
 </template>
 
@@ -14,14 +14,8 @@
 import Vue from "vue";
 
 import AOS from "aos";
-import headerComponent from "@/blocks/Header.vue";
-import footerComponent from "@/blocks/Footer.vue";
 
 export default Vue.extend({
-  components: {
-    headerComponent,
-    footerComponent,
-  },
   data() {
     return {};
   },
