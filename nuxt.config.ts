@@ -433,14 +433,14 @@ export default {
     disableServerSide: true,
     lazy: true,
     disabled: isLocalhost,
-    dsn: process.env.SENTRY_DSN,
+    dsn: "https://1f18c5c8e8fb4f2491be8d9daac67145@o496053.ingest.sentry.io/5635442",
     config: {
       tracesSampleRate: 0.1,
       environment: isProduction ? "production" : process.env.APP_ENV === "dev" ? "development" : process.env.APP_ENV,
     },
   },
   "google-gtag": {
-    id: process.env.GTAG_ID,
+    id: "GTM-T5WRP8N",
     config: {
       anonymize_ip: true, // anonymize IP
       send_page_view: true, // might be necessary to avoid duplicated page track on page reload
