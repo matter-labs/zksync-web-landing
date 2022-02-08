@@ -1,8 +1,8 @@
 {
   "name": "zksync-web-landing",
+  "title": "zkSync — Rely on math, not validators",
   "description": "zkSync.io",
   "private": true,
-  "author": "Matter Labs",
   "homepage": "https://zksync.io",
   "keywords": [
     "zksync",
@@ -37,8 +37,22 @@
       "url": "https://opensource.org/licenses/apache2.0.php"
     }
   ],
+  "author": "Matter Labs",
+  "contributors": [
+    {
+      "name": "Serge Beresnev",
+      "email": "keriat@me.com"
+    },
+    {
+      "name": "Danil Railean",
+      "email": "jackhamer0990@gmail.com"
+    }
+  ],
   "version": "2.6.0",
-  "repository": "https://github.com/matter-labs/zksync-web-landing",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/matter-labs/zksync-web-landing.git"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
