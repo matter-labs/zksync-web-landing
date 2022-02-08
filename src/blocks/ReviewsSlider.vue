@@ -38,10 +38,7 @@
             {{ singleReview.text }}
             <i-badge v-if="singleReview.isUpcoming" variant="secondary _upcoming-h3">upcoming</i-badge>
           </div>
-          <z-button v-if="singleReview.isButton" css-class="width-300" href="https://zksync.curve.fi" outline="outline" size="xs" target="_blank"
-            >Try <strong>Curve + zkSync</strong> testnet
-          </z-button>
-          <span v-if="!singleReview.isButton" class="arrowLink">
+          <span class="arrowLink">
             <i class="fal fa-arrow-up" />
           </span>
         </a>
@@ -53,25 +50,9 @@
 <script lang="ts">
 import Hammer from "hammerjs";
 import Vue, { PropOptions } from "vue";
-import ZButton from "@/components/ZButton.vue";
-
-interface Review {
-  id?: string;
-  classes?: string;
-  title?: string;
-  link: string;
-  thumbnail: string;
-  thumbnailAlt: string;
-  thumbnailTitle: string;
-  text: string;
-  order: number;
-  mobileOrder: number;
-}
+import { Review } from "@/types";
 
 export default Vue.extend({
-  components: {
-    ZButton,
-  },
   props: {
     reviewsData: {
       default: (): Review[] => {

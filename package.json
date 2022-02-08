@@ -88,7 +88,7 @@
   "lint-staged": {
     "*.{js,ts,vue}": "eslint --cache",
     "*.{css,scss,sass,html,vue}": "stylelint",
-    "*.**": "prettier --check --ignore-unknown"
+    "*.**": "prettier --check --write --ignore-unknown"
   },
   "dependencies": {
     "@nuxtjs/google-gtag": "^1.0.4",

@@ -46,18 +46,14 @@
         economic finality, low-cost privacy, and more.
       </div>
       <i-row center-xs>
-        <z-cta :href="'/userdocs/tech.html'" target="_blank" class="underlinedLink"> How all of this works </z-cta>
+        <z-cta :href="'//docs.zksync.io/userdocs/tech.html'" target="_blank" class="underlinedLink"> How all of this works </z-cta>
       </i-row>
     </i-container>
   </div>
 </template>
 <script lang="ts">
 import Vue from "vue";
-import ZCta from "@/components/ZCta.vue";
-import Emphasis from "@/components/Emphasis.vue";
-
 export default Vue.extend({
   name: "About",
-  components: { Emphasis, ZCta },
 });
 </script>

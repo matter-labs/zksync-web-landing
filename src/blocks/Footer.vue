@@ -7,10 +7,10 @@
         </i-column>
         <i-column :xs="12" :md="6" class="_padding-right-0">
           <div class="rightSideLinks">
-            <a :href="'/contact.html'"><i class="fal fa-at" />&nbsp;Contacts</a>
-            <a :href="'https://github.com/matter-labs/zksync'"><i class="fab fa-github" />&nbsp;GitHub</a>
-            <a :href="'/legal/terms.html'">Terms</a>
-            <a :href="'/legal/privacy.html'">Privacy Policy</a>
+            <a href="//docs.zksync.io/contact.html"><i class="fal fa-at" />&nbsp;Contacts</a>
+            <a href="https://github.com/matter-labs/zksync"><i class="fab fa-github" />&nbsp;GitHub</a>
+            <a href="//docs.zksync.io/legal/terms.html">Terms</a>
+            <a href="//docs.zksync.io/legal/privacy.html">Privacy Policy</a>
           </div>
         </i-column>
       </i-row>

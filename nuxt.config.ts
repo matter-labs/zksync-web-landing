@@ -31,6 +31,7 @@ export default {
   /************************************
    * Generic nuxtjs settings
    ***********************************/
+  components: ["@/components/", { path: "@/blocks/", prefix: "block" }],
   debug: false,
   telemetry: false,
   srcDir: "src/",

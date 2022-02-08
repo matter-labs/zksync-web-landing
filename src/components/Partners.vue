@@ -34,20 +34,10 @@
 <script lang="ts">
 import Vue from "vue";
 
-import ZButton from "@/components/ZButton.vue";
-import Emphasis from "@/components/Emphasis.vue";
-
-interface PartnerDataItem {
-  id: string;
-  img: string;
-  alt: string;
-  title: string;
-  link?: string;
-}
+import { PartnerDataItem } from "@/types";
 
 export default Vue.extend({
   name: "Partners",
-  components: { Emphasis, ZButton },
   props: {
     partnersData: {
       type: Array,
@@ -85,7 +75,7 @@ export default Vue.extend({
           },
           {
             id: "Paraswap",
-            link: "http://paraswap.io/",
+            link: "https://paraswap.io/",
             img: "paraswap.svg",
             alt: "Paraswap",
             title: "Paraswap",

@@ -34,8 +34,8 @@
           </i-column>
           <i-column :xs="12" :md="4" class="_padding-y-0">
             <div class="linksContainer">
-              <a href="/userdocs/faq.html" target="_blank" class="linkItem">FAQ</a>
-              <a href="/dev/" target="_blank" class="linkItem">Docs</a>
+              <a href="//docs.zksync.io/userdocs/faq.html" target="_blank" class="linkItem">FAQ</a>
+              <a href="//docs.zksync.io/dev/" target="_blank" class="linkItem">Docs</a>
               <i-dropdown
                 :class="{ opened: dropdownOpened }"
                 :hide-on-click="true"
@@ -58,7 +58,7 @@
             </div>
           </i-column>
           <i-column :xs="12" :md="4" class="_padding-right-0 _justify-content-end">
-            <social-block />
+            <block-social-block />
           </i-column>
         </i-row>
       </i-container>
@@ -69,19 +69,9 @@
 <script lang="ts">
 import ClickOutside from "@inkline/inkline/src/directives/click-outside";
 import Vue from "vue";
-import logo from "@/blocks/Logo.vue";
-import SocialBlock from "@/blocks/SocialBlock.vue";
-
-interface DropdownOption {
-  name: string;
-  link: string;
-}
+import { DropdownOption } from "@/types";
 
 export default Vue.extend({
-  components: {
-    logo,
-    SocialBlock,
-  },
   directives: {
     ClickOutside,
   },

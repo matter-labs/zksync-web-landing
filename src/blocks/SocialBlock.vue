@@ -9,13 +9,7 @@
 
 <script lang="ts">
 import Vue from "vue";
-
-interface socialIcon {
-  name: string;
-  icon: Array<string>;
-  url: string;
-  hideIn?: string;
-}
+import { socialIcon } from "@/types";
 
 export default Vue.extend({
   props: {
@@ -26,7 +20,7 @@ export default Vue.extend({
     },
   },
   computed: {
-    socialNetworks(): Array<socialIcon> {
+    socialNetworks(): socialIcon[] {
       const socialIcons = [
         {
           name: "Medium Blog",
