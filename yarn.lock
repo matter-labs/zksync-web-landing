@@ -12819,6 +12819,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"oh-vue-icons@npm:^1.0.0-rc1":
+  version: 1.0.0-rc2
+  resolution: "oh-vue-icons@npm:1.0.0-rc2"
+  dependencies:
+    vue-demi: ^0.11.4
+  peerDependencies:
+    "@vue/composition-api": ^1.0.0-rc.1
+    vue: ^2.0.0 || >=3.0.0
+  peerDependenciesMeta:
+    "@vue/composition-api":
+      optional: true
+  checksum: 830ad37c1a274451a26b029b4b80bcdf70417d8b205e840dd240a6027a860d9f43248b8acb061fa5c2720ec3151c17c147d1a2679ede0a5282f1ca3301cb0340
+  languageName: node
+  linkType: hard
+
 "on-finished@npm:^2.3.0, on-finished@npm:~2.3.0":
   version: 2.3.0
   resolution: "on-finished@npm:2.3.0"
@@ -17816,6 +17831,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"vue-demi@npm:^0.11.4":
+  version: 0.11.4
+  resolution: "vue-demi@npm:0.11.4"
+  peerDependencies:
+    "@vue/composition-api": ^1.0.0-rc.1
+    vue: ^3.0.0-0 || ^2.6.0
+  peerDependenciesMeta:
+    "@vue/composition-api":
+      optional: true
+  bin:
+    vue-demi-fix: bin/vue-demi-fix.js
+    vue-demi-switch: bin/vue-demi-switch.js
+  checksum: 794464387a6a031daa5cb8f751f1bd55f19a7dbe026385c8b0347a1b5c67bcc949c9f11c2b1bfc9e32a627b8e2caeb7fbff4b66c84d22ea625fbb77e57c6e075
+  languageName: node
+  linkType: hard
+
 "vue-eslint-parser@npm:^8.0.1":
   version: 8.2.0
   resolution: "vue-eslint-parser@npm:8.2.0"
@@ -18557,6 +18588,7 @@ __metadata:
     node-sass: 4.14.1
     nuxt: ^2.15.8
     nuxt-social-meta: ^0.0.5
+    oh-vue-icons: ^1.0.0-rc1
     postcss-html: ^1.3.0
     prettier: ^2.5.1
     sass-loader: 10.1.1
