@@ -72,11 +72,35 @@ export default Vue.extend({
 });
 </script>
 <style lang="scss">
-.button.-primary.-outline:focus {
-  background: $color-secondary !important;
-  border-color: $color-secondary !important;
+.button.-outline:focus {
+  background: transparent !important;
+  border-color: white !important;
   box-shadow: none !important;
+
+  @media screen and (min-height: $mobile) {
+    background: $color-secondary !important;
+    border-color: $color-secondary !important;
+  }
 }
+
+.button.-primary.-outline {
+  margin-top: 25px;
+  background: rgba(24, 24, 32, 0.01) !important;
+  border: 1px solid $white !important;
+  box-sizing: border-box;
+  line-height: 24px;
+  font-size: 20px;
+  box-shadow: 0 6.66667px 13.3333px rgba(0, 0, 0, 0.08);
+  border-radius: $borderRadiusXs;
+  padding: 16px 46px !important;
+  width: 356px;
+  height: 56px;
+
+  span {
+    color: $white;
+  }
+}
+
 .glow-button {
   margin: auto;
   position: relative;

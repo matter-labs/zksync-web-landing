@@ -1,4 +1,8 @@
 .partnersBlock {
+  &.partnersBlured {
+    opacity: 0.66;
+  }
+
   .h2 {
     span {
       color: $white;
@@ -88,7 +92,7 @@
       }
 
       @media screen and (max-width: $mobile) {
-        width: 50%;
+        min-width: 40%;
 
         img:hover {
           will-change: none;
@@ -159,6 +163,35 @@
 
     a#moonpay > img {
       max-width: 80%;
+    }
+  }
+
+  &.noImages {
+    max-width: $maxWidth;
+    margin-left: auto;
+    margin-right: auto;
+
+    .sponsorsContainer {
+      a {
+        width: fit-content;
+        text-align: center;
+        text-decoration: none !important;
+        white-space: nowrap;
+        font: 16px/25px "Open Sans", "sans" !important;
+        color: #ffffff !important;
+        opacity: 0.66;
+        display: inline-flex;
+        grid-gap: 1rem;
+      }
+    }
+
+    @media screen and (max-width: $mobile) {
+      .sponsorsContainer {
+        a {
+          min-width: 0;
+          height: 40px !important;
+        }
+      }
     }
   }
 }

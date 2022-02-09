@@ -111,15 +111,8 @@
     </div>
 
     <partners :partners-data="visionaries" :title="'Backed by visionaries'" />
-    <partners :partners-data="founders" :title="'the founders and leadership of'" :grayscale="true" />
-    <div class="partnersBlock _padding-y-2 _margin-bottom-0 _margin-top-2">
-      <i-container>
-        <div class="h2" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1200">and angels</div>
-        <div class="sponsorsContainer _margin-y-2" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1200">
-          <span v-for="singlePartner in angels" :key="singlePartner" class="angelName">{{ singlePartner }}</span>
-        </div>
-      </i-container>
-    </div>
+    <partners :partners-data="founders" :title="'the founders and leadership of'" :custom-css-class="'partnersBlured'" />
+    <partners :partners-data="angels" :title="'and angels'" :grayscale="true" :custom-css-class="'noImages'" :make-fluid="true" :partners-per-page="0" />
 
     <i-container class="_margin-y-lg-2 _margin-y-xs-2 communityOwned">
       <div class="topBlock _padding-bottom-2">
@@ -151,30 +144,126 @@ export default Vue.extend({
   data() {
     return {
       angels: [
-        "Polynya",
-        "CryptoCobain",
-        "DCinvestor",
-        "Anthony Sassano",
-        "Ryan S Adams",
-        "David Hoffman",
-        "Justin Drake",
-        "Jonathan Caras",
-        "Ashwin Ramachandran",
-        "Daniel Jamal Finlay",
-        "Dany Farha",
-        "Sebastian Buergel",
-        "Sharanjai Prasad",
-        "David Ian Mihal",
-        "Alessandro Raboni",
-        "Takeshi Kazumoto",
-        "Fiskantes,",
-        "Gregory McCubbin",
-        "Saurabh Sharma",
-        "Ben Simon",
-        "Marc Weinstein",
-        "Marat Kichikov",
-        "egirl Capital",
-        "4RC Partners",
+        {
+          id: "Polynya",
+          alt: "Polynya",
+          title: "Polynya",
+        },
+        {
+          id: "CryptoCobain",
+          alt: "CryptoCobain",
+          title: "CryptoCobain",
+        },
+        {
+          id: "DCinvestor",
+          alt: "DCinvestor",
+          title: "DCinvestor",
+        },
+        {
+          id: "Anthony Sassano",
+          alt: "Anthony Sassano",
+          title: "Anthony Sassano",
+        },
+        {
+          id: "Ryan S Adams",
+          alt: "Ryan S Adams",
+          title: "Ryan S Adams",
+        },
+        {
+          id: "David Hoffman",
+          alt: "David Hoffman",
+          title: "David Hoffman",
+        },
+        {
+          id: "Justin Drake",
+          alt: "Justin Drake",
+          title: "Justin Drake",
+        },
+        {
+          id: "Jonathan Caras",
+          alt: "Jonathan Caras",
+          title: "Jonathan Caras",
+        },
+        {
+          id: "Ashwin Ramachandran",
+          alt: "Ashwin Ramachandran",
+          title: "Ashwin Ramachandran",
+        },
+        {
+          id: "Daniel Jamal Finlay",
+          alt: "Daniel Jamal Finlay",
+          title: "Daniel Jamal Finlay",
+        },
+        {
+          id: "Dany Farha",
+          alt: "Dany Farha",
+          title: "Dany Farha",
+        },
+        {
+          id: "Sebastian Buergel",
+          alt: "Sebastian Buergel",
+          title: "Sebastian Buergel",
+        },
+        {
+          id: "Sharanjai Prasad",
+          alt: "Sharanjai Prasad",
+          title: "Sharanjai Prasad",
+        },
+        {
+          id: "David Ian Mihal",
+          alt: "David Ian Mihal",
+          title: "David Ian Mihal",
+        },
+        {
+          id: "Alessandro Raboni",
+          alt: "Alessandro Raboni",
+          title: "Alessandro Raboni",
+        },
+        {
+          id: "Takeshi Kazumoto",
+          alt: "Takeshi Kazumoto",
+          title: "Takeshi Kazumoto",
+        },
+        {
+          id: "Fiskantes,",
+          alt: "Fiskantes,",
+          title: "Fiskantes,",
+        },
+        {
+          id: "Gregory McCubbin",
+          alt: "Gregory McCubbin",
+          title: "Gregory McCubbin",
+        },
+        {
+          id: "Saurabh Sharma",
+          alt: "Saurabh Sharma",
+          title: "Saurabh Sharma",
+        },
+        {
+          id: "Ben Simon",
+          alt: "Ben Simon",
+          title: "Ben Simon",
+        },
+        {
+          id: "Marc Weinstein",
+          alt: "Marc Weinstein",
+          title: "Marc Weinstein",
+        },
+        {
+          id: "Marat Kichikov",
+          alt: "Marat Kichikov",
+          title: "Marat Kichikov",
+        },
+        {
+          id: "egirl Capital",
+          alt: "egirl Capital",
+          title: "egirl Capital",
+        },
+        {
+          id: "4RC Partners",
+          alt: "4RC Partners",
+          title: "4RC Partners",
+        },
       ],
       visionaries: [
         {
@@ -199,7 +288,13 @@ export default Vue.extend({
           title: "Investment from the Placeholder for the Matter Labs",
         },
         {
-          id: "partner-1kx",
+          id: {
+            id: "partner-1kx",
+            link: "",
+            img: "1kx.svg",
+            alt: "1kx Token Venture Capital",
+            title: "Funding from the 1kx for Matter Labs",
+          },
           link: "https://t.co/j9z0U8fHDL?amp=1",
           img: "1kx.svg",
           alt: "1kx Token Venture Capital",
@@ -598,16 +693,5 @@ export default Vue.extend({
     -webkit-background-clip: unset !important;
     -webkit-text-fill-color: unset !important;
   }
-}
-
-.angelName {
-  font: 20px/40px "Open Sans", "sans" !important;
-  color: #ffffff !important;
-  opacity: 0.66;
-  display: inline-flex;
-  margin: 0 20px;
-}
-.opacity66 {
-  opacity: 0.66 !important;
 }
 </style>

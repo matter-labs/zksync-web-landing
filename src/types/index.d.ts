@@ -25,9 +25,9 @@ export interface DropdownOption {
 }
 
 export interface PartnerDataItem {
-  id: string;
-  img: string;
-  alt: string;
+  id?: string;
+  img?: string;
+  alt?: string;
   title: string;
   link?: string;
 }
