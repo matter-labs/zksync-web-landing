@@ -94,8 +94,8 @@
     "@nuxtjs/google-gtag": "^1.0.4",
     "aos": "next",
     "nuxt": "^2.15.8",
-    "nuxt-social-meta": "^0.0.5",
-    "oh-vue-icons": "^1.0.0-rc1"
+    "oh-vue-icons": "^1.0.0-rc1",
+    "nuxt-social-meta": "^0.0.5"
   },
   "devDependencies": {
     "@commitlint/cli": "^15.0.0",
