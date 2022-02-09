@@ -1,7 +1,7 @@
 <template>
   <div class="partnersBlock _padding-y-2 _margin-bottom-0 _margin-top-2">
     <i-container>
-      <div class="h2" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1200" v-html="title" />
+      <div class="h2" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1200">{{ title }}</div>
       <div class="sponsorsContainer _margin-y-2" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1200">
         <a
           v-for="(singlePartner, itemIndex) in partnersData"
@@ -190,6 +190,7 @@ export default Vue.extend({
       required: false,
     },
     title: { type: String, default: "", required: true },
+    grayscale: { type: Boolean, default: false, required: false },
   },
   data() {
     return {
@@ -214,15 +215,16 @@ export default Vue.extend({
 });
 </script>
 <style lang="scss">
-#partners .sponsorsContainer a#frm,
-#partners .sponsorsContainer a#unknown,
-#partners .sponsorsContainer a#unknown2 {
-  max-width: 90px;
-}
-#partners .sponsorsContainer a#unknown3 {
-  max-width: 90px;
-}
-#partners .sponsorsContainer a#unknownR {
-  max-width: 70px;
+.partnersBlock .sponsorsContainer {
+  a#frm,
+  a#unknown3,
+  a#unknown,
+  a#unknown2 {
+    max-width: 90px;
+  }
+
+  a#unknownR {
+    max-width: 70px;
+  }
 }
 </style>

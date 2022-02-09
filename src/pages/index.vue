@@ -110,8 +110,8 @@
       </i-container>
     </div>
 
-    <partners :partnersData="visionaries" :title="'Backed by visionaries'" />
-    <partners :partnersData="founders" :title="'the founders and leadership of'" />
+    <partners :partners-data="visionaries" :title="'Backed by visionaries'" />
+    <partners :partners-data="founders" :title="'the founders and leadership of'" :grayscale="true" />
     <div class="partnersBlock _padding-y-2 _margin-bottom-0 _margin-top-2">
       <i-container>
         <div class="h2" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1200">and angels</div>
@@ -154,50 +154,27 @@ export default Vue.extend({
         "Polynya",
         "CryptoCobain",
         "DCinvestor",
-        "Anthony",
-        "Sassano",
-        "Ryan",
-        "S",
-        "Adams",
-        "David",
-        "Hoffman",
-        "Justin",
-        "Drake",
-        "Jonathan",
-        "Caras",
-        "Ashwin",
-        "Ramachandran",
-        "Daniel",
-        "Jamal",
-        "Finlay",
-        "Dany",
-        "Farha",
-        "Sebastian",
-        "Buergel",
-        "Sharanjai",
-        "Prasad",
-        "David",
-        "Ian",
-        "Mihal",
-        "Alessandro",
-        "Raboni",
-        "Takeshi",
-        "Kazumoto",
+        "Anthony Sassano",
+        "Ryan S Adams",
+        "David Hoffman",
+        "Justin Drake",
+        "Jonathan Caras",
+        "Ashwin Ramachandran",
+        "Daniel Jamal Finlay",
+        "Dany Farha",
+        "Sebastian Buergel",
+        "Sharanjai Prasad",
+        "David Ian Mihal",
+        "Alessandro Raboni",
+        "Takeshi Kazumoto",
         "Fiskantes,",
-        "Gregory",
-        "McCubbin",
-        "Saurabh",
-        "Sharma",
-        "Ben",
-        "Simon",
-        "Marc",
-        "Weinstein",
-        "Marat",
-        "Kichikov",
-        "egirl",
-        "Capital",
-        "4RC",
-        "Partners",
+        "Gregory McCubbin",
+        "Saurabh Sharma",
+        "Ben Simon",
+        "Marc Weinstein",
+        "Marat Kichikov",
+        "egirl Capital",
+        "4RC Partners",
       ],
       visionaries: [
         {
@@ -624,10 +601,13 @@ export default Vue.extend({
 }
 
 .angelName {
-  font: bold 20px/40px "Open Sans", "sans" !important;
+  font: 20px/40px "Open Sans", "sans" !important;
   color: #ffffff !important;
   opacity: 0.66;
   display: inline-flex;
   margin: 0 20px;
+}
+.opacity66 {
+  opacity: 0.66 !important;
 }
 </style>
