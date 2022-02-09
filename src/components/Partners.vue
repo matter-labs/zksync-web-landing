@@ -1,16 +1,7 @@
 <template>
-  <div id="partners" class="_padding-y-2 _margin-bottom-0 _margin-top-2">
+  <div class="partnersBlock _padding-y-2 _margin-bottom-0 _margin-top-2">
     <i-container>
-      <div class="h2" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1200">
-        A growing
-        <emphasis brand-name="" :show-logo="true" />
-        movement
-      </div>
-      <div class="subheaderText grayText">
-        Join the for<span>eth</span>inkers in the
-        <emphasis />
-        ecosystem
-      </div>
+      <div class="h2" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1200" v-html="title" />
       <div class="sponsorsContainer _margin-y-2" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1200">
         <a
           v-for="(singlePartner, itemIndex) in partnersData"
@@ -44,41 +35,88 @@ export default Vue.extend({
       default: () => {
         return [
           {
-            id: "curve",
-            img: "curve.svg",
-            alt: "Curve + zkSync",
-            title: "Curve + zkSync",
+            id: "ethereumFoundation",
+            link: "https://medium.com/matter-labs/grant-from-the-ethereum-foundation-for-matter-labs-64338f3dd938",
+            img: "ethereumFoundation.svg",
+            alt: "Ethereum Foundation",
+            title: "Grant from the Ethereum Foundation for Matter Labs",
           },
           {
-            id: "aave",
-            img: "aave.svg",
-            alt: "Aave SAGL",
-            title: "Aave SAGL",
+            id: "a16z",
+            link: "https://a16z.com/2021/11/08/investing-in-matter-labs/",
+            img: "a16z.png",
+            alt: "Andreessen Horowitz",
+            title: "a16z (Andreessen Horowitz) investing in Matter Labs",
           },
           {
-            id: "loopring",
-            img: "loopring.svg",
-            alt: "LOOPRING WALLET",
-            title: "LOOPRING WALLET",
+            id: "placeholder",
+            link: "https://matterlabs.medium.com/leading-defi-projects-and-exchanges-invest-to-bring-solidity-to-zksync-9a3df978f824",
+            img: "placeholder.svg",
+            alt: "Placeholder Venture Capital",
+            title: "Investment from the Placeholder for the Matter Labs",
           },
           {
-            id: "Balancer",
-            img: "balancer.svg",
-            alt: "Balancer Exchange",
-            title: "Balancer Exchange",
+            id: "partner-1kx",
+            link: "https://t.co/j9z0U8fHDL?amp=1",
+            img: "1kx.svg",
+            alt: "1kx Token Venture Capital",
+            title: "Funding from the 1kx for Matter Labs",
           },
           {
-            id: "oneInch",
-            img: "1inch.svg",
-            alt: "1inch Exchange",
-            title: "1inch Exchange",
+            id: "dragonfly",
+            link: "https://matterlabs.medium.com/leading-defi-projects-and-exchanges-invest-to-bring-solidity-to-zksync-9a3df978f824",
+            img: "dragonfly.svg",
+            alt: "Dragonfly Capital",
+            title: "Investment from the Dragonfly Capital for Matter Labs",
           },
           {
-            id: "Paraswap",
-            link: "https://paraswap.io/",
-            img: "paraswap.svg",
-            alt: "Paraswap",
-            title: "Paraswap",
+            id: "blockchain",
+            link: "https://blog.matter-labs.io/funding-ea89c1fa731e",
+            img: "blockchain-com.png",
+            alt: "Blockchain.com",
+            title: "zkSync's new investors include Blockchain.com",
+          },
+          {
+            id: "blockchain-capital",
+            link: "https://blog.matter-labs.io/funding-ea89c1fa731e",
+            img: "blockchaincapital.png",
+            alt: "Blockchain.com",
+            title: "zkSync's new investors include Blockchain.com",
+          },
+          {
+            id: "crypto-com",
+            link: "https://blog.matter-labs.io/funding-ea89c1fa731e",
+            img: "crypto-com.png",
+            alt: "Crypto.com",
+            title: "zkSync's new investors include Crypto.com",
+          },
+          {
+            id: "dekryptcapital",
+            link: "https://www.coindesk.com/startup-bringing-zero-knowledge-proofs-to-ethereum-raises-2-million",
+            img: "dekryptcapital.svg",
+            alt: "Dekrypt Capital Venture Capital",
+            title: "Grant from the Dekrypt Capital for Matter Labs",
+          },
+          {
+            id: "hashed",
+            link: "https://medium.com/hashed-official/our-investment-in-matter-labs-building-highways-for-defi-2062e4e76041",
+            img: "hashed.svg",
+            alt: "Hashed blockchain experts and builders",
+            title: "Grant from the Hashed for Matter Labs",
+          },
+          {
+            id: "usv",
+            link: "https://matterlabs.medium.com/leading-defi-projects-and-exchanges-invest-to-bring-solidity-to-zksync-9a3df978f824",
+            img: "usv.svg",
+            alt: "Union Square Ventures",
+            title: "Funding from the Union Square Ventures for Matter Labs",
+          },
+          {
+            id: "okex-blockchain-ventures",
+            link: "https://matterlabs.medium.com/leading-defi-projects-and-exchanges-invest-to-bring-solidity-to-zksync-9a3df978f824",
+            img: "okex-blockchain-ventures.png",
+            alt: "OKEx Blockchain Ventures",
+            title: "Funding from the OKEx Blockchain Ventures for Matter Labs",
           },
           {
             id: "coinbase",
@@ -87,22 +125,10 @@ export default Vue.extend({
             title: "Coinbase Ventures",
           },
           {
-            id: "huobi",
-            img: "huobi.svg",
-            alt: "Huobi Global",
-            title: "Huobi Global",
-          },
-          {
             id: "binance",
             img: "binance.svg",
             alt: "Binance",
             title: "Binance",
-          },
-          {
-            id: "moonpay",
-            img: "moonpay.svg",
-            alt: "Moon Pay",
-            title: "Moon Pay",
           },
           {
             id: "ripio",
@@ -111,69 +137,48 @@ export default Vue.extend({
             title: "Ripio",
           },
           {
-            id: "argent",
-            img: "argent.svg",
-            alt: "Argent Wallet",
-            title: "Argent Wallet",
+            id: "huobi",
+            img: "huobi.svg",
+            alt: "Huobi Global",
+            title: "Huobi Global",
           },
           {
-            id: "imtoken",
-            img: "imtoken.svg",
-            alt: "imToken Ventures",
-            title: "imToken Ventures",
+            id: "moonpay",
+            img: "moonpay.svg",
+            alt: "Moon Pay",
+            title: "Moon Pay",
           },
           {
-            id: "mykey",
-            img: "mykey.svg",
-            alt: "MYKEY Wallet",
-            title: "MYKEY Wallet",
+            id: "consensys",
+            img: "consensys.png",
+            alt: "Consensys",
+            title: "consensys",
+          },
+
+          {
+            id: "bybit",
+            img: "bybit.png",
+            alt: "Bybit",
+            title: "Bybit",
           },
           {
-            id: "flexa",
-            img: "flexa.svg",
-            alt: "Flexa payments",
-            title: "Flexa payments",
+            id: "alchemy",
+            img: "alchemy.png",
+            alt: "alchemy",
+            title: "alchemy",
           },
           {
-            id: "coingecko",
-            img: "coingecko.svg",
-            alt: "CoinGecko Ventures",
-            title: "CoinGecko Ventures",
+            id: "moralis",
+            img: "moralis.png",
+            alt: "moralis",
+            title: "moralis",
           },
           {
-            id: "Storj",
-            link: "https://twitter.com/kleffew94/status/1360260821524369410",
-            img: "storj.svg",
-            alt: "Decentralized Cloud Storage",
-            title: "Coop w/t zkSync will decrease transaction fees, increase privacy, and enable STORJ nodes to interact directly with the world of DeFi",
-          },
-          {
-            id: "stablepay",
-            link: "https://stablepayio.medium.com/update-stablepay-integrates-the-zksync-l2-protocol-2cc3a9b458be",
-            img: "stablepay.svg",
-            alt: "StablePay decentralized payment platform",
-            title: "Update: StablePay integrates the zkSync L2 protocol",
-          },
-          {
-            id: "Golem",
-            link: "https://blog.golemproject.net/zksync/",
-            img: "golem.svg",
-            alt: "The Golem Network",
-            title: "Sliding (we mean - rolling!) into Layer 2 with zkSync🌀: scalability on Golem + Ethereum",
-          },
-          {
-            id: "Gitcoin",
-            link: "https://gitcoin.co/blog/gitcoin-grants-round-7/",
-            img: "gitcoin.svg",
-            alt: "Gitcoin",
-            title: "Gitcoin Grants R7 Improvements: Scalability & Identity thanks to Layer 2 Integration w/ zkSync",
-          },
-          {
-            id: "Numio",
-            link: "https://twitter.com/GetNumio/status/1346421335438872576",
-            img: "numio.png",
-            alt: "Numio",
-            title: "Numio is using zkRollups from zkSync in the mobile payments app",
+            id: "Paraswap",
+            link: "https://paraswap.io/",
+            img: "paraswap.svg",
+            alt: "Paraswap",
+            title: "Paraswap",
           },
         ] as Array<PartnerDataItem>;
       },
@@ -181,9 +186,10 @@ export default Vue.extend({
     },
     partnersPerPage: {
       type: Number,
-      default: 6,
+      default: 4,
       required: false,
     },
+    title: { type: String, default: "", required: true },
   },
   data() {
     return {
@@ -207,3 +213,16 @@ export default Vue.extend({
   },
 });
 </script>
+<style lang="scss">
+#partners .sponsorsContainer a#frm,
+#partners .sponsorsContainer a#unknown,
+#partners .sponsorsContainer a#unknown2 {
+  max-width: 90px;
+}
+#partners .sponsorsContainer a#unknown3 {
+  max-width: 90px;
+}
+#partners .sponsorsContainer a#unknownR {
+  max-width: 70px;
+}
+</style>

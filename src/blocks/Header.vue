@@ -82,15 +82,19 @@ export default Vue.extend({
       dropdownOpened: false,
       dropdownOptions: [
         {
-          name: "zkWallet",
+          name: "Ecosystem",
+          link: "https://ecosystem.zksync.io",
+        },
+        {
+          name: "zkSync Wallet",
           link: "https://wallet.zksync.io/",
         },
         {
-          name: "zkLink",
-          link: "https://link.zksync.io/",
+          name: "zkSync Checkout",
+          link: "https://checkout.zksync.io/",
         },
         {
-          name: "zkScan",
+          name: "Block Explorer",
           link: "https://zkscan.io/",
         },
         {
@@ -98,12 +102,8 @@ export default Vue.extend({
           link: "https://withdraw.zksync.io/",
         },
         {
-          name: "zkCheckout",
-          link: "https://www.npmjs.com/package/zksync-checkout/",
-        },
-        {
-          name: "zkMint",
-          link: "https://mint.zksync.dev",
+          name: "Mint test tokens",
+          link: "https://wallet.zksync.io/transaction/mint?network=rinkeby",
         },
       ] as Array<DropdownOption>,
     };
