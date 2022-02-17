@@ -21,7 +21,7 @@
     "sourceMap": true,
     "strict": true,
     "target": "ESNext",
-    "types": ["@nuxt/types", "@types/node", "@types/aos"]
+    "types": ["@nuxt/types", "@types/node", "@types/aos", "@inkline/nuxt"]
   },
   "include": ["./src/{**/*,*}.{js,ts,vue}", "nuxt.config.ts"],
   "exclude": ["node_modules", ".nuxt", "dist", "public", "./src/static", "./src/assets/fonts", "./src/assets/images"]
