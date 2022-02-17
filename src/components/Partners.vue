@@ -83,18 +83,42 @@ export default Vue.extend({
 </script>
 <style lang="scss">
 .partnersBlock .sponsorsContainer {
-  a#frm,
-  a#unknown3,
-  a#unknown,
-  a#unknown2 {
-    max-width: 90px;
-  }
+  .antilink {
+    img {
+      max-height: 3.5rem;
+      max-width: 7rem;
+    }
 
-  a#unknownR {
-    max-width: 70px;
-  }
-  #partner-1kx img {
-    max-height: 40px;
+    &:hover {
+      opacity: 1 !important;
+    }
+
+    &#frm,
+    &#unknown3,
+    &#unknown,
+    &#unknown2 {
+      img {
+        max-width: 90px;
+      }
+    }
+
+    &#unknownR {
+      img {
+        max-width: 70px;
+      }
+    }
+
+    &#partner-1kx {
+      img {
+        max-height: 40px;
+      }
+    }
+
+    &#bybit {
+      img {
+        max-width: 80px;
+      }
+    }
   }
 }
 </style>
