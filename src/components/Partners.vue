@@ -7,7 +7,7 @@
           v-for="(singlePartner, itemIndex) in partnersData"
           :id="singlePartner.id"
           :key="singlePartner.id"
-          :href="!singlePartner.link ? `https://medium.com/matter-labs/leading-defi-projects-and-exchanges-invest-to-bring-solidity-to-zksync-9a3df978f824` : singlePartner.link"
+          :href="!singlePartner.link ? `https://blog.matter-labs.io/funding-ea89c1fa731e` : singlePartner.link"
           class="antilink"
           :class="{ 'show-on-mobile': partnersPerPage === 0 ? true : itemIndex < pagesShown * partnersPerPage }"
           target="_blank"
@@ -92,6 +92,9 @@ export default Vue.extend({
 
   a#unknownR {
     max-width: 70px;
+  }
+  #partner-1kx img {
+    max-height: 40px;
   }
 }
 </style>

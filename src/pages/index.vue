@@ -143,128 +143,6 @@ export default Vue.extend({
   layout: "index",
   data() {
     return {
-      angels: [
-        {
-          id: "Polynya",
-          alt: "Polynya",
-          title: "Polynya",
-        },
-        {
-          id: "CryptoCobain",
-          alt: "CryptoCobain",
-          title: "CryptoCobain",
-        },
-        {
-          id: "DCinvestor",
-          alt: "DCinvestor",
-          title: "DCinvestor",
-        },
-        {
-          id: "Anthony Sassano",
-          alt: "Anthony Sassano",
-          title: "Anthony Sassano",
-        },
-        {
-          id: "Ryan S Adams",
-          alt: "Ryan S Adams",
-          title: "Ryan S Adams",
-        },
-        {
-          id: "David Hoffman",
-          alt: "David Hoffman",
-          title: "David Hoffman",
-        },
-        {
-          id: "Justin Drake",
-          alt: "Justin Drake",
-          title: "Justin Drake",
-        },
-        {
-          id: "Jonathan Caras",
-          alt: "Jonathan Caras",
-          title: "Jonathan Caras",
-        },
-        {
-          id: "Ashwin Ramachandran",
-          alt: "Ashwin Ramachandran",
-          title: "Ashwin Ramachandran",
-        },
-        {
-          id: "Daniel Jamal Finlay",
-          alt: "Daniel Jamal Finlay",
-          title: "Daniel Jamal Finlay",
-        },
-        {
-          id: "Dany Farha",
-          alt: "Dany Farha",
-          title: "Dany Farha",
-        },
-        {
-          id: "Sebastian Buergel",
-          alt: "Sebastian Buergel",
-          title: "Sebastian Buergel",
-        },
-        {
-          id: "Sharanjai Prasad",
-          alt: "Sharanjai Prasad",
-          title: "Sharanjai Prasad",
-        },
-        {
-          id: "David Ian Mihal",
-          alt: "David Ian Mihal",
-          title: "David Ian Mihal",
-        },
-        {
-          id: "Alessandro Raboni",
-          alt: "Alessandro Raboni",
-          title: "Alessandro Raboni",
-        },
-        {
-          id: "Takeshi Kazumoto",
-          alt: "Takeshi Kazumoto",
-          title: "Takeshi Kazumoto",
-        },
-        {
-          id: "Fiskantes,",
-          alt: "Fiskantes,",
-          title: "Fiskantes,",
-        },
-        {
-          id: "Gregory McCubbin",
-          alt: "Gregory McCubbin",
-          title: "Gregory McCubbin",
-        },
-        {
-          id: "Saurabh Sharma",
-          alt: "Saurabh Sharma",
-          title: "Saurabh Sharma",
-        },
-        {
-          id: "Ben Simon",
-          alt: "Ben Simon",
-          title: "Ben Simon",
-        },
-        {
-          id: "Marc Weinstein",
-          alt: "Marc Weinstein",
-          title: "Marc Weinstein",
-        },
-        {
-          id: "Marat Kichikov",
-          alt: "Marat Kichikov",
-          title: "Marat Kichikov",
-        },
-        {
-          id: "egirl Capital",
-          alt: "egirl Capital",
-          title: "egirl Capital",
-        },
-        {
-          id: "4RC Partners",
-          alt: "4RC Partners",
-          title: "4RC Partners",
-        },
-      ],
       visionaries: [
         {
           id: "ethereumFoundation",
@@ -281,6 +159,13 @@ export default Vue.extend({
           title: "a16z (Andreessen Horowitz) investing in Matter Labs",
         },
         {
+          id: "usv",
+          link: "https://matterlabs.medium.com/leading-defi-projects-and-exchanges-invest-to-bring-solidity-to-zksync-9a3df978f824",
+          img: "usv.svg",
+          alt: "Union Square Ventures",
+          title: "Funding from the Union Square Ventures for Matter Labs",
+        },
+        {
           id: "placeholder",
           link: "https://matterlabs.medium.com/leading-defi-projects-and-exchanges-invest-to-bring-solidity-to-zksync-9a3df978f824",
           img: "placeholder.svg",
@@ -288,13 +173,7 @@ export default Vue.extend({
           title: "Investment from the Placeholder for the Matter Labs",
         },
         {
-          id: {
-            id: "partner-1kx",
-            link: "",
-            img: "1kx.svg",
-            alt: "1kx Token Venture Capital",
-            title: "Funding from the 1kx for Matter Labs",
-          },
+          id: "partner-1kx",
           link: "https://t.co/j9z0U8fHDL?amp=1",
           img: "1kx.svg",
           alt: "1kx Token Venture Capital",
@@ -309,21 +188,33 @@ export default Vue.extend({
         },
         {
           id: "blockchain",
-          link: "https://blog.matter-labs.io/funding-ea89c1fa731e",
+          link: "https://medium.com/matter-labs/blockchain-com-will-onboard-the-next-billion-users-to-zksync-5b40f2641923",
           img: "blockchain-com.png",
           alt: "Blockchain.com",
           title: "zkSync's new investors include Blockchain.com",
         },
         {
-          id: "blockchain-capital",
-          link: "https://blog.matter-labs.io/funding-ea89c1fa731e",
-          img: "blockchaincapital.png",
-          alt: "Blockchain.com",
-          title: "zkSync's new investors include Blockchain.com",
+          id: "consensys",
+          img: "consensys.png",
+          alt: "Consensys",
+          title: "consensys",
+        },
+
+        {
+          id: "bybit",
+          img: "bybit.png",
+          alt: "Bybit",
+          title: "Bybit",
+        },
+        {
+          id: "alchemy",
+          img: "alchemy.png",
+          alt: "alchemy",
+          title: "alchemy",
         },
         {
           id: "crypto-com",
-          link: "https://blog.matter-labs.io/funding-ea89c1fa731e",
+          link: "https://medium.com/matter-labs/cryptocom-cb911e7ba58c",
           img: "crypto-com.png",
           alt: "Crypto.com",
           title: "zkSync's new investors include Crypto.com",
@@ -341,13 +232,6 @@ export default Vue.extend({
           img: "hashed.svg",
           alt: "Hashed blockchain experts and builders",
           title: "Grant from the Hashed for Matter Labs",
-        },
-        {
-          id: "usv",
-          link: "https://matterlabs.medium.com/leading-defi-projects-and-exchanges-invest-to-bring-solidity-to-zksync-9a3df978f824",
-          img: "usv.svg",
-          alt: "Union Square Ventures",
-          title: "Funding from the Union Square Ventures for Matter Labs",
         },
         {
           id: "okex-blockchain-ventures",
@@ -385,25 +269,6 @@ export default Vue.extend({
           img: "moonpay.svg",
           alt: "Moon Pay",
           title: "Moon Pay",
-        },
-        {
-          id: "consensys",
-          img: "consensys.png",
-          alt: "Consensys",
-          title: "consensys",
-        },
-
-        {
-          id: "bybit",
-          img: "bybit.png",
-          alt: "Bybit",
-          title: "Bybit",
-        },
-        {
-          id: "alchemy",
-          img: "alchemy.png",
-          alt: "alchemy",
-          title: "alchemy",
         },
         {
           id: "moralis",
