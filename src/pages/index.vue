@@ -112,7 +112,6 @@
 
     <partners :partners-data="visionaries" :title="'Backed by visionaries'" />
     <partners :partners-data="founders" :title="'the founders and leadership of'" :custom-css-class="'partnersBlured'" />
-    <partners :partners-data="angels" :title="'and angels'" :grayscale="true" :custom-css-class="'noImages'" :make-fluid="true" :partners-per-page="0" />
 
     <i-container class="_margin-y-lg-2 _margin-y-xs-2 communityOwned">
       <div class="topBlock _padding-bottom-2">
