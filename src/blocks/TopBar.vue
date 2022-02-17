@@ -7,7 +7,7 @@
           <path fill-rule="evenodd" clip-rule="evenodd" d="M0.998047 12.4872L12.8141 24.2619V15.708L24.5465 7.0047L12.8141 6.99664V0.712463L0.998047 12.4872Z" fill="#fff" />
         </svg>
         <span>zkSync v2 NOW ON TESTNET</span>
-        <z-cta href="https//:zksync.io/v2" target="_blank">LEARN MORE</z-cta>
+        <z-cta href="https://v2.zksync.io" target="_blank">LEARN MORE</z-cta>
       </div>
     </div>
   </section>
@@ -47,13 +47,14 @@ export default Vue.extend({
   },
   methods: {
     topBarClicked(): void {
-      window.open("https://zksync.io/v2/", "_blank");
+      window.open("https://v2.zksync.io", "_blank");
     },
   },
 });
 </script>
 <style lang="scss" scoped>
 .zk-top-bar-component {
+  z-index: 1000;
   overflow: hidden;
   background: $violet;
   display: flex;
@@ -82,7 +83,7 @@ export default Vue.extend({
     }
 
     .single-news {
-      margin-left: 20px;
+      margin-left: 100px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -90,10 +91,15 @@ export default Vue.extend({
       flex-direction: row;
       white-space: nowrap;
       font-family: $openSans;
-      font-style: normal;
-      font-weight: normal;
       font-size: 12px;
       line-height: 16px;
+
+      @media screen and (max-width: $mobile) {
+        margin-left: 40px;
+      }
+      @media screen and (min-width: $mobile) and (max-width: $tablet) {
+        margin-left: 80px;
+      }
 
       & > * {
         margin-left: 0.25rem;
