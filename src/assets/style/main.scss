@@ -4,12 +4,11 @@
 @import "./basic";
 @import "./transitions";
 @import "./fonts";
-@import "./aos.css";
+@import "./aos";
 
 //zk
 @import "./zkDS/base";
 @import "./zkDS/table";
-@import "./zkDS/cta";
 
 //Layouts
 @import "./layouts/default";
@@ -28,7 +27,6 @@
 @import "./components/loader";
 @import "./components/dropdownBlock";
 @import "./components/emphasis";
-@import "./components/z-button";
 @import "./components/partners";
 
 //Pages

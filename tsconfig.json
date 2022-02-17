@@ -1,45 +1,28 @@
 {
+  "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
-    "jsx": "preserve",
-    "target": "ES2018",
+    "allowJs": true,
+    "baseUrl": "./src",
+    "checkJs": false,
+    "declaration": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "lib": ["ESNext", "ESNext.AsyncIterable", "DOM"],
     "module": "ESNext",
     "moduleResolution": "Node",
-    "lib": [
-      "ESNext",
-      "ESNext.AsyncIterable",
-      "dom"
-    ],
-    "esModuleInterop": true,
-    "allowJs": true,
+    "noEmit": true,
+    "noImplicitAny": true,
+    "paths": {
+      "~/*": ["./*"],
+      "@/*": ["./*"]
+    },
+    "suppressImplicitAnyIndexErrors": true,
+    "resolveJsonModule": true,
     "sourceMap": true,
     "strict": true,
-    "noEmit": true,
-    "baseUrl": "./src",
-    "paths": {
-      "~/*": [
-        "./*"
-      ],
-      "@/*": [
-        "./*"
-      ],
-      "~~/*": [
-        "./*"
-      ],
-      "@@/*": [
-        "./*"
-      ]
-    },
-    "types": [
-      "@types/node",
-      "@nuxt/types",
-    ]
+    "target": "ESNext",
+    "types": ["@nuxt/types", "@types/node", "@types/aos"]
   },
-  "exclude": [
-    "node_modules",
-    ".nuxt",
-    "dist",
-    "public",
-    ".github",
-    "environments"
-  ]
+  "include": ["./src/{**/*,*}.{js,ts,vue}", "nuxt.config.ts"],
+  "exclude": ["node_modules", ".nuxt", "dist", "public", "./src/static", "./src/assets/fonts", "./src/assets/images"]
 }

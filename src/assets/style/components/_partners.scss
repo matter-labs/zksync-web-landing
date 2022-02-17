@@ -1,6 +1,8 @@
-@import "../variables";
+.partnersBlock {
+  &.partnersBlured {
+    opacity: 0.66;
+  }
 
-#partners {
   .h2 {
     span {
       color: $white;
@@ -23,8 +25,7 @@
     align-items: center;
     flex-wrap: wrap;
     margin: 0 auto;
-    
-    
+
     a {
       width: 16.66%;
       position: relative;
@@ -76,7 +77,8 @@
         background: $gradientRegularPieceAfter;
       }
 
-      &:hover, &:focus {
+      &:hover,
+      &:focus {
         @media (min-width: $mobile) {
           color: $muted;
           img {
@@ -90,14 +92,13 @@
       }
 
       @media screen and (max-width: $mobile) {
-        width: 50%;
+        min-width: 40%;
 
         img:hover {
           will-change: none;
           transform: none !important;
         }
       }
-
     }
 
     a#loopring > img {
@@ -162,6 +163,35 @@
 
     a#moonpay > img {
       max-width: 80%;
+    }
+  }
+
+  &.noImages {
+    max-width: $maxWidth;
+    margin-left: auto;
+    margin-right: auto;
+
+    .sponsorsContainer {
+      a {
+        width: fit-content;
+        text-align: center;
+        text-decoration: none !important;
+        white-space: nowrap;
+        font: 16px/25px "Open Sans", "sans" !important;
+        color: #ffffff !important;
+        opacity: 0.66;
+        display: inline-flex;
+        grid-gap: 1rem;
+      }
+    }
+
+    @media screen and (max-width: $mobile) {
+      .sponsorsContainer {
+        a {
+          min-width: 0;
+          height: 40px !important;
+        }
+      }
     }
   }
 }

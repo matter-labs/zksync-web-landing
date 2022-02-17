@@ -1,11 +1,6 @@
 {
   "language": "en",
-  "ignorePaths": [
-    "node_modules/**",
-    ".github/**",
-    ".yarn/**",
-    "dist/**"
-  ],
+  "ignorePaths": ["node_modules/**", ".github/**", ".yarn/**", "dist/**"],
   "dictionaries": [
     "typescript",
     "cpp",

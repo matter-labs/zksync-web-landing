@@ -1,5 +1,3 @@
-@import "../variables";
-
 .indexPage {
   .row.-center {
     p {
@@ -13,7 +11,8 @@
     text-align: center;
     margin: 10px auto;
 
-    &, & a {
+    &,
+    & a {
       color: $colorTxt;
     }
 
@@ -47,7 +46,6 @@
     @media screen and (max-height: 770px) {
       height: calc(var(--app-height) - 84px);
     }
-
 
     h1 {
       font-family: $grotesk;
@@ -99,15 +97,13 @@
         line-height: 120%;
         margin: 10px auto 15px !important;
       }
-      .aboutZkSync
-      {
+      .aboutZkSync {
         margin-bottom: 20px !important;
       }
       a.exploreFAQ {
         margin-top: 20px !important;
       }
-      a.scrollDown
-      {
+      a.scrollDown {
         margin-top: 15px !important;
       }
     }
@@ -167,9 +163,10 @@
         transition: all $transition3;
       }
 
-      &::before, &::before {
+      &::before,
+      &::before {
         background-blend-mode: overlay, normal, normal, color-dodge, normal;
-        content: '';
+        content: "";
         filter: blur(30px) brightness(130%);
         height: 50px;
         mix-blend-mode: normal;
@@ -194,12 +191,12 @@
       @media screen and (min-width: $mobile) {
         margin: 90px 0 0 !important;
         &:hover {
-
           i {
             transform: scale(1.25);
           }
 
-          &::before, &::after {
+          &::before,
+          &::after {
             transform: scale(1.5);
             filter: blur(10px) brightness(100%);
           }
@@ -302,8 +299,6 @@
       white-space: nowrap;
       margin-bottom: 16px;
     }
-
-
   }
 
   .underlinedLink {
@@ -328,12 +323,12 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      word-spacing: .2em;
+      word-spacing: 0.2em;
 
       .headerWrapper {
         height: 40px;
         width: auto;
-        padding-right: .25em;
+        padding-right: 0.25em;
 
         .projectLogo {
           height: 100%;
@@ -398,23 +393,7 @@
             color: $white !important;
           }
         }
-
-        .button {
-          margin-top: 25px;
-          background: rgba(24, 24, 32, 0.01);
-          border: 1px solid #ffffff;
-          box-sizing: border-box;
-          line-height: 24px;
-          font-size: 20px;
-          box-shadow: 0 6.66667px 13.3333px rgba(0, 0, 0, 0.08);
-          border-radius: $borderRadiusXs;
-          padding: 16px 46px !important;
-          width: 356px;
-          height: 56px;
-        }
-
       }
-
 
       .columnGrid {
         display: flex;
@@ -492,7 +471,6 @@
     .h2 {
       text-align: left;
       margin: 0;
-
     }
 
     .grayText {
@@ -619,7 +597,6 @@
         }
       }
     }
-
   }
 }
 
@@ -628,12 +605,10 @@
   max-width: 100%;
   width: 100%;
 
-
   .h2 {
     margin-bottom: 50px;
 
     img {
-
       min-height: 52px;
     }
   }
@@ -659,13 +634,11 @@
       justify-content: flex-start;
       background: $darkBlack;
 
-
       &:not(.-active) {
         & > .header {
           border-radius: $borderRadiusBig !important;
           background-color: $obsidianBlack !important;
         }
-
       }
 
       & > .header {
@@ -687,7 +660,6 @@
           padding: 20px;
           height: 60px;
         }
-
 
         &:hover {
           background-color: $violet !important;
@@ -713,25 +685,21 @@
           padding: 0 !important;
           background: rgba(0, 0, 0, 0.4) !important;
 
-
           img {
             width: 100%;
             margin: 10px auto;
           }
         }
       }
-
     }
 
     @media (max-width: $mobile) {
-
       .h2 {
         margin-bottom: 15px;
         white-space: nowrap;
         font-size: 26px;
 
         img {
-
           min-height: 30px;
         }
       }
@@ -749,7 +717,6 @@
       }
     }
   }
-
 
   body .openWallet {
     position: relative;
@@ -770,7 +737,8 @@
     }
 
     &:active {
-      &::before, &::after {
+      &::before,
+      &::after {
         transition-duration: 0.001s;
       }
 
@@ -783,9 +751,10 @@
       }
     }
 
-    &::before, &::after {
+    &::before,
+    &::after {
       z-index: -1;
-      content: '';
+      content: "";
       position: absolute;
       left: 0;
       top: 0;
@@ -818,8 +787,6 @@
       &.subheaderText {
         font-size: 18px !important;
         line-height: 20px;
-
-
       }
 
       br {
@@ -827,8 +794,6 @@
       }
 
       white-space: initial !important;
-
-
     }
 
     .h2 {
@@ -937,7 +902,6 @@
       margin-bottom: 10px;
       padding: 0 12px;
 
-
       .codeGrid {
         width: auto;
         max-width: 100%;
@@ -989,7 +953,8 @@
             text-align: center;
           }
 
-          i.fal, i.fa {
+          i.fal,
+          i.fa {
             display: none !important;
           }
         }
@@ -1069,7 +1034,8 @@
     .communityOwned {
       margin: 2rem auto;
 
-      .topBlock, .bottomBlock {
+      .topBlock,
+      .bottomBlock {
         border-radius: 16px 16px 0 0 !important;
         padding: 1rem;
 
@@ -1103,7 +1069,6 @@
             span {
               display: none;
             }
-
           }
         }
       }
@@ -1143,8 +1108,6 @@
         margin: 5px 0 !important;
 
         max-width: none !important;
-
-
       }
 
       br {
@@ -1184,14 +1147,14 @@
         max-height: 25px;
       }
 
-
       .bottomBlock {
         height: auto !important;
         padding: 10px;
         display: inline !important;
         text-align: center;
 
-        .arrowDown, .featureDescription:last-of-type {
+        .arrowDown,
+        .featureDescription:last-of-type {
           display: none;
         }
       }
@@ -1224,7 +1187,6 @@
       }
     }
 
-
     /**
      * Compare mobile
      */
@@ -1233,7 +1195,6 @@
 
       margin: 30px auto 20px !important;
       padding: 30px 0 20px !important;
-
 
       & > .row:first-child {
         max-width: calc(100% - 24px) !important;
@@ -1286,7 +1247,6 @@
           justify-content: flex-start;
           background: $darkBlack;
 
-
           &:not(.-active) {
             & > .header {
               border-radius: $borderRadiusBig;
@@ -1295,11 +1255,8 @@
           }
 
           &.-active {
-          ;
             border-radius: $borderRadiusBig $borderRadiusBig 0 0;
-
           }
-
 
           & > .header {
             font: bold 18px/20px $grotesk;
@@ -1326,14 +1283,12 @@
               background: rgba(0, 0, 0, 0.4) !important;
               border-radius: 0 !important;
 
-
               img {
                 width: 100%;
                 margin: 10px auto;
               }
             }
           }
-
         }
       }
     }
@@ -1368,8 +1323,7 @@
 
       .reviewsContainer {
         display: block !important;
-        & > .container
-        {
+        & > .container {
           width: auto !important;
         }
       }
@@ -1394,6 +1348,5 @@
         font-size: 16px;
       }
     }
-
   }
 }
