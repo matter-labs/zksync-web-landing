@@ -48,7 +48,7 @@ export default Vue.extend({
   },
   computed: {
     classAttribute() {
-      const cssClasses = ["CtaButton", "variant--Link", "CtaButton--arrow"];
+      const cssClasses = ["CtaButton", "variant--Link", "CtaButton--arrow", "zk-cta"];
       if (this.cssClass) {
         const parsedClasses = this.cssClass.split(" ");
         parsedClasses.forEach(function (singleClassName) {

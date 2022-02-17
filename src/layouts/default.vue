@@ -7,12 +7,12 @@
       </transition>
     </div>
     <block-footer />
+    <block-top-bar />
   </div>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
-
 import AOS from "aos";
 
 export default Vue.extend({

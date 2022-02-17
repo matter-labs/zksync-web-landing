@@ -1,6 +1,10 @@
 .partnersBlock {
   &.partnersBlured {
-    opacity: 0.66;
+    .container > .sponsorsContainer > a,
+    .container > .h2,
+    .container > .zk-button {
+      opacity: 0.66;
+    }
   }
 
   .h2 {

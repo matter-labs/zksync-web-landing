@@ -56,7 +56,7 @@ export default Vue.extend({
       return this.variant === "glow" ? "Primary" : this.variant;
     },
     buttonClass() {
-      const cssClasses = [];
+      const cssClasses = ["zk-button"];
       if (this.glow || this.variant === "glow") {
         cssClasses.push("glow-button");
       }

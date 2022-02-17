@@ -1,7 +1,7 @@
 <template>
   <header v-click-outside="handleClose" :class="{ opened: opened }" class="indexHeader">
     <div class="mobileIndexHeader">
-      <i-container class="mobileOnly">
+      <i-container class="beforeDesktopOnly">
         <i-row>
           <i-column>
             <transition name="fade">
