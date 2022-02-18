@@ -1,13 +1,36 @@
 {
   "hosting": [
     {
-      "target": "prod",
+      "target": "staging",
+      "cleanUrls": true,
+      "trailingSlash": true,
       "public": "public",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-      "rewrites": [
+      "headers": [
         {
           "source": "**",
-          "destination": "/index.html"
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, no-store, must-revalidate"
+            },
+            {
+              "key": "Referrer-Policy",
+              "value": "no-referrer, strict-origin-when-cross-origin"
+            },
+            {
+              "key": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "key": "X-Frame-Options",
+              "value": "DENY"
+            },
+            {
+              "key": "X-XSS-Protection",
+              "value": "1; mode=block"
+            }
+          ]
         }
       ],
       "redirects": [
@@ -449,13 +472,36 @@
       ]
     },
     {
-      "target": "staging",
+      "target": "prod",
+      "cleanUrls": true,
+      "trailingSlash": true,
       "public": "public",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-      "rewrites": [
+      "headers": [
         {
           "source": "**",
-          "destination": "/index.html"
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, no-store, must-revalidate"
+            },
+            {
+              "key": "Referrer-Policy",
+              "value": "no-referrer, strict-origin-when-cross-origin"
+            },
+            {
+              "key": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "key": "X-Frame-Options",
+              "value": "DENY"
+            },
+            {
+              "key": "X-XSS-Protection",
+              "value": "1; mode=block"
+            }
+          ]
         }
       ],
       "redirects": [
