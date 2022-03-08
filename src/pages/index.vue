@@ -110,7 +110,7 @@
       </i-container>
     </div>
 
-    <partners :partners-data="visionaries" :title="'Backed by visionaries'" />
+    <partners :partners-data="visionaries" id="visionaries" :title="'Backed by visionaries'" />
     <partners :partners-data="founders" :title="'the founders and leadership of'" :custom-css-class="'partnersBlured'" />
 
     <i-container class="_margin-y-lg-2 _margin-y-xs-2 communityOwned">

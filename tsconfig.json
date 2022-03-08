@@ -24,5 +24,5 @@
     "types": ["@nuxt/types", "@types/node", "@types/aos", "@inkline/nuxt"]
   },
   "include": ["./src/{**/*,*}.{js,ts,vue}", "nuxt.config.ts"],
-  "exclude": ["node_modules", ".nuxt", "dist", "public", "./src/static", "./src/assets/fonts", "./src/assets/images"]
+  "exclude": ["src/assets/images", "src/assets/fonts", "src/static", "node_modules", ".nuxt", "public", ".husky", "dist", ".nuxt", ".github", ".yarn", "tests"]
 }
