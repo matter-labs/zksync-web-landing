@@ -1,7 +1,7 @@
 <template>
   <header v-click-outside="handleClose" :class="{ opened: opened }" class="indexHeader">
     <div class="mobileIndexHeader">
-      <i-container class="mobileOnly">
+      <i-container class="beforeDesktopOnly">
         <i-row>
           <i-column>
             <transition name="fade">
@@ -54,7 +54,7 @@
                   </i-dropdown-item>
                 </i-dropdown-menu>
               </i-dropdown>
-              <a href="https://www.notion.so/matterlabs/Career-at-Matter-Labs-4a69ed0f7acb45c89f662cf12dbc2464" target="_blank" class="linkItem">We're hiring</a>
+              <a href="//boards.eu.greenhouse.io/matterlabs" target="_blank" class="linkItem">We're hiring</a>
             </div>
           </i-column>
           <i-column :xs="12" :md="4" class="_padding-right-0 _justify-content-end">
@@ -82,15 +82,19 @@ export default Vue.extend({
       dropdownOpened: false,
       dropdownOptions: [
         {
-          name: "zkWallet",
+          name: "Ecosystem",
+          link: "https://ecosystem.zksync.io",
+        },
+        {
+          name: "zkSync Wallet",
           link: "https://wallet.zksync.io/",
         },
         {
-          name: "zkLink",
-          link: "https://link.zksync.io/",
+          name: "zkSync Checkout",
+          link: "https://checkout.zksync.io/",
         },
         {
-          name: "zkScan",
+          name: "Block Explorer",
           link: "https://zkscan.io/",
         },
         {
@@ -98,12 +102,8 @@ export default Vue.extend({
           link: "https://withdraw.zksync.io/",
         },
         {
-          name: "zkCheckout",
-          link: "https://www.npmjs.com/package/zksync-checkout/",
-        },
-        {
-          name: "zkMint",
-          link: "https://mint.zksync.dev",
+          name: "Mint test tokens",
+          link: "https://wallet.zksync.io/transaction/mint?network=rinkeby",
         },
       ] as Array<DropdownOption>,
     };

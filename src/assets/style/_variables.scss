@@ -95,7 +95,7 @@ $modal-border-color-light: #180d0d14;
 $modal-background-light: $white;
 
 //Fonts
-$openSans: "Open Sans", "sans-serif";
+$openSans: "Open Sans", "sans";
 $grotesk: "FK Grotesk", "sans-serif";
 
 $font-family-primary-base: $openSans;
@@ -109,6 +109,7 @@ $transitionMedium: ease 0.27s;
 
 /* Responsive */
 $mobile: 768px;
+$tablet: 1180px;
 $maxWidth: 1370px;
 
 /* Shadows */

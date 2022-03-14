@@ -5,11 +5,11 @@
   "targets": {
     "zksync-web-landing": {
       "hosting": {
+        "prod": [
+          "prod-zksync-io"
+        ],
         "staging": [
           "stage-landing-zksync"
-        ],
-        "prod": [
-          "zksync-web-landing"
         ]
       }
     }
