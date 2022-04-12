@@ -1,7 +1,7 @@
 <template>
   <header v-click-outside="handleClose" :class="{ opened: opened }" class="indexHeader">
-    <div class="mobileIndexHeader">
-      <i-container class="beforeDesktopOnly">
+    <div class="mobileIndexHeader mobileOnly">
+      <i-container>
         <i-row>
           <i-column>
             <transition name="fade">
@@ -128,3 +128,10 @@ export default Vue.extend({
   },
 });
 </script>
+<style lang="scss">
+@media (min-width: 740px) {
+  .mobileOnly {
+    display: none !important;
+  }
+}
+</style>
