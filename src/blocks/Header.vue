@@ -129,7 +129,7 @@ export default Vue.extend({
 });
 </script>
 <style lang="scss">
-@media (min-width: 740px) {
+@media (min-width: 770px) {
   .mobileOnly {
     display: none !important;
   }
