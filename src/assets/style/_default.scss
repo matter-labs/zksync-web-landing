@@ -44,7 +44,13 @@ input[type="number"] {
 }
 
 .desktopOnly {
-  @media screen and (max-width: $mobile+1) {
+  @media screen and (max-width: $mobile) {
+    display: none !important;
+  }
+}
+
+@media (min-width: $mobile) {
+  .mobileOnly {
     display: none !important;
   }
 }
