@@ -49,7 +49,7 @@ input[type="number"] {
   }
 }
 
-@media (min-width: $mobile) {
+@media (min-width: $mobile+1) {
   .mobileOnly {
     display: none !important;
   }
