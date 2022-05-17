@@ -746,6 +746,11 @@
           "type": 301
         },
         {
+          "source": "/dev/tutorial.html",
+          "destination": "https://docs.zksync.io/userdocs/tutorials.html",
+          "type": 301
+        },
+        {
           "source": "/dev/nfts.html",
           "destination": "https://docs.zksync.io/dev/nfts.html",
           "type": 301
