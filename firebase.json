@@ -488,6 +488,21 @@
           "source": "/faq/:path*",
           "destination": "https://docs.zksync.io/userdocs/:path*",
           "type": 301
+        },
+        {
+          "source": "/docs",
+          "destination": "https://docs.zksync.io/userdocs/",
+          "type": 301
+        },
+        {
+          "source": "/docs.html",
+          "destination": "https://docs.zksync.io/userdocs/",
+          "type": 301
+        },
+        {
+          "source": "/docs/:path*",
+          "destination": "https://docs.zksync.io/userdocs/:path*",
+          "type": 301
         }
       ]
     },
@@ -977,6 +992,21 @@
         },
         {
           "source": "/faq/:path*",
+          "destination": "https://docs.zksync.io/userdocs/:path*",
+          "type": 301
+        },
+        {
+          "source": "/docs",
+          "destination": "https://docs.zksync.io/userdocs/",
+          "type": 301
+        },
+        {
+          "source": "/docs.html",
+          "destination": "https://docs.zksync.io/userdocs/",
+          "type": 301
+        },
+        {
+          "source": "/docs/:path*",
           "destination": "https://docs.zksync.io/userdocs/:path*",
           "type": 301
         }
