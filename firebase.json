@@ -468,6 +468,26 @@
           "source": "/zkevm/",
           "destination": "https://docs.zksync.io/zkevm/",
           "type": 301
+        },
+        {
+          "source": "/faq/",
+          "destination": "https://docs.zksync.io/userdocs/",
+          "type": 301
+        },
+        {
+          "source": "/faq",
+          "destination": "https://docs.zksync.io/userdocs/",
+          "type": 301
+        },
+        {
+          "source": "/faq.html",
+          "destination": "https://docs.zksync.io/userdocs/",
+          "type": 301
+        },
+        {
+          "source": "/faq/:path*",
+          "destination": "https://docs.zksync.io/userdocs/:path*",
+          "type": 301
         }
       ]
     },
@@ -938,6 +958,26 @@
         {
           "source": "/zkevm/",
           "destination": "https://docs.zksync.io/zkevm/",
+          "type": 301
+        },
+        {
+          "source": "/faq/",
+          "destination": "https://docs.zksync.io/userdocs/",
+          "type": 301
+        },
+        {
+          "source": "/faq",
+          "destination": "https://docs.zksync.io/userdocs/",
+          "type": 301
+        },
+        {
+          "source": "/faq.html",
+          "destination": "https://docs.zksync.io/userdocs/",
+          "type": 301
+        },
+        {
+          "source": "/faq/:path*",
+          "destination": "https://docs.zksync.io/userdocs/:path*",
           "type": 301
         }
       ]
