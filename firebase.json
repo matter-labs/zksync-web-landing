@@ -220,6 +220,11 @@
           "type": 301
         },
         {
+          "source": "/dev/tutorial.html",
+          "destination": "https://docs.zksync.io/userdocs/tutorials.html",
+          "type": 301
+        },
+        {
           "source": "/dev/nfts.html",
           "destination": "https://docs.zksync.io/dev/nfts.html",
           "type": 301
@@ -487,6 +492,116 @@
         {
           "source": "/faq/:path*",
           "destination": "https://docs.zksync.io/userdocs/:path*",
+          "type": 301
+        },
+        {
+          "source": "/docs",
+          "destination": "https://docs.zksync.io/userdocs/",
+          "type": 301
+        },
+        {
+          "source": "/docs.html",
+          "destination": "https://docs.zksync.io/userdocs/",
+          "type": 301
+        },
+        {
+          "source": "/docs/:path*",
+          "destination": "https://docs.zksync.io/userdocs/:path*",
+          "type": 301
+        },
+        {
+          "source": "/dev",
+          "destination": "https://docs.zksync.io/userdocs/",
+          "type": 301
+        },
+        {
+          "source": "/dev.html",
+          "destination": "https://docs.zksync.io/userdocs/",
+          "type": 301
+        },
+        {
+          "source": "/dev/:path*",
+          "destination": "https://docs.zksync.io/userdocs/:path*",
+          "type": 301
+        },
+        {
+          "source": "/ABDK_ZkSync_V8.pdf",
+          "destination": "https://docs.zksync.io/ABDK_ZkSync_V8.pdf",
+          "type": 301
+        },
+        {
+          "source": "/ABDK-ZKSync-Audit-v2-part1.pdf",
+          "destination": "https://docs.zksync.io/ABDK-ZKSync-Audit-v2-part1.pdf",
+          "type": 301
+        },
+        {
+          "source": "/ABDK-ZKSync-Audit-v2-part2.pdf",
+          "destination": "https://docs.zksync.io/ABDK-ZKSync-Audit-v2-part2.pdf",
+          "type": 301
+        },
+        {
+          "source": "/ABDK-ZkSync-Audit-v5.pdf",
+          "destination": "https://docs.zksync.io/ABDK-ZkSync-Audit-v5.pdf",
+          "type": 301
+        },
+        {
+          "source": "/ABDK-ZkSync-Audit-v5.pdf",
+          "destination": "https://docs.zksync.io/ABDK-ZkSync-Audit-v5.pdf",
+          "type": 301
+        },
+        {
+          "source": "/bounty-table.png",
+          "destination": "https://docs.zksync.io/bounty-table.png",
+          "type": 301
+        },
+        {
+          "source": "/chart.png",
+          "destination": "https://docs.zksync.io/chart.png",
+          "type": 301
+        },
+        {
+          "source": "/chart2.png",
+          "destination": "https://docs.zksync.io/chart2.png",
+          "type": 301
+        },
+        {
+          "source": "/chart3.png",
+          "destination": "https://docs.zksync.io/chart3.png",
+          "type": 301
+        },
+        {
+          "source": "/chart4.png",
+          "destination": "https://docs.zksync.io/chart4.png",
+          "type": 301
+        },
+        {
+          "source": "/l2fees.png",
+          "destination": "https://docs.zksync.io/l2fees.png",
+          "type": 301
+        },
+        {
+          "source": "/scalability.png",
+          "destination": "https://docs.zksync.io/scalability.png",
+          "type": 301
+        },
+        {
+          "source": "/social.png",
+          "destination": "https://docs.zksync.io/social.png",
+          "type": 301
+        },
+        {
+          "source": "/zksync-1.0-audit.pdf",
+          "destination": "https://docs.zksync.io/zksync-1.0-audit.pdf",
+          "type": 301
+        },
+        {
+          "source": "/zksync1-2021-01-bug.png",
+          "destination": "https://docs.zksync.io/zksync1-2021-01-bug.png",
+          "type": 301
+        },
+        {
+          "source": "/zksync1-2021-01-fix.png",
+          "destination": "https://docs.zksync.io/zksync1-2021-01-fix.png",
           "type": 301
         }
       ]
@@ -711,6 +826,11 @@
           "type": 301
         },
         {
+          "source": "/dev/tutorial.html",
+          "destination": "https://docs.zksync.io/userdocs/tutorials.html",
+          "type": 301
+        },
+        {
           "source": "/dev/nfts.html",
           "destination": "https://docs.zksync.io/dev/nfts.html",
           "type": 301
@@ -978,6 +1098,116 @@
         {
           "source": "/faq/:path*",
           "destination": "https://docs.zksync.io/userdocs/:path*",
+          "type": 301
+        },
+        {
+          "source": "/docs",
+          "destination": "https://docs.zksync.io/userdocs/",
+          "type": 301
+        },
+        {
+          "source": "/docs.html",
+          "destination": "https://docs.zksync.io/userdocs/",
+          "type": 301
+        },
+        {
+          "source": "/docs/:path*",
+          "destination": "https://docs.zksync.io/userdocs/:path*",
+          "type": 301
+        },
+        {
+          "source": "/dev",
+          "destination": "https://docs.zksync.io/userdocs/",
+          "type": 301
+        },
+        {
+          "source": "/dev.html",
+          "destination": "https://docs.zksync.io/userdocs/",
+          "type": 301
+        },
+        {
+          "source": "/dev/:path*",
+          "destination": "https://docs.zksync.io/userdocs/:path*",
+          "type": 301
+        },
+        {
+          "source": "/ABDK_ZkSync_V8.pdf",
+          "destination": "https://docs.zksync.io/ABDK_ZkSync_V8.pdf",
+          "type": 301
+        },
+        {
+          "source": "/ABDK-ZKSync-Audit-v2-part1.pdf",
+          "destination": "https://docs.zksync.io/ABDK-ZKSync-Audit-v2-part1.pdf",
+          "type": 301
+        },
+        {
+          "source": "/ABDK-ZKSync-Audit-v2-part2.pdf",
+          "destination": "https://docs.zksync.io/ABDK-ZKSync-Audit-v2-part2.pdf",
+          "type": 301
+        },
+        {
+          "source": "/ABDK-ZkSync-Audit-v5.pdf",
+          "destination": "https://docs.zksync.io/ABDK-ZkSync-Audit-v5.pdf",
+          "type": 301
+        },
+        {
+          "source": "/ABDK-ZkSync-Audit-v5.pdf",
+          "destination": "https://docs.zksync.io/ABDK-ZkSync-Audit-v5.pdf",
+          "type": 301
+        },
+        {
+          "source": "/bounty-table.png",
+          "destination": "https://docs.zksync.io/bounty-table.png",
+          "type": 301
+        },
+        {
+          "source": "/chart.png",
+          "destination": "https://docs.zksync.io/chart.png",
+          "type": 301
+        },
+        {
+          "source": "/chart2.png",
+          "destination": "https://docs.zksync.io/chart2.png",
+          "type": 301
+        },
+        {
+          "source": "/chart3.png",
+          "destination": "https://docs.zksync.io/chart3.png",
+          "type": 301
+        },
+        {
+          "source": "/chart4.png",
+          "destination": "https://docs.zksync.io/chart4.png",
+          "type": 301
+        },
+        {
+          "source": "/l2fees.png",
+          "destination": "https://docs.zksync.io/l2fees.png",
+          "type": 301
+        },
+        {
+          "source": "/scalability.png",
+          "destination": "https://docs.zksync.io/scalability.png",
+          "type": 301
+        },
+        {
+          "source": "/social.png",
+          "destination": "https://docs.zksync.io/social.png",
+          "type": 301
+        },
+        {
+          "source": "/zksync-1.0-audit.pdf",
+          "destination": "https://docs.zksync.io/zksync-1.0-audit.pdf",
+          "type": 301
+        },
+        {
+          "source": "/zksync1-2021-01-bug.png",
+          "destination": "https://docs.zksync.io/zksync1-2021-01-bug.png",
+          "type": 301
+        },
+        {
+          "source": "/zksync1-2021-01-fix.png",
+          "destination": "https://docs.zksync.io/zksync1-2021-01-fix.png",
           "type": 301
         }
       ]
