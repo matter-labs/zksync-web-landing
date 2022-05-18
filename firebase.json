@@ -465,6 +465,11 @@
           "type": 301
         },
         {
+          "source": "/zkevm",
+          "destination": "https://docs.zksync.io/zkevm/",
+          "type": 301
+        },
+        {
           "source": "/zkevm/",
           "destination": "https://docs.zksync.io/zkevm/",
           "type": 301
@@ -1073,6 +1078,11 @@
         {
           "source": "/userdocs/tutorials.html",
           "destination": "https://docs.zksync.io/userdocs/tutorials.html",
+          "type": 301
+        },
+        {
+          "source": "/zkevm",
+          "destination": "https://docs.zksync.io/zkevm/",
           "type": 301
         },
         {
