@@ -195,18 +195,13 @@
           "type": 301
         },
         {
-          "source": "/contact.html",
-          "destination": "https://docs.zksync.io/contact.html",
-          "type": 301
-        },
-        {
           "source": "/api/v0.2.html",
           "destination": "https://docs.zksync.io/api/v0.2.html",
           "type": 301
         },
         {
-          "source": "/dev/",
-          "destination": "https://docs.zksync.io/dev/",
+          "source": "/contact.html",
+          "destination": "https://docs.zksync.io/contact.html",
           "type": 301
         },
         {
@@ -230,11 +225,6 @@
           "type": 301
         },
         {
-          "source": "/dev/payments/",
-          "destination": "https://docs.zksync.io/dev/payments/",
-          "type": 301
-        },
-        {
           "source": "/dev/payments/sending_transactions.html",
           "destination": "https://docs.zksync.io/dev/payments/sending_transactions.html",
           "type": 301
@@ -245,8 +235,8 @@
           "type": 301
         },
         {
-          "source": "/dev/security/",
-          "destination": "https://docs.zksync.io/dev/security/",
+          "source": "/dev/payments/",
+          "destination": "https://docs.zksync.io/dev/payments/",
           "type": 301
         },
         {
@@ -270,13 +260,18 @@
           "type": 301
         },
         {
-          "source": "/dev/swaps.html",
-          "destination": "https://docs.zksync.io/dev/swaps.html",
+          "source": "/dev/security/bug-bounty.html",
+          "destination": "https://docs.zksync.io/dev/security/bug-bounty.html",
           "type": 301
         },
         {
-          "source": "/dev/security/bug-bounty.html",
-          "destination": "https://docs.zksync.io/dev/security/bug-bounty.html",
+          "source": "/dev/security/",
+          "destination": "https://docs.zksync.io/dev/security/",
+          "type": 301
+        },
+        {
+          "source": "/dev/swaps.html",
+          "destination": "https://docs.zksync.io/dev/swaps.html",
           "type": 301
         },
         {
@@ -475,56 +470,6 @@
           "type": 301
         },
         {
-          "source": "/faq/",
-          "destination": "https://docs.zksync.io/userdocs/",
-          "type": 301
-        },
-        {
-          "source": "/faq",
-          "destination": "https://docs.zksync.io/userdocs/",
-          "type": 301
-        },
-        {
-          "source": "/faq.html",
-          "destination": "https://docs.zksync.io/userdocs/",
-          "type": 301
-        },
-        {
-          "source": "/faq/:path*",
-          "destination": "https://docs.zksync.io/userdocs/:path*",
-          "type": 301
-        },
-        {
-          "source": "/docs",
-          "destination": "https://docs.zksync.io/userdocs/",
-          "type": 301
-        },
-        {
-          "source": "/docs.html",
-          "destination": "https://docs.zksync.io/userdocs/",
-          "type": 301
-        },
-        {
-          "source": "/docs/:path*",
-          "destination": "https://docs.zksync.io/userdocs/:path*",
-          "type": 301
-        },
-        {
-          "source": "/dev",
-          "destination": "https://docs.zksync.io/userdocs/",
-          "type": 301
-        },
-        {
-          "source": "/dev.html",
-          "destination": "https://docs.zksync.io/userdocs/",
-          "type": 301
-        },
-        {
-          "source": "/dev/:path*",
-          "destination": "https://docs.zksync.io/userdocs/:path*",
-          "type": 301
-        },
-        {
           "source": "/ABDK_ZkSync_V8.pdf",
           "destination": "https://docs.zksync.io/ABDK_ZkSync_V8.pdf",
           "type": 301
@@ -602,6 +547,66 @@
         {
           "source": "/zksync1-2021-01-fix.png",
           "destination": "https://docs.zksync.io/zksync1-2021-01-fix.png",
+          "type": 301
+        },
+        {
+          "source": "/faq",
+          "destination": "https://docs.zksync.io/userdocs/",
+          "type": 301
+        },
+        {
+          "source": "/faq.html",
+          "destination": "https://docs.zksync.io/userdocs/",
+          "type": 301
+        },
+        {
+          "source": "/faq/:path*",
+          "destination": "https://docs.zksync.io/userdocs/:path*",
+          "type": 301
+        },
+        {
+          "source": "/docs",
+          "destination": "https://docs.zksync.io/userdocs/",
+          "type": 301
+        },
+        {
+          "source": "/docs.html",
+          "destination": "https://docs.zksync.io/userdocs/",
+          "type": 301
+        },
+        {
+          "source": "/docs/:path*",
+          "destination": "https://docs.zksync.io/userdocs/:path*",
+          "type": 301
+        },
+        {
+          "source": "/dev",
+          "destination": "https://docs.zksync.io/dev/",
+          "type": 301
+        },
+        {
+          "source": "/dev.html",
+          "destination": "https://docs.zksync.io/dev/",
+          "type": 301
+        },
+        {
+          "source": "/dev/:path*",
+          "destination": "https://docs.zksync.io/dev/:path*",
+          "type": 301
+        },
+        {
+          "source": "/api",
+          "destination": "https://docs.zksync.io/api/",
+          "type": 301
+        },
+        {
+          "source": "/api.html",
+          "destination": "https://docs.zksync.io/api/",
+          "type": 301
+        },
+        {
+          "source": "/api/:path*",
+          "destination": "https://docs.zksync.io/api/:path*",
           "type": 301
         }
       ]
@@ -801,18 +806,13 @@
           "type": 301
         },
         {
-          "source": "/contact.html",
-          "destination": "https://docs.zksync.io/contact.html",
-          "type": 301
-        },
-        {
           "source": "/api/v0.2.html",
           "destination": "https://docs.zksync.io/api/v0.2.html",
           "type": 301
         },
         {
-          "source": "/dev/",
-          "destination": "https://docs.zksync.io/dev/",
+          "source": "/contact.html",
+          "destination": "https://docs.zksync.io/contact.html",
           "type": 301
         },
         {
@@ -836,11 +836,6 @@
           "type": 301
         },
         {
-          "source": "/dev/payments/",
-          "destination": "https://docs.zksync.io/dev/payments/",
-          "type": 301
-        },
-        {
           "source": "/dev/payments/sending_transactions.html",
           "destination": "https://docs.zksync.io/dev/payments/sending_transactions.html",
           "type": 301
@@ -851,8 +846,8 @@
           "type": 301
         },
         {
-          "source": "/dev/security/",
-          "destination": "https://docs.zksync.io/dev/security/",
+          "source": "/dev/payments/",
+          "destination": "https://docs.zksync.io/dev/payments/",
           "type": 301
         },
         {
@@ -876,13 +871,18 @@
           "type": 301
         },
         {
-          "source": "/dev/swaps.html",
-          "destination": "https://docs.zksync.io/dev/swaps.html",
+          "source": "/dev/security/bug-bounty.html",
+          "destination": "https://docs.zksync.io/dev/security/bug-bounty.html",
           "type": 301
         },
         {
-          "source": "/dev/security/bug-bounty.html",
-          "destination": "https://docs.zksync.io/dev/security/bug-bounty.html",
+          "source": "/dev/security/",
+          "destination": "https://docs.zksync.io/dev/security/",
+          "type": 301
+        },
+        {
+          "source": "/dev/swaps.html",
+          "destination": "https://docs.zksync.io/dev/swaps.html",
           "type": 301
         },
         {
@@ -1081,56 +1081,6 @@
           "type": 301
         },
         {
-          "source": "/faq/",
-          "destination": "https://docs.zksync.io/userdocs/",
-          "type": 301
-        },
-        {
-          "source": "/faq",
-          "destination": "https://docs.zksync.io/userdocs/",
-          "type": 301
-        },
-        {
-          "source": "/faq.html",
-          "destination": "https://docs.zksync.io/userdocs/",
-          "type": 301
-        },
-        {
-          "source": "/faq/:path*",
-          "destination": "https://docs.zksync.io/userdocs/:path*",
-          "type": 301
-        },
-        {
-          "source": "/docs",
-          "destination": "https://docs.zksync.io/userdocs/",
-          "type": 301
-        },
-        {
-          "source": "/docs.html",
-          "destination": "https://docs.zksync.io/userdocs/",
-          "type": 301
-        },
-        {
-          "source": "/docs/:path*",
-          "destination": "https://docs.zksync.io/userdocs/:path*",
-          "type": 301
-        },
-        {
-          "source": "/dev",
-          "destination": "https://docs.zksync.io/userdocs/",
-          "type": 301
-        },
-        {
-          "source": "/dev.html",
-          "destination": "https://docs.zksync.io/userdocs/",
-          "type": 301
-        },
-        {
-          "source": "/dev/:path*",
-          "destination": "https://docs.zksync.io/userdocs/:path*",
-          "type": 301
-        },
-        {
           "source": "/ABDK_ZkSync_V8.pdf",
           "destination": "https://docs.zksync.io/ABDK_ZkSync_V8.pdf",
           "type": 301
@@ -1208,6 +1158,66 @@
         {
           "source": "/zksync1-2021-01-fix.png",
           "destination": "https://docs.zksync.io/zksync1-2021-01-fix.png",
+          "type": 301
+        },
+        {
+          "source": "/faq",
+          "destination": "https://docs.zksync.io/userdocs/",
+          "type": 301
+        },
+        {
+          "source": "/faq.html",
+          "destination": "https://docs.zksync.io/userdocs/",
+          "type": 301
+        },
+        {
+          "source": "/faq/:path*",
+          "destination": "https://docs.zksync.io/userdocs/:path*",
+          "type": 301
+        },
+        {
+          "source": "/docs",
+          "destination": "https://docs.zksync.io/userdocs/",
+          "type": 301
+        },
+        {
+          "source": "/docs.html",
+          "destination": "https://docs.zksync.io/userdocs/",
+          "type": 301
+        },
+        {
+          "source": "/docs/:path*",
+          "destination": "https://docs.zksync.io/userdocs/:path*",
+          "type": 301
+        },
+        {
+          "source": "/dev",
+          "destination": "https://docs.zksync.io/dev/",
+          "type": 301
+        },
+        {
+          "source": "/dev.html",
+          "destination": "https://docs.zksync.io/dev/",
+          "type": 301
+        },
+        {
+          "source": "/dev/:path*",
+          "destination": "https://docs.zksync.io/dev/:path*",
+          "type": 301
+        },
+        {
+          "source": "/api",
+          "destination": "https://docs.zksync.io/api/",
+          "type": 301
+        },
+        {
+          "source": "/api.html",
+          "destination": "https://docs.zksync.io/api/",
+          "type": 301
+        },
+        {
+          "source": "/api/:path*",
+          "destination": "https://docs.zksync.io/api/:path*",
           "type": 301
         }
       ]
