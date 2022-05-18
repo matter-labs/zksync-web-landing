@@ -32,3 +32,4 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 - [Nuxt.js](https://nuxtjs.org)
 - [TS Lang](https://www.typescriptlang.org)
 - [Vue.js](https://vuejs.org)
+
