@@ -524,6 +524,16 @@
           "destination": "https://docs.zksync.io/userdocs/:path*",
           "type": 301
         }
+      ],
+      "rewrites": [
+        {
+          "source": "/",
+          "destination": "/index.html"
+        },
+        {
+          "source": "**",
+          "destination": "https://docs.zksync.io/"
+        }
       ]
     },
     {
