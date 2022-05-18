@@ -523,6 +523,11 @@
           "source": "/dev/:path*",
           "destination": "https://docs.zksync.io/userdocs/:path*",
           "type": 301
+        },
+        {
+          "source": "/:path*",
+          "destination": "https://docs.zksync.io/:path*",
+          "type": 301
         }
       ],
       "rewrites": [
