@@ -5,31 +5,35 @@
       "trailingSlash": true,
       "public": "public",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-      "headers": [{
-        "source": "**",
-        "headers": [{
-            "key": "Cache-Control",
-            "value": "no-cache, no-store, must-revalidate"
-          },
-          {
-            "key": "Referrer-Policy",
-            "value": "no-referrer, strict-origin-when-cross-origin"
-          },
-          {
-            "key": "X-Content-Type-Options",
-            "value": "nosniff"
-          },
-          {
-            "key": "X-Frame-Options",
-            "value": "DENY"
-          },
-          {
-            "key": "X-XSS-Protection",
-            "value": "1; mode=block"
-          }
-        ]
-      }],
-      "redirects": [{
+      "headers": [
+        {
+          "source": "**",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, no-store, must-revalidate"
+            },
+            {
+              "key": "Referrer-Policy",
+              "value": "no-referrer, strict-origin-when-cross-origin"
+            },
+            {
+              "key": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "key": "X-Frame-Options",
+              "value": "DENY"
+            },
+            {
+              "key": "X-XSS-Protection",
+              "value": "1; mode=block"
+            }
+          ]
+        }
+      ],
+      "redirects": [
+        {
           "source": "/legal/terms",
           "destination": "https://docs.zksync.io/legal/terms/",
           "type": 301
@@ -1047,31 +1051,35 @@
       "trailingSlash": true,
       "public": "public",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-      "headers": [{
-        "source": "**",
-        "headers": [{
-            "key": "Cache-Control",
-            "value": "no-cache, no-store, must-revalidate"
-          },
-          {
-            "key": "Referrer-Policy",
-            "value": "no-referrer, strict-origin-when-cross-origin"
-          },
-          {
-            "key": "X-Content-Type-Options",
-            "value": "nosniff"
-          },
-          {
-            "key": "X-Frame-Options",
-            "value": "DENY"
-          },
-          {
-            "key": "X-XSS-Protection",
-            "value": "1; mode=block"
-          }
-        ]
-      }],
-      "redirects": [{
+      "headers": [
+        {
+          "source": "**",
+          "headers": [
+            {
+              "key": "Cache-Control",
+              "value": "no-cache, no-store, must-revalidate"
+            },
+            {
+              "key": "Referrer-Policy",
+              "value": "no-referrer, strict-origin-when-cross-origin"
+            },
+            {
+              "key": "X-Content-Type-Options",
+              "value": "nosniff"
+            },
+            {
+              "key": "X-Frame-Options",
+              "value": "DENY"
+            },
+            {
+              "key": "X-XSS-Protection",
+              "value": "1; mode=block"
+            }
+          ]
+        }
+      ],
+      "redirects": [
+        {
           "source": "/legal/terms",
           "destination": "https://docs.zksync.io/legal/terms/",
           "type": 301
