@@ -35,1012 +35,1012 @@
       "redirects": [
         {
           "source": "/legal/terms",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/legal/terms/",
+          "destination": "https://docs.zksync.io/legal/terms/",
           "type": 301
         },
         {
           "source": "/legal/terms.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/legal/terms/",
+          "destination": "https://docs.zksync.io/legal/terms/",
           "type": 301
         },
         {
           "source": "/legal/privacy",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/legal/privacy/",
+          "destination": "https://docs.zksync.io/legal/privacy/",
           "type": 301
         },
         {
           "source": "/legal/privacy.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/legal/privacy/",
+          "destination": "https://docs.zksync.io/legal/privacy/",
           "type": 301
         },
         {
           "source": "/userdocs/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/",
+          "destination": "https://docs.zksync.io/userdocs/",
           "type": 301
         },
         {
           "source": "/userdocs",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/",
+          "destination": "https://docs.zksync.io/userdocs/",
           "type": 301
         },
         {
           "source": "/userdocs/intro",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/intro/",
+          "destination": "https://docs.zksync.io/userdocs/intro/",
           "type": 301
         },
         {
           "source": "/userdocs/intro.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/intro/",
+          "destination": "https://docs.zksync.io/userdocs/intro/",
           "type": 301
         },
         {
           "source": "/userdocs/tech",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/tech/",
+          "destination": "https://docs.zksync.io/userdocs/tech/",
           "type": 301
         },
         {
           "source": "/userdocs/tech.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/tech/",
+          "destination": "https://docs.zksync.io/userdocs/tech/",
           "type": 301
         },
         {
           "source": "/userdocs/security",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/security/",
+          "destination": "https://docs.zksync.io/userdocs/security/",
           "type": 301
         },
         {
           "source": "/userdocs/security.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/security/",
+          "destination": "https://docs.zksync.io/userdocs/security/",
           "type": 301
         },
         {
           "source": "/userdocs/learnbywatching",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/learnbywatching/",
+          "destination": "https://docs.zksync.io/userdocs/learnbywatching/",
           "type": 301
         },
         {
           "source": "/userdocs/learnbywatching.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/learnbywatching/",
+          "destination": "https://docs.zksync.io/userdocs/learnbywatching/",
           "type": 301
         },
         {
           "source": "/userdocs/wallets",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/wallets/",
+          "destination": "https://docs.zksync.io/userdocs/wallets/",
           "type": 301
         },
         {
           "source": "/userdocs/wallets.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/wallets/",
+          "destination": "https://docs.zksync.io/userdocs/wallets/",
           "type": 301
         },
         {
           "source": "/userdocs/tokens",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/tokens/",
+          "destination": "https://docs.zksync.io/userdocs/tokens/",
           "type": 301
         },
         {
           "source": "/userdocs/tokens.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/tokens/",
+          "destination": "https://docs.zksync.io/userdocs/tokens/",
           "type": 301
         },
         {
           "source": "/userdocs/decentralization",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/decentralization/",
+          "destination": "https://docs.zksync.io/userdocs/decentralization/",
           "type": 301
         },
         {
           "source": "/userdocs/decentralization.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/decentralization/",
+          "destination": "https://docs.zksync.io/userdocs/decentralization/",
           "type": 301
         },
         {
           "source": "/userdocs/tokenomics",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/tokenomics/",
+          "destination": "https://docs.zksync.io/userdocs/tokenomics/",
           "type": 301
         },
         {
           "source": "/userdocs/tokenomics.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/tokenomics/",
+          "destination": "https://docs.zksync.io/userdocs/tokenomics/",
           "type": 301
         },
         {
           "source": "/userdocs/sc",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/sc/",
+          "destination": "https://docs.zksync.io/userdocs/sc/",
           "type": 301
         },
         {
           "source": "/userdocs/sc.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/sc/",
+          "destination": "https://docs.zksync.io/userdocs/sc/",
           "type": 301
         },
         {
           "source": "/userdocs/privacy",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/privacy/",
+          "destination": "https://docs.zksync.io/userdocs/privacy/",
           "type": 301
         },
         {
           "source": "/userdocs/privacy.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/privacy/",
+          "destination": "https://docs.zksync.io/userdocs/privacy/",
           "type": 301
         },
         {
           "source": "/userdocs/roadmap",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/roadmap/",
+          "destination": "https://docs.zksync.io/userdocs/roadmap/",
           "type": 301
         },
         {
           "source": "/userdocs/roadmap.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/roadmap/",
+          "destination": "https://docs.zksync.io/userdocs/roadmap/",
           "type": 301
         },
         {
           "source": "/userdocs/faq",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/faq/",
+          "destination": "https://docs.zksync.io/userdocs/faq/",
           "type": 301
         },
         {
           "source": "/userdocs/faq.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/faq/",
+          "destination": "https://docs.zksync.io/userdocs/faq/",
           "type": 301
         },
         {
           "source": "/userdocs/tutorials",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/tutorials/",
+          "destination": "https://docs.zksync.io/userdocs/tutorials/",
           "type": 301
         },
         {
           "source": "/userdocs/tutorials.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/tutorials/",
+          "destination": "https://docs.zksync.io/userdocs/tutorials/",
           "type": 301
         },
         {
           "source": "/dev/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/",
+          "destination": "https://docs.zksync.io/dev/",
           "type": 301
         },
         {
           "source": "/dev",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/",
+          "destination": "https://docs.zksync.io/dev/",
           "type": 301
         },
         {
           "source": "/dev/payments/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/payments/",
+          "destination": "https://docs.zksync.io/dev/payments/",
           "type": 301
         },
         {
           "source": "/dev/payments",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/payments/",
+          "destination": "https://docs.zksync.io/dev/payments/",
           "type": 301
         },
         {
           "source": "/dev/payments/basic",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/payments/basic/",
+          "destination": "https://docs.zksync.io/dev/payments/basic/",
           "type": 301
         },
         {
           "source": "/dev/payments/basic.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/payments/basic/",
+          "destination": "https://docs.zksync.io/dev/payments/basic/",
           "type": 301
         },
         {
           "source": "/dev/payments/sending_transactions",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/payments/sending_transactions/",
+          "destination": "https://docs.zksync.io/dev/payments/sending_transactions/",
           "type": 301
         },
         {
           "source": "/dev/payments/sending_transactions.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/payments/sending_transactions/",
+          "destination": "https://docs.zksync.io/dev/payments/sending_transactions/",
           "type": 301
         },
         {
           "source": "/dev/security/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/security/",
+          "destination": "https://docs.zksync.io/dev/security/",
           "type": 301
         },
         {
           "source": "/dev/security",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/security/",
+          "destination": "https://docs.zksync.io/dev/security/",
           "type": 301
         },
         {
           "source": "/dev/security/approach",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/security/approach/",
+          "destination": "https://docs.zksync.io/dev/security/approach/",
           "type": 301
         },
         {
           "source": "/dev/security/approach.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/security/approach/",
+          "destination": "https://docs.zksync.io/dev/security/approach/",
           "type": 301
         },
         {
           "source": "/dev/security/bug-bounty",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/security/bug-bounty/",
+          "destination": "https://docs.zksync.io/dev/security/bug-bounty/",
           "type": 301
         },
         {
           "source": "/dev/security/bug-bounty.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/security/bug-bounty/",
+          "destination": "https://docs.zksync.io/dev/security/bug-bounty/",
           "type": 301
         },
         {
           "source": "/dev/security/disclosure",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/security/disclosure/",
+          "destination": "https://docs.zksync.io/dev/security/disclosure/",
           "type": 301
         },
         {
           "source": "/dev/security/disclosure.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/security/disclosure/",
+          "destination": "https://docs.zksync.io/dev/security/disclosure/",
           "type": 301
         },
         {
           "source": "/dev/security/bugs",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/security/bugs/",
+          "destination": "https://docs.zksync.io/dev/security/bugs/",
           "type": 301
         },
         {
           "source": "/dev/security/bugs.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/security/bugs/",
+          "destination": "https://docs.zksync.io/dev/security/bugs/",
           "type": 301
         },
         {
           "source": "/dev/contracts/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/contracts/",
+          "destination": "https://docs.zksync.io/dev/contracts/",
           "type": 301
         },
         {
           "source": "/dev/contracts",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/contracts/",
+          "destination": "https://docs.zksync.io/dev/contracts/",
           "type": 301
         },
         {
           "source": "/dev/nfts",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/nfts/",
+          "destination": "https://docs.zksync.io/dev/nfts/",
           "type": 301
         },
         {
           "source": "/dev/nfts.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/nfts/",
+          "destination": "https://docs.zksync.io/dev/nfts/",
           "type": 301
         },
         {
           "source": "/dev/swaps",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/swaps/",
+          "destination": "https://docs.zksync.io/dev/swaps/",
           "type": 301
         },
         {
           "source": "/dev/swaps.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/swaps/",
+          "destination": "https://docs.zksync.io/dev/swaps/",
           "type": 301
         },
         {
           "source": "/dev/events",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/events/",
+          "destination": "https://docs.zksync.io/dev/events/",
           "type": 301
         },
         {
           "source": "/dev/events.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/events/",
+          "destination": "https://docs.zksync.io/dev/events/",
           "type": 301
         },
         {
           "source": "/api/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/",
+          "destination": "https://docs.zksync.io/api/",
           "type": 301
         },
         {
           "source": "/api",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/",
+          "destination": "https://docs.zksync.io/api/",
           "type": 301
         },
         {
           "source": "/api/changelog",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/changelog/",
+          "destination": "https://docs.zksync.io/api/changelog/",
           "type": 301
         },
         {
           "source": "/api/changelog.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/changelog/",
+          "destination": "https://docs.zksync.io/api/changelog/",
           "type": 301
         },
         {
           "source": "/api/environments",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/environments/",
+          "destination": "https://docs.zksync.io/api/environments/",
           "type": 301
         },
         {
           "source": "/api/environments.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/environments/",
+          "destination": "https://docs.zksync.io/api/environments/",
           "type": 301
         },
         {
           "source": "/api/events",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/events/",
+          "destination": "https://docs.zksync.io/api/events/",
           "type": 301
         },
         {
           "source": "/api/events.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/events/",
+          "destination": "https://docs.zksync.io/api/events/",
           "type": 301
         },
         {
           "source": "/api/v0.1",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/v0.1/",
+          "destination": "https://docs.zksync.io/api/v0.1/",
           "type": 301
         },
         {
           "source": "/api/v0.1.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/v0.1/",
+          "destination": "https://docs.zksync.io/api/v0.1/",
           "type": 301
         },
         {
           "source": "/api/v0.2",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/v0.2/",
+          "destination": "https://docs.zksync.io/api/v0.2/",
           "type": 301
         },
         {
           "source": "/api/v0.2.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/v0.2/",
+          "destination": "https://docs.zksync.io/api/v0.2/",
           "type": 301
         },
         {
           "source": "/api/sdk/js/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/js/",
+          "destination": "https://docs.zksync.io/api/sdk/js/",
           "type": 301
         },
         {
           "source": "/api/sdk/js",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/js/",
+          "destination": "https://docs.zksync.io/api/sdk/js/",
           "type": 301
         },
         {
           "source": "/api/sdk/js/tutorial",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/js/tutorial/",
+          "destination": "https://docs.zksync.io/api/sdk/js/tutorial/",
           "type": 301
         },
         {
           "source": "/api/sdk/js/tutorial.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/js/tutorial/",
+          "destination": "https://docs.zksync.io/api/sdk/js/tutorial/",
           "type": 301
         },
         {
           "source": "/api/sdk/js/providers",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/js/providers/",
+          "destination": "https://docs.zksync.io/api/sdk/js/providers/",
           "type": 301
         },
         {
           "source": "/api/sdk/js/providers.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/js/providers/",
+          "destination": "https://docs.zksync.io/api/sdk/js/providers/",
           "type": 301
         },
         {
           "source": "/api/sdk/js/accounts",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/js/accounts/",
+          "destination": "https://docs.zksync.io/api/sdk/js/accounts/",
           "type": 301
         },
         {
           "source": "/api/sdk/js/accounts.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/js/accounts/",
+          "destination": "https://docs.zksync.io/api/sdk/js/accounts/",
           "type": 301
         },
         {
           "source": "/api/sdk/js/utils",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/js/utils/",
+          "destination": "https://docs.zksync.io/api/sdk/js/utils/",
           "type": 301
         },
         {
           "source": "/api/sdk/js/utils.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/js/utils/",
+          "destination": "https://docs.zksync.io/api/sdk/js/utils/",
           "type": 301
         },
         {
           "source": "/api/sdk/js/nfts",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/js/nfts/",
+          "destination": "https://docs.zksync.io/api/sdk/js/nfts/",
           "type": 301
         },
         {
           "source": "/api/sdk/js/nfts.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/js/nfts/",
+          "destination": "https://docs.zksync.io/api/sdk/js/nfts/",
           "type": 301
         },
         {
           "source": "/api/sdk/js/types",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/js/types/",
+          "destination": "https://docs.zksync.io/api/sdk/js/types/",
           "type": 301
         },
         {
           "source": "/api/sdk/js/types.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/js/types/",
+          "destination": "https://docs.zksync.io/api/sdk/js/types/",
           "type": 301
         },
         {
           "source": "/api/sdk/js/browser-bundled",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/js/browser-bundled/",
+          "destination": "https://docs.zksync.io/api/sdk/js/browser-bundled/",
           "type": 301
         },
         {
           "source": "/api/sdk/js/browser-bundled.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/js/browser-bundled/",
+          "destination": "https://docs.zksync.io/api/sdk/js/browser-bundled/",
           "type": 301
         },
         {
           "source": "/api/sdk/rust/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/rust/",
+          "destination": "https://docs.zksync.io/api/sdk/rust/",
           "type": 301
         },
         {
           "source": "/api/sdk/rust",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/rust/",
+          "destination": "https://docs.zksync.io/api/sdk/rust/",
           "type": 301
         },
         {
           "source": "/api/sdk/rust/tutorial",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/rust/tutorial/",
+          "destination": "https://docs.zksync.io/api/sdk/rust/tutorial/",
           "type": 301
         },
         {
           "source": "/api/sdk/rust/tutorial.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/rust/tutorial/",
+          "destination": "https://docs.zksync.io/api/sdk/rust/tutorial/",
           "type": 301
         },
         {
           "source": "/api/sdk/java/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/java/",
+          "destination": "https://docs.zksync.io/api/sdk/java/",
           "type": 301
         },
         {
           "source": "/api/sdk/java",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/java/",
+          "destination": "https://docs.zksync.io/api/sdk/java/",
           "type": 301
         },
         {
           "source": "/api/sdk/java/tutorial",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/java/tutorial/",
+          "destination": "https://docs.zksync.io/api/sdk/java/tutorial/",
           "type": 301
         },
         {
           "source": "/api/sdk/java/tutorial.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/java/tutorial/",
+          "destination": "https://docs.zksync.io/api/sdk/java/tutorial/",
           "type": 301
         },
         {
           "source": "/api/sdk/java/interfaces",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/java/interfaces/",
+          "destination": "https://docs.zksync.io/api/sdk/java/interfaces/",
           "type": 301
         },
         {
           "source": "/api/sdk/java/interfaces.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/java/interfaces/",
+          "destination": "https://docs.zksync.io/api/sdk/java/interfaces/",
           "type": 301
         },
         {
           "source": "/api/sdk/swift/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/swift/",
+          "destination": "https://docs.zksync.io/api/sdk/swift/",
           "type": 301
         },
         {
           "source": "/api/sdk/swift",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/swift/",
+          "destination": "https://docs.zksync.io/api/sdk/swift/",
           "type": 301
         },
         {
           "source": "/api/sdk/swift/tutorial",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/swift/tutorial/",
+          "destination": "https://docs.zksync.io/api/sdk/swift/tutorial/",
           "type": 301
         },
         {
           "source": "/api/sdk/swift/tutorial.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/swift/tutorial/",
+          "destination": "https://docs.zksync.io/api/sdk/swift/tutorial/",
           "type": 301
         },
         {
           "source": "/api/sdk/python/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/python/",
+          "destination": "https://docs.zksync.io/api/sdk/python/",
           "type": 301
         },
         {
           "source": "/api/sdk/python",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/python/",
+          "destination": "https://docs.zksync.io/api/sdk/python/",
           "type": 301
         },
         {
           "source": "/api/sdk/python/tutorial",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/python/tutorial/",
+          "destination": "https://docs.zksync.io/api/sdk/python/tutorial/",
           "type": 301
         },
         {
           "source": "/api/sdk/python/tutorial.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/python/tutorial/",
+          "destination": "https://docs.zksync.io/api/sdk/python/tutorial/",
           "type": 301
         },
         {
           "source": "/api/sdk/dart",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/dart/",
+          "destination": "https://docs.zksync.io/api/sdk/dart/",
           "type": 301
         },
         {
           "source": "/api/sdk/dart.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/dart/",
+          "destination": "https://docs.zksync.io/api/sdk/dart/",
           "type": 301
         },
         {
           "source": "/api/sdk/checkout/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/checkout/",
+          "destination": "https://docs.zksync.io/api/sdk/checkout/",
           "type": 301
         },
         {
           "source": "/api/sdk/checkout",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/checkout/",
+          "destination": "https://docs.zksync.io/api/sdk/checkout/",
           "type": 301
         },
         {
           "source": "/api/sdk/checkout/tutorial",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/checkout/tutorial/",
+          "destination": "https://docs.zksync.io/api/sdk/checkout/tutorial/",
           "type": 301
         },
         {
           "source": "/api/sdk/checkout/tutorial.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/checkout/tutorial/",
+          "destination": "https://docs.zksync.io/api/sdk/checkout/tutorial/",
           "type": 301
         },
         {
           "source": "/api/sdk/checkout/checkout-manager",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/checkout/checkout-manager/",
+          "destination": "https://docs.zksync.io/api/sdk/checkout/checkout-manager/",
           "type": 301
         },
         {
           "source": "/api/sdk/checkout/checkout-manager.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/checkout/checkout-manager/",
+          "destination": "https://docs.zksync.io/api/sdk/checkout/checkout-manager/",
           "type": 301
         },
         {
           "source": "/api/sdk/checkout/types",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/checkout/types/",
+          "destination": "https://docs.zksync.io/api/sdk/checkout/types/",
           "type": 301
         },
         {
           "source": "/api/sdk/checkout/types.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/checkout/types/",
+          "destination": "https://docs.zksync.io/api/sdk/checkout/types/",
           "type": 301
         },
         {
           "source": "/api/sdk/checkout/constants",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/checkout/constants/",
+          "destination": "https://docs.zksync.io/api/sdk/checkout/constants/",
           "type": 301
         },
         {
           "source": "/api/sdk/checkout/constants.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/checkout/constants/",
+          "destination": "https://docs.zksync.io/api/sdk/checkout/constants/",
           "type": 301
         },
         {
           "source": "/api/sdk/checkout/protocol",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/checkout/protocol/",
+          "destination": "https://docs.zksync.io/api/sdk/checkout/protocol/",
           "type": 301
         },
         {
           "source": "/api/sdk/checkout/protocol.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/checkout/protocol/",
+          "destination": "https://docs.zksync.io/api/sdk/checkout/protocol/",
           "type": 301
         },
         {
           "source": "/api/sdk/checkout/appendix-a",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/checkout/appendix-a/",
+          "destination": "https://docs.zksync.io/api/sdk/checkout/appendix-a/",
           "type": 301
         },
         {
           "source": "/api/sdk/checkout/appendix-a.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/checkout/appendix-a/",
+          "destination": "https://docs.zksync.io/api/sdk/checkout/appendix-a/",
           "type": 301
         },
         {
           "source": "/api/sdk/crypto",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/crypto/",
+          "destination": "https://docs.zksync.io/api/sdk/crypto/",
           "type": 301
         },
         {
           "source": "/api/sdk/crypto.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/crypto/",
+          "destination": "https://docs.zksync.io/api/sdk/crypto/",
           "type": 301
         },
         {
           "source": "/zkevm/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/zkevm/",
+          "destination": "https://docs.zksync.io/zkevm/",
           "type": 301
         },
         {
           "source": "/zkevm",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/zkevm/",
+          "destination": "https://docs.zksync.io/zkevm/",
           "type": 301
         },
         {
           "source": "/contact",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/contact/",
+          "destination": "https://docs.zksync.io/contact/",
           "type": 301
         },
         {
           "source": "/contact.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/contact/",
+          "destination": "https://docs.zksync.io/contact/",
           "type": 301
         },
         {
           "source": "/uptime",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/uptime/",
+          "destination": "https://docs.zksync.io/uptime/",
           "type": 301
         },
         {
           "source": "/uptime.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/uptime/",
+          "destination": "https://docs.zksync.io/uptime/",
           "type": 301
         },
         {
           "source": "/apiv02-docs.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/apiv02-docs.html",
+          "destination": "https://docs.zksync.io/apiv02-docs.html",
           "type": 301
         },
         {
           "source": "/ABDK-ZKSync-Audit-v2-part1.pdf",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/ABDK-ZKSync-Audit-v2-part1.pdf",
+          "destination": "https://docs.zksync.io/ABDK-ZKSync-Audit-v2-part1.pdf",
           "type": 301
         },
         {
           "source": "/ABDK-ZKSync-Audit-v2-part2.pdf",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/ABDK-ZKSync-Audit-v2-part2.pdf",
+          "destination": "https://docs.zksync.io/ABDK-ZKSync-Audit-v2-part2.pdf",
           "type": 301
         },
         {
           "source": "/ABDK-ZkSync-Audit-v5.pdf",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/ABDK-ZkSync-Audit-v5.pdf",
+          "destination": "https://docs.zksync.io/ABDK-ZkSync-Audit-v5.pdf",
           "type": 301
         },
         {
           "source": "/zksync-1.0-audit.pdf",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/zksync-1.0-audit.pdf",
+          "destination": "https://docs.zksync.io/zksync-1.0-audit.pdf",
           "type": 301
         },
         {
           "source": "/bounty-table.png",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/bounty-table.png",
+          "destination": "https://docs.zksync.io/bounty-table.png",
           "type": 301
         },
         {
           "source": "/chart.png",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/chart.png",
+          "destination": "https://docs.zksync.io/chart.png",
           "type": 301
         },
         {
           "source": "/chart2.png",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/chart2.png",
+          "destination": "https://docs.zksync.io/chart2.png",
           "type": 301
         },
         {
           "source": "/chart3.png",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/chart3.png",
+          "destination": "https://docs.zksync.io/chart3.png",
           "type": 301
         },
         {
           "source": "/chart4.png",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/chart4.png",
+          "destination": "https://docs.zksync.io/chart4.png",
           "type": 301
         },
         {
           "source": "/l2fees.png",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/l2fees.png",
+          "destination": "https://docs.zksync.io/l2fees.png",
           "type": 301
         },
         {
           "source": "/scalability.png",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/scalability.png",
+          "destination": "https://docs.zksync.io/scalability.png",
           "type": 301
         },
         {
           "source": "/zksync1-2021-01-bug.png",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/zksync1-2021-01-bug.png",
+          "destination": "https://docs.zksync.io/zksync1-2021-01-bug.png",
           "type": 301
         },
         {
           "source": "/zksync1-2021-01-fix.png",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/zksync1-2021-01-fix.png",
+          "destination": "https://docs.zksync.io/zksync1-2021-01-fix.png",
           "type": 301
         },
         {
           "source": "/f1.svg",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/f1.svg",
+          "destination": "https://docs.zksync.io/f1.svg",
           "type": 301
         },
         {
           "source": "/f2.svg",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/f2.svg",
+          "destination": "https://docs.zksync.io/f2.svg",
           "type": 301
         },
         {
           "source": "/f3.svg",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/f3.svg",
+          "destination": "https://docs.zksync.io/f3.svg",
           "type": 301
         },
         {
           "source": "/LogoHero.svg",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/LogoHero.svg",
+          "destination": "https://docs.zksync.io/LogoHero.svg",
           "type": 301
         },
         {
           "source": "/LogotypeLight.svg",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/LogotypeLight.svg",
+          "destination": "https://docs.zksync.io/LogotypeLight.svg",
           "type": 301
         },
         {
           "source": "/dev/bug-bounty",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/security/bug-bounty/",
+          "destination": "https://docs.zksync.io/dev/security/bug-bounty/",
           "type": 301
         },
         {
           "source": "/dev/bug-bounty.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/security/bug-bounty/",
+          "destination": "https://docs.zksync.io/dev/security/bug-bounty/",
           "type": 301
         },
         {
           "source": "/dev/bug-bounty/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/security/bug-bounty/",
+          "destination": "https://docs.zksync.io/dev/security/bug-bounty/",
           "type": 301
         },
         {
           "source": "/faq",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/",
+          "destination": "https://docs.zksync.io/userdocs/",
           "type": 301
         },
         {
           "source": "/faq.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/",
+          "destination": "https://docs.zksync.io/userdocs/",
           "type": 301
         },
         {
           "source": "/faq/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/",
+          "destination": "https://docs.zksync.io/userdocs/",
           "type": 301
         },
         {
           "source": "/dev/utils",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/js/utils/",
+          "destination": "https://docs.zksync.io/api/sdk/js/utils/",
           "type": 301
         },
         {
           "source": "/dev/utils.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/js/utils/",
+          "destination": "https://docs.zksync.io/api/sdk/js/utils/",
           "type": 301
         },
         {
           "source": "/dev/utils/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/js/utils/",
+          "destination": "https://docs.zksync.io/api/sdk/js/utils/",
           "type": 301
         },
         {
           "source": "/dev/basic",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/payments/basic/",
+          "destination": "https://docs.zksync.io/dev/payments/basic/",
           "type": 301
         },
         {
           "source": "/dev/basic.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/payments/basic/",
+          "destination": "https://docs.zksync.io/dev/payments/basic/",
           "type": 301
         },
         {
           "source": "/dev/basic/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/payments/basic/",
+          "destination": "https://docs.zksync.io/dev/payments/basic/",
           "type": 301
         },
         {
           "source": "/dev/types",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/checkout/types/",
+          "destination": "https://docs.zksync.io/api/sdk/checkout/types/",
           "type": 301
         },
         {
           "source": "/dev/types.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/checkout/types/",
+          "destination": "https://docs.zksync.io/api/sdk/checkout/types/",
           "type": 301
         },
         {
           "source": "/dev/types/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/checkout/types/",
+          "destination": "https://docs.zksync.io/api/sdk/checkout/types/",
           "type": 301
         },
         {
           "source": "/faq/intro",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/intro/",
+          "destination": "https://docs.zksync.io/userdocs/intro/",
           "type": 301
         },
         {
           "source": "/faq/intro.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/intro/",
+          "destination": "https://docs.zksync.io/userdocs/intro/",
           "type": 301
         },
         {
           "source": "/faq/intro/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/intro/",
+          "destination": "https://docs.zksync.io/userdocs/intro/",
           "type": 301
         },
         {
           "source": "/faq/tech",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/tech/",
+          "destination": "https://docs.zksync.io/userdocs/tech/",
           "type": 301
         },
         {
           "source": "/faq/tech.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/tech/",
+          "destination": "https://docs.zksync.io/userdocs/tech/",
           "type": 301
         },
         {
           "source": "/faq/tech/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/tech/",
+          "destination": "https://docs.zksync.io/userdocs/tech/",
           "type": 301
         },
         {
           "source": "/faq/security",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/security/",
+          "destination": "https://docs.zksync.io/userdocs/security/",
           "type": 301
         },
         {
           "source": "/faq/security.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/security/",
+          "destination": "https://docs.zksync.io/userdocs/security/",
           "type": 301
         },
         {
           "source": "/faq/security/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/security/",
+          "destination": "https://docs.zksync.io/userdocs/security/",
           "type": 301
         },
         {
           "source": "/faq/learnbywatching",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/learnbywatching/",
+          "destination": "https://docs.zksync.io/userdocs/learnbywatching/",
           "type": 301
         },
         {
           "source": "/faq/learnbywatching.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/learnbywatching/",
+          "destination": "https://docs.zksync.io/userdocs/learnbywatching/",
           "type": 301
         },
         {
           "source": "/faq/learnbywatching/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/learnbywatching/",
+          "destination": "https://docs.zksync.io/userdocs/learnbywatching/",
           "type": 301
         },
         {
           "source": "/faq/wallets",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/wallets/",
+          "destination": "https://docs.zksync.io/userdocs/wallets/",
           "type": 301
         },
         {
           "source": "/faq/wallets.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/wallets/",
+          "destination": "https://docs.zksync.io/userdocs/wallets/",
           "type": 301
         },
         {
           "source": "/faq/wallets/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/wallets/",
+          "destination": "https://docs.zksync.io/userdocs/wallets/",
           "type": 301
         },
         {
           "source": "/faq/tokens",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/tokens/",
+          "destination": "https://docs.zksync.io/userdocs/tokens/",
           "type": 301
         },
         {
           "source": "/faq/tokens.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/tokens/",
+          "destination": "https://docs.zksync.io/userdocs/tokens/",
           "type": 301
         },
         {
           "source": "/faq/tokens/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/tokens/",
+          "destination": "https://docs.zksync.io/userdocs/tokens/",
           "type": 301
         },
         {
           "source": "/faq/decentralization",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/decentralization/",
+          "destination": "https://docs.zksync.io/userdocs/decentralization/",
           "type": 301
         },
         {
           "source": "/faq/decentralization.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/decentralization/",
+          "destination": "https://docs.zksync.io/userdocs/decentralization/",
           "type": 301
         },
         {
           "source": "/faq/decentralization/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/decentralization/",
+          "destination": "https://docs.zksync.io/userdocs/decentralization/",
           "type": 301
         },
         {
           "source": "/faq/tokenomics",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/tokenomics/",
+          "destination": "https://docs.zksync.io/userdocs/tokenomics/",
           "type": 301
         },
         {
           "source": "/faq/tokenomics.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/tokenomics/",
+          "destination": "https://docs.zksync.io/userdocs/tokenomics/",
           "type": 301
         },
         {
           "source": "/faq/tokenomics/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/tokenomics/",
+          "destination": "https://docs.zksync.io/userdocs/tokenomics/",
           "type": 301
         },
         {
           "source": "/faq/sc",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/sc/",
+          "destination": "https://docs.zksync.io/userdocs/sc/",
           "type": 301
         },
         {
           "source": "/faq/sc.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/sc/",
+          "destination": "https://docs.zksync.io/userdocs/sc/",
           "type": 301
         },
         {
           "source": "/faq/sc/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/sc/",
+          "destination": "https://docs.zksync.io/userdocs/sc/",
           "type": 301
         },
         {
           "source": "/faq/privacy",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/privacy/",
+          "destination": "https://docs.zksync.io/userdocs/privacy/",
           "type": 301
         },
         {
           "source": "/faq/privacy.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/privacy/",
+          "destination": "https://docs.zksync.io/userdocs/privacy/",
           "type": 301
         },
         {
           "source": "/faq/privacy/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/privacy/",
+          "destination": "https://docs.zksync.io/userdocs/privacy/",
           "type": 301
         },
         {
           "source": "/faq/roadmap",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/roadmap/",
+          "destination": "https://docs.zksync.io/userdocs/roadmap/",
           "type": 301
         },
         {
           "source": "/faq/roadmap.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/roadmap/",
+          "destination": "https://docs.zksync.io/userdocs/roadmap/",
           "type": 301
         },
         {
           "source": "/faq/roadmap/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/roadmap/",
+          "destination": "https://docs.zksync.io/userdocs/roadmap/",
           "type": 301
         },
         {
           "source": "/faq/faq",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/faq/",
+          "destination": "https://docs.zksync.io/userdocs/faq/",
           "type": 301
         },
         {
           "source": "/faq/faq.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/faq/",
+          "destination": "https://docs.zksync.io/userdocs/faq/",
           "type": 301
         },
         {
           "source": "/faq/faq/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/faq/",
+          "destination": "https://docs.zksync.io/userdocs/faq/",
           "type": 301
         },
         {
           "source": "/faq/tutorials",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/tutorials/",
+          "destination": "https://docs.zksync.io/userdocs/tutorials/",
           "type": 301
         },
         {
           "source": "/faq/tutorials.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/tutorials/",
+          "destination": "https://docs.zksync.io/userdocs/tutorials/",
           "type": 301
         },
         {
           "source": "/faq/tutorials/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/tutorials/",
+          "destination": "https://docs.zksync.io/userdocs/tutorials/",
           "type": 301
         },
         {
           "source": "/sdk/:path*",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/:path*",
+          "destination": "https://docs.zksync.io/api/sdk/:path*",
           "type": 301
         }
       ]
@@ -1081,1012 +1081,1012 @@
       "redirects": [
         {
           "source": "/legal/terms",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/legal/terms/",
+          "destination": "https://docs.zksync.io/legal/terms/",
           "type": 301
         },
         {
           "source": "/legal/terms.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/legal/terms/",
+          "destination": "https://docs.zksync.io/legal/terms/",
           "type": 301
         },
         {
           "source": "/legal/privacy",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/legal/privacy/",
+          "destination": "https://docs.zksync.io/legal/privacy/",
           "type": 301
         },
         {
           "source": "/legal/privacy.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/legal/privacy/",
+          "destination": "https://docs.zksync.io/legal/privacy/",
           "type": 301
         },
         {
           "source": "/userdocs/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/",
+          "destination": "https://docs.zksync.io/userdocs/",
           "type": 301
         },
         {
           "source": "/userdocs",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/",
+          "destination": "https://docs.zksync.io/userdocs/",
           "type": 301
         },
         {
           "source": "/userdocs/intro",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/intro/",
+          "destination": "https://docs.zksync.io/userdocs/intro/",
           "type": 301
         },
         {
           "source": "/userdocs/intro.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/intro/",
+          "destination": "https://docs.zksync.io/userdocs/intro/",
           "type": 301
         },
         {
           "source": "/userdocs/tech",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/tech/",
+          "destination": "https://docs.zksync.io/userdocs/tech/",
           "type": 301
         },
         {
           "source": "/userdocs/tech.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/tech/",
+          "destination": "https://docs.zksync.io/userdocs/tech/",
           "type": 301
         },
         {
           "source": "/userdocs/security",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/security/",
+          "destination": "https://docs.zksync.io/userdocs/security/",
           "type": 301
         },
         {
           "source": "/userdocs/security.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/security/",
+          "destination": "https://docs.zksync.io/userdocs/security/",
           "type": 301
         },
         {
           "source": "/userdocs/learnbywatching",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/learnbywatching/",
+          "destination": "https://docs.zksync.io/userdocs/learnbywatching/",
           "type": 301
         },
         {
           "source": "/userdocs/learnbywatching.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/learnbywatching/",
+          "destination": "https://docs.zksync.io/userdocs/learnbywatching/",
           "type": 301
         },
         {
           "source": "/userdocs/wallets",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/wallets/",
+          "destination": "https://docs.zksync.io/userdocs/wallets/",
           "type": 301
         },
         {
           "source": "/userdocs/wallets.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/wallets/",
+          "destination": "https://docs.zksync.io/userdocs/wallets/",
           "type": 301
         },
         {
           "source": "/userdocs/tokens",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/tokens/",
+          "destination": "https://docs.zksync.io/userdocs/tokens/",
           "type": 301
         },
         {
           "source": "/userdocs/tokens.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/tokens/",
+          "destination": "https://docs.zksync.io/userdocs/tokens/",
           "type": 301
         },
         {
           "source": "/userdocs/decentralization",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/decentralization/",
+          "destination": "https://docs.zksync.io/userdocs/decentralization/",
           "type": 301
         },
         {
           "source": "/userdocs/decentralization.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/decentralization/",
+          "destination": "https://docs.zksync.io/userdocs/decentralization/",
           "type": 301
         },
         {
           "source": "/userdocs/tokenomics",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/tokenomics/",
+          "destination": "https://docs.zksync.io/userdocs/tokenomics/",
           "type": 301
         },
         {
           "source": "/userdocs/tokenomics.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/tokenomics/",
+          "destination": "https://docs.zksync.io/userdocs/tokenomics/",
           "type": 301
         },
         {
           "source": "/userdocs/sc",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/sc/",
+          "destination": "https://docs.zksync.io/userdocs/sc/",
           "type": 301
         },
         {
           "source": "/userdocs/sc.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/sc/",
+          "destination": "https://docs.zksync.io/userdocs/sc/",
           "type": 301
         },
         {
           "source": "/userdocs/privacy",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/privacy/",
+          "destination": "https://docs.zksync.io/userdocs/privacy/",
           "type": 301
         },
         {
           "source": "/userdocs/privacy.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/privacy/",
+          "destination": "https://docs.zksync.io/userdocs/privacy/",
           "type": 301
         },
         {
           "source": "/userdocs/roadmap",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/roadmap/",
+          "destination": "https://docs.zksync.io/userdocs/roadmap/",
           "type": 301
         },
         {
           "source": "/userdocs/roadmap.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/roadmap/",
+          "destination": "https://docs.zksync.io/userdocs/roadmap/",
           "type": 301
         },
         {
           "source": "/userdocs/faq",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/faq/",
+          "destination": "https://docs.zksync.io/userdocs/faq/",
           "type": 301
         },
         {
           "source": "/userdocs/faq.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/faq/",
+          "destination": "https://docs.zksync.io/userdocs/faq/",
           "type": 301
         },
         {
           "source": "/userdocs/tutorials",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/tutorials/",
+          "destination": "https://docs.zksync.io/userdocs/tutorials/",
           "type": 301
         },
         {
           "source": "/userdocs/tutorials.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/tutorials/",
+          "destination": "https://docs.zksync.io/userdocs/tutorials/",
           "type": 301
         },
         {
           "source": "/dev/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/",
+          "destination": "https://docs.zksync.io/dev/",
           "type": 301
         },
         {
           "source": "/dev",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/",
+          "destination": "https://docs.zksync.io/dev/",
           "type": 301
         },
         {
           "source": "/dev/payments/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/payments/",
+          "destination": "https://docs.zksync.io/dev/payments/",
           "type": 301
         },
         {
           "source": "/dev/payments",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/payments/",
+          "destination": "https://docs.zksync.io/dev/payments/",
           "type": 301
         },
         {
           "source": "/dev/payments/basic",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/payments/basic/",
+          "destination": "https://docs.zksync.io/dev/payments/basic/",
           "type": 301
         },
         {
           "source": "/dev/payments/basic.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/payments/basic/",
+          "destination": "https://docs.zksync.io/dev/payments/basic/",
           "type": 301
         },
         {
           "source": "/dev/payments/sending_transactions",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/payments/sending_transactions/",
+          "destination": "https://docs.zksync.io/dev/payments/sending_transactions/",
           "type": 301
         },
         {
           "source": "/dev/payments/sending_transactions.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/payments/sending_transactions/",
+          "destination": "https://docs.zksync.io/dev/payments/sending_transactions/",
           "type": 301
         },
         {
           "source": "/dev/security/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/security/",
+          "destination": "https://docs.zksync.io/dev/security/",
           "type": 301
         },
         {
           "source": "/dev/security",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/security/",
+          "destination": "https://docs.zksync.io/dev/security/",
           "type": 301
         },
         {
           "source": "/dev/security/approach",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/security/approach/",
+          "destination": "https://docs.zksync.io/dev/security/approach/",
           "type": 301
         },
         {
           "source": "/dev/security/approach.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/security/approach/",
+          "destination": "https://docs.zksync.io/dev/security/approach/",
           "type": 301
         },
         {
           "source": "/dev/security/bug-bounty",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/security/bug-bounty/",
+          "destination": "https://docs.zksync.io/dev/security/bug-bounty/",
           "type": 301
         },
         {
           "source": "/dev/security/bug-bounty.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/security/bug-bounty/",
+          "destination": "https://docs.zksync.io/dev/security/bug-bounty/",
           "type": 301
         },
         {
           "source": "/dev/security/disclosure",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/security/disclosure/",
+          "destination": "https://docs.zksync.io/dev/security/disclosure/",
           "type": 301
         },
         {
           "source": "/dev/security/disclosure.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/security/disclosure/",
+          "destination": "https://docs.zksync.io/dev/security/disclosure/",
           "type": 301
         },
         {
           "source": "/dev/security/bugs",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/security/bugs/",
+          "destination": "https://docs.zksync.io/dev/security/bugs/",
           "type": 301
         },
         {
           "source": "/dev/security/bugs.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/security/bugs/",
+          "destination": "https://docs.zksync.io/dev/security/bugs/",
           "type": 301
         },
         {
           "source": "/dev/contracts/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/contracts/",
+          "destination": "https://docs.zksync.io/dev/contracts/",
           "type": 301
         },
         {
           "source": "/dev/contracts",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/contracts/",
+          "destination": "https://docs.zksync.io/dev/contracts/",
           "type": 301
         },
         {
           "source": "/dev/nfts",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/nfts/",
+          "destination": "https://docs.zksync.io/dev/nfts/",
           "type": 301
         },
         {
           "source": "/dev/nfts.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/nfts/",
+          "destination": "https://docs.zksync.io/dev/nfts/",
           "type": 301
         },
         {
           "source": "/dev/swaps",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/swaps/",
+          "destination": "https://docs.zksync.io/dev/swaps/",
           "type": 301
         },
         {
           "source": "/dev/swaps.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/swaps/",
+          "destination": "https://docs.zksync.io/dev/swaps/",
           "type": 301
         },
         {
           "source": "/dev/events",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/events/",
+          "destination": "https://docs.zksync.io/dev/events/",
           "type": 301
         },
         {
           "source": "/dev/events.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/events/",
+          "destination": "https://docs.zksync.io/dev/events/",
           "type": 301
         },
         {
           "source": "/api/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/",
+          "destination": "https://docs.zksync.io/api/",
           "type": 301
         },
         {
           "source": "/api",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/",
+          "destination": "https://docs.zksync.io/api/",
           "type": 301
         },
         {
           "source": "/api/changelog",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/changelog/",
+          "destination": "https://docs.zksync.io/api/changelog/",
           "type": 301
         },
         {
           "source": "/api/changelog.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/changelog/",
+          "destination": "https://docs.zksync.io/api/changelog/",
           "type": 301
         },
         {
           "source": "/api/environments",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/environments/",
+          "destination": "https://docs.zksync.io/api/environments/",
           "type": 301
         },
         {
           "source": "/api/environments.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/environments/",
+          "destination": "https://docs.zksync.io/api/environments/",
           "type": 301
         },
         {
           "source": "/api/events",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/events/",
+          "destination": "https://docs.zksync.io/api/events/",
           "type": 301
         },
         {
           "source": "/api/events.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/events/",
+          "destination": "https://docs.zksync.io/api/events/",
           "type": 301
         },
         {
           "source": "/api/v0.1",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/v0.1/",
+          "destination": "https://docs.zksync.io/api/v0.1/",
           "type": 301
         },
         {
           "source": "/api/v0.1.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/v0.1/",
+          "destination": "https://docs.zksync.io/api/v0.1/",
           "type": 301
         },
         {
           "source": "/api/v0.2",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/v0.2/",
+          "destination": "https://docs.zksync.io/api/v0.2/",
           "type": 301
         },
         {
           "source": "/api/v0.2.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/v0.2/",
+          "destination": "https://docs.zksync.io/api/v0.2/",
           "type": 301
         },
         {
           "source": "/api/sdk/js/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/js/",
+          "destination": "https://docs.zksync.io/api/sdk/js/",
           "type": 301
         },
         {
           "source": "/api/sdk/js",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/js/",
+          "destination": "https://docs.zksync.io/api/sdk/js/",
           "type": 301
         },
         {
           "source": "/api/sdk/js/tutorial",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/js/tutorial/",
+          "destination": "https://docs.zksync.io/api/sdk/js/tutorial/",
           "type": 301
         },
         {
           "source": "/api/sdk/js/tutorial.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/js/tutorial/",
+          "destination": "https://docs.zksync.io/api/sdk/js/tutorial/",
           "type": 301
         },
         {
           "source": "/api/sdk/js/providers",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/js/providers/",
+          "destination": "https://docs.zksync.io/api/sdk/js/providers/",
           "type": 301
         },
         {
           "source": "/api/sdk/js/providers.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/js/providers/",
+          "destination": "https://docs.zksync.io/api/sdk/js/providers/",
           "type": 301
         },
         {
           "source": "/api/sdk/js/accounts",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/js/accounts/",
+          "destination": "https://docs.zksync.io/api/sdk/js/accounts/",
           "type": 301
         },
         {
           "source": "/api/sdk/js/accounts.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/js/accounts/",
+          "destination": "https://docs.zksync.io/api/sdk/js/accounts/",
           "type": 301
         },
         {
           "source": "/api/sdk/js/utils",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/js/utils/",
+          "destination": "https://docs.zksync.io/api/sdk/js/utils/",
           "type": 301
         },
         {
           "source": "/api/sdk/js/utils.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/js/utils/",
+          "destination": "https://docs.zksync.io/api/sdk/js/utils/",
           "type": 301
         },
         {
           "source": "/api/sdk/js/nfts",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/js/nfts/",
+          "destination": "https://docs.zksync.io/api/sdk/js/nfts/",
           "type": 301
         },
         {
           "source": "/api/sdk/js/nfts.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/js/nfts/",
+          "destination": "https://docs.zksync.io/api/sdk/js/nfts/",
           "type": 301
         },
         {
           "source": "/api/sdk/js/types",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/js/types/",
+          "destination": "https://docs.zksync.io/api/sdk/js/types/",
           "type": 301
         },
         {
           "source": "/api/sdk/js/types.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/js/types/",
+          "destination": "https://docs.zksync.io/api/sdk/js/types/",
           "type": 301
         },
         {
           "source": "/api/sdk/js/browser-bundled",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/js/browser-bundled/",
+          "destination": "https://docs.zksync.io/api/sdk/js/browser-bundled/",
           "type": 301
         },
         {
           "source": "/api/sdk/js/browser-bundled.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/js/browser-bundled/",
+          "destination": "https://docs.zksync.io/api/sdk/js/browser-bundled/",
           "type": 301
         },
         {
           "source": "/api/sdk/rust/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/rust/",
+          "destination": "https://docs.zksync.io/api/sdk/rust/",
           "type": 301
         },
         {
           "source": "/api/sdk/rust",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/rust/",
+          "destination": "https://docs.zksync.io/api/sdk/rust/",
           "type": 301
         },
         {
           "source": "/api/sdk/rust/tutorial",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/rust/tutorial/",
+          "destination": "https://docs.zksync.io/api/sdk/rust/tutorial/",
           "type": 301
         },
         {
           "source": "/api/sdk/rust/tutorial.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/rust/tutorial/",
+          "destination": "https://docs.zksync.io/api/sdk/rust/tutorial/",
           "type": 301
         },
         {
           "source": "/api/sdk/java/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/java/",
+          "destination": "https://docs.zksync.io/api/sdk/java/",
           "type": 301
         },
         {
           "source": "/api/sdk/java",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/java/",
+          "destination": "https://docs.zksync.io/api/sdk/java/",
           "type": 301
         },
         {
           "source": "/api/sdk/java/tutorial",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/java/tutorial/",
+          "destination": "https://docs.zksync.io/api/sdk/java/tutorial/",
           "type": 301
         },
         {
           "source": "/api/sdk/java/tutorial.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/java/tutorial/",
+          "destination": "https://docs.zksync.io/api/sdk/java/tutorial/",
           "type": 301
         },
         {
           "source": "/api/sdk/java/interfaces",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/java/interfaces/",
+          "destination": "https://docs.zksync.io/api/sdk/java/interfaces/",
           "type": 301
         },
         {
           "source": "/api/sdk/java/interfaces.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/java/interfaces/",
+          "destination": "https://docs.zksync.io/api/sdk/java/interfaces/",
           "type": 301
         },
         {
           "source": "/api/sdk/swift/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/swift/",
+          "destination": "https://docs.zksync.io/api/sdk/swift/",
           "type": 301
         },
         {
           "source": "/api/sdk/swift",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/swift/",
+          "destination": "https://docs.zksync.io/api/sdk/swift/",
           "type": 301
         },
         {
           "source": "/api/sdk/swift/tutorial",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/swift/tutorial/",
+          "destination": "https://docs.zksync.io/api/sdk/swift/tutorial/",
           "type": 301
         },
         {
           "source": "/api/sdk/swift/tutorial.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/swift/tutorial/",
+          "destination": "https://docs.zksync.io/api/sdk/swift/tutorial/",
           "type": 301
         },
         {
           "source": "/api/sdk/python/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/python/",
+          "destination": "https://docs.zksync.io/api/sdk/python/",
           "type": 301
         },
         {
           "source": "/api/sdk/python",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/python/",
+          "destination": "https://docs.zksync.io/api/sdk/python/",
           "type": 301
         },
         {
           "source": "/api/sdk/python/tutorial",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/python/tutorial/",
+          "destination": "https://docs.zksync.io/api/sdk/python/tutorial/",
           "type": 301
         },
         {
           "source": "/api/sdk/python/tutorial.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/python/tutorial/",
+          "destination": "https://docs.zksync.io/api/sdk/python/tutorial/",
           "type": 301
         },
         {
           "source": "/api/sdk/dart",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/dart/",
+          "destination": "https://docs.zksync.io/api/sdk/dart/",
           "type": 301
         },
         {
           "source": "/api/sdk/dart.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/dart/",
+          "destination": "https://docs.zksync.io/api/sdk/dart/",
           "type": 301
         },
         {
           "source": "/api/sdk/checkout/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/checkout/",
+          "destination": "https://docs.zksync.io/api/sdk/checkout/",
           "type": 301
         },
         {
           "source": "/api/sdk/checkout",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/checkout/",
+          "destination": "https://docs.zksync.io/api/sdk/checkout/",
           "type": 301
         },
         {
           "source": "/api/sdk/checkout/tutorial",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/checkout/tutorial/",
+          "destination": "https://docs.zksync.io/api/sdk/checkout/tutorial/",
           "type": 301
         },
         {
           "source": "/api/sdk/checkout/tutorial.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/checkout/tutorial/",
+          "destination": "https://docs.zksync.io/api/sdk/checkout/tutorial/",
           "type": 301
         },
         {
           "source": "/api/sdk/checkout/checkout-manager",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/checkout/checkout-manager/",
+          "destination": "https://docs.zksync.io/api/sdk/checkout/checkout-manager/",
           "type": 301
         },
         {
           "source": "/api/sdk/checkout/checkout-manager.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/checkout/checkout-manager/",
+          "destination": "https://docs.zksync.io/api/sdk/checkout/checkout-manager/",
           "type": 301
         },
         {
           "source": "/api/sdk/checkout/types",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/checkout/types/",
+          "destination": "https://docs.zksync.io/api/sdk/checkout/types/",
           "type": 301
         },
         {
           "source": "/api/sdk/checkout/types.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/checkout/types/",
+          "destination": "https://docs.zksync.io/api/sdk/checkout/types/",
           "type": 301
         },
         {
           "source": "/api/sdk/checkout/constants",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/checkout/constants/",
+          "destination": "https://docs.zksync.io/api/sdk/checkout/constants/",
           "type": 301
         },
         {
           "source": "/api/sdk/checkout/constants.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/checkout/constants/",
+          "destination": "https://docs.zksync.io/api/sdk/checkout/constants/",
           "type": 301
         },
         {
           "source": "/api/sdk/checkout/protocol",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/checkout/protocol/",
+          "destination": "https://docs.zksync.io/api/sdk/checkout/protocol/",
           "type": 301
         },
         {
           "source": "/api/sdk/checkout/protocol.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/checkout/protocol/",
+          "destination": "https://docs.zksync.io/api/sdk/checkout/protocol/",
           "type": 301
         },
         {
           "source": "/api/sdk/checkout/appendix-a",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/checkout/appendix-a/",
+          "destination": "https://docs.zksync.io/api/sdk/checkout/appendix-a/",
           "type": 301
         },
         {
           "source": "/api/sdk/checkout/appendix-a.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/checkout/appendix-a/",
+          "destination": "https://docs.zksync.io/api/sdk/checkout/appendix-a/",
           "type": 301
         },
         {
           "source": "/api/sdk/crypto",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/crypto/",
+          "destination": "https://docs.zksync.io/api/sdk/crypto/",
           "type": 301
         },
         {
           "source": "/api/sdk/crypto.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/crypto/",
+          "destination": "https://docs.zksync.io/api/sdk/crypto/",
           "type": 301
         },
         {
           "source": "/zkevm/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/zkevm/",
+          "destination": "https://docs.zksync.io/zkevm/",
           "type": 301
         },
         {
           "source": "/zkevm",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/zkevm/",
+          "destination": "https://docs.zksync.io/zkevm/",
           "type": 301
         },
         {
           "source": "/contact",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/contact/",
+          "destination": "https://docs.zksync.io/contact/",
           "type": 301
         },
         {
           "source": "/contact.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/contact/",
+          "destination": "https://docs.zksync.io/contact/",
           "type": 301
         },
         {
           "source": "/uptime",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/uptime/",
+          "destination": "https://docs.zksync.io/uptime/",
           "type": 301
         },
         {
           "source": "/uptime.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/uptime/",
+          "destination": "https://docs.zksync.io/uptime/",
           "type": 301
         },
         {
           "source": "/apiv02-docs.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/apiv02-docs.html",
+          "destination": "https://docs.zksync.io/apiv02-docs.html",
           "type": 301
         },
         {
           "source": "/ABDK-ZKSync-Audit-v2-part1.pdf",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/ABDK-ZKSync-Audit-v2-part1.pdf",
+          "destination": "https://docs.zksync.io/ABDK-ZKSync-Audit-v2-part1.pdf",
           "type": 301
         },
         {
           "source": "/ABDK-ZKSync-Audit-v2-part2.pdf",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/ABDK-ZKSync-Audit-v2-part2.pdf",
+          "destination": "https://docs.zksync.io/ABDK-ZKSync-Audit-v2-part2.pdf",
           "type": 301
         },
         {
           "source": "/ABDK-ZkSync-Audit-v5.pdf",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/ABDK-ZkSync-Audit-v5.pdf",
+          "destination": "https://docs.zksync.io/ABDK-ZkSync-Audit-v5.pdf",
           "type": 301
         },
         {
           "source": "/zksync-1.0-audit.pdf",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/zksync-1.0-audit.pdf",
+          "destination": "https://docs.zksync.io/zksync-1.0-audit.pdf",
           "type": 301
         },
         {
           "source": "/bounty-table.png",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/bounty-table.png",
+          "destination": "https://docs.zksync.io/bounty-table.png",
           "type": 301
         },
         {
           "source": "/chart.png",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/chart.png",
+          "destination": "https://docs.zksync.io/chart.png",
           "type": 301
         },
         {
           "source": "/chart2.png",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/chart2.png",
+          "destination": "https://docs.zksync.io/chart2.png",
           "type": 301
         },
         {
           "source": "/chart3.png",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/chart3.png",
+          "destination": "https://docs.zksync.io/chart3.png",
           "type": 301
         },
         {
           "source": "/chart4.png",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/chart4.png",
+          "destination": "https://docs.zksync.io/chart4.png",
           "type": 301
         },
         {
           "source": "/l2fees.png",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/l2fees.png",
+          "destination": "https://docs.zksync.io/l2fees.png",
           "type": 301
         },
         {
           "source": "/scalability.png",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/scalability.png",
+          "destination": "https://docs.zksync.io/scalability.png",
           "type": 301
         },
         {
           "source": "/zksync1-2021-01-bug.png",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/zksync1-2021-01-bug.png",
+          "destination": "https://docs.zksync.io/zksync1-2021-01-bug.png",
           "type": 301
         },
         {
           "source": "/zksync1-2021-01-fix.png",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/zksync1-2021-01-fix.png",
+          "destination": "https://docs.zksync.io/zksync1-2021-01-fix.png",
           "type": 301
         },
         {
           "source": "/f1.svg",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/f1.svg",
+          "destination": "https://docs.zksync.io/f1.svg",
           "type": 301
         },
         {
           "source": "/f2.svg",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/f2.svg",
+          "destination": "https://docs.zksync.io/f2.svg",
           "type": 301
         },
         {
           "source": "/f3.svg",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/f3.svg",
+          "destination": "https://docs.zksync.io/f3.svg",
           "type": 301
         },
         {
           "source": "/LogoHero.svg",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/LogoHero.svg",
+          "destination": "https://docs.zksync.io/LogoHero.svg",
           "type": 301
         },
         {
           "source": "/LogotypeLight.svg",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/LogotypeLight.svg",
+          "destination": "https://docs.zksync.io/LogotypeLight.svg",
           "type": 301
         },
         {
           "source": "/dev/bug-bounty",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/security/bug-bounty/",
+          "destination": "https://docs.zksync.io/dev/security/bug-bounty/",
           "type": 301
         },
         {
           "source": "/dev/bug-bounty.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/security/bug-bounty/",
+          "destination": "https://docs.zksync.io/dev/security/bug-bounty/",
           "type": 301
         },
         {
           "source": "/dev/bug-bounty/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/security/bug-bounty/",
+          "destination": "https://docs.zksync.io/dev/security/bug-bounty/",
           "type": 301
         },
         {
           "source": "/faq",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/",
+          "destination": "https://docs.zksync.io/userdocs/",
           "type": 301
         },
         {
           "source": "/faq.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/",
+          "destination": "https://docs.zksync.io/userdocs/",
           "type": 301
         },
         {
           "source": "/faq/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/",
+          "destination": "https://docs.zksync.io/userdocs/",
           "type": 301
         },
         {
           "source": "/dev/utils",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/js/utils/",
+          "destination": "https://docs.zksync.io/api/sdk/js/utils/",
           "type": 301
         },
         {
           "source": "/dev/utils.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/js/utils/",
+          "destination": "https://docs.zksync.io/api/sdk/js/utils/",
           "type": 301
         },
         {
           "source": "/dev/utils/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/js/utils/",
+          "destination": "https://docs.zksync.io/api/sdk/js/utils/",
           "type": 301
         },
         {
           "source": "/dev/basic",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/payments/basic/",
+          "destination": "https://docs.zksync.io/dev/payments/basic/",
           "type": 301
         },
         {
           "source": "/dev/basic.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/payments/basic/",
+          "destination": "https://docs.zksync.io/dev/payments/basic/",
           "type": 301
         },
         {
           "source": "/dev/basic/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/dev/payments/basic/",
+          "destination": "https://docs.zksync.io/dev/payments/basic/",
           "type": 301
         },
         {
           "source": "/dev/types",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/checkout/types/",
+          "destination": "https://docs.zksync.io/api/sdk/checkout/types/",
           "type": 301
         },
         {
           "source": "/dev/types.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/checkout/types/",
+          "destination": "https://docs.zksync.io/api/sdk/checkout/types/",
           "type": 301
         },
         {
           "source": "/dev/types/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/checkout/types/",
+          "destination": "https://docs.zksync.io/api/sdk/checkout/types/",
           "type": 301
         },
         {
           "source": "/faq/intro",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/intro/",
+          "destination": "https://docs.zksync.io/userdocs/intro/",
           "type": 301
         },
         {
           "source": "/faq/intro.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/intro/",
+          "destination": "https://docs.zksync.io/userdocs/intro/",
           "type": 301
         },
         {
           "source": "/faq/intro/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/intro/",
+          "destination": "https://docs.zksync.io/userdocs/intro/",
           "type": 301
         },
         {
           "source": "/faq/tech",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/tech/",
+          "destination": "https://docs.zksync.io/userdocs/tech/",
           "type": 301
         },
         {
           "source": "/faq/tech.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/tech/",
+          "destination": "https://docs.zksync.io/userdocs/tech/",
           "type": 301
         },
         {
           "source": "/faq/tech/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/tech/",
+          "destination": "https://docs.zksync.io/userdocs/tech/",
           "type": 301
         },
         {
           "source": "/faq/security",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/security/",
+          "destination": "https://docs.zksync.io/userdocs/security/",
           "type": 301
         },
         {
           "source": "/faq/security.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/security/",
+          "destination": "https://docs.zksync.io/userdocs/security/",
           "type": 301
         },
         {
           "source": "/faq/security/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/security/",
+          "destination": "https://docs.zksync.io/userdocs/security/",
           "type": 301
         },
         {
           "source": "/faq/learnbywatching",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/learnbywatching/",
+          "destination": "https://docs.zksync.io/userdocs/learnbywatching/",
           "type": 301
         },
         {
           "source": "/faq/learnbywatching.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/learnbywatching/",
+          "destination": "https://docs.zksync.io/userdocs/learnbywatching/",
           "type": 301
         },
         {
           "source": "/faq/learnbywatching/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/learnbywatching/",
+          "destination": "https://docs.zksync.io/userdocs/learnbywatching/",
           "type": 301
         },
         {
           "source": "/faq/wallets",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/wallets/",
+          "destination": "https://docs.zksync.io/userdocs/wallets/",
           "type": 301
         },
         {
           "source": "/faq/wallets.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/wallets/",
+          "destination": "https://docs.zksync.io/userdocs/wallets/",
           "type": 301
         },
         {
           "source": "/faq/wallets/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/wallets/",
+          "destination": "https://docs.zksync.io/userdocs/wallets/",
           "type": 301
         },
         {
           "source": "/faq/tokens",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/tokens/",
+          "destination": "https://docs.zksync.io/userdocs/tokens/",
           "type": 301
         },
         {
           "source": "/faq/tokens.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/tokens/",
+          "destination": "https://docs.zksync.io/userdocs/tokens/",
           "type": 301
         },
         {
           "source": "/faq/tokens/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/tokens/",
+          "destination": "https://docs.zksync.io/userdocs/tokens/",
           "type": 301
         },
         {
           "source": "/faq/decentralization",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/decentralization/",
+          "destination": "https://docs.zksync.io/userdocs/decentralization/",
           "type": 301
         },
         {
           "source": "/faq/decentralization.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/decentralization/",
+          "destination": "https://docs.zksync.io/userdocs/decentralization/",
           "type": 301
         },
         {
           "source": "/faq/decentralization/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/decentralization/",
+          "destination": "https://docs.zksync.io/userdocs/decentralization/",
           "type": 301
         },
         {
           "source": "/faq/tokenomics",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/tokenomics/",
+          "destination": "https://docs.zksync.io/userdocs/tokenomics/",
           "type": 301
         },
         {
           "source": "/faq/tokenomics.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/tokenomics/",
+          "destination": "https://docs.zksync.io/userdocs/tokenomics/",
           "type": 301
         },
         {
           "source": "/faq/tokenomics/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/tokenomics/",
+          "destination": "https://docs.zksync.io/userdocs/tokenomics/",
           "type": 301
         },
         {
           "source": "/faq/sc",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/sc/",
+          "destination": "https://docs.zksync.io/userdocs/sc/",
           "type": 301
         },
         {
           "source": "/faq/sc.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/sc/",
+          "destination": "https://docs.zksync.io/userdocs/sc/",
           "type": 301
         },
         {
           "source": "/faq/sc/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/sc/",
+          "destination": "https://docs.zksync.io/userdocs/sc/",
           "type": 301
         },
         {
           "source": "/faq/privacy",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/privacy/",
+          "destination": "https://docs.zksync.io/userdocs/privacy/",
           "type": 301
         },
         {
           "source": "/faq/privacy.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/privacy/",
+          "destination": "https://docs.zksync.io/userdocs/privacy/",
           "type": 301
         },
         {
           "source": "/faq/privacy/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/privacy/",
+          "destination": "https://docs.zksync.io/userdocs/privacy/",
           "type": 301
         },
         {
           "source": "/faq/roadmap",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/roadmap/",
+          "destination": "https://docs.zksync.io/userdocs/roadmap/",
           "type": 301
         },
         {
           "source": "/faq/roadmap.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/roadmap/",
+          "destination": "https://docs.zksync.io/userdocs/roadmap/",
           "type": 301
         },
         {
           "source": "/faq/roadmap/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/roadmap/",
+          "destination": "https://docs.zksync.io/userdocs/roadmap/",
           "type": 301
         },
         {
           "source": "/faq/faq",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/faq/",
+          "destination": "https://docs.zksync.io/userdocs/faq/",
           "type": 301
         },
         {
           "source": "/faq/faq.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/faq/",
+          "destination": "https://docs.zksync.io/userdocs/faq/",
           "type": 301
         },
         {
           "source": "/faq/faq/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/faq/",
+          "destination": "https://docs.zksync.io/userdocs/faq/",
           "type": 301
         },
         {
           "source": "/faq/tutorials",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/tutorials/",
+          "destination": "https://docs.zksync.io/userdocs/tutorials/",
           "type": 301
         },
         {
           "source": "/faq/tutorials.html",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/tutorials/",
+          "destination": "https://docs.zksync.io/userdocs/tutorials/",
           "type": 301
         },
         {
           "source": "/faq/tutorials/",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/userdocs/tutorials/",
+          "destination": "https://docs.zksync.io/userdocs/tutorials/",
           "type": 301
         },
         {
           "source": "/sdk/:path*",
-          "destination": "https://zksync-web-docs--v-refs-pull-282-merge-up5mlnav.web.app/api/sdk/:path*",
+          "destination": "https://docs.zksync.io/api/sdk/:path*",
           "type": 301
         }
       ]
