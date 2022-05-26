@@ -12,6 +12,7 @@
 
 //Layouts
 @import "./layouts/default";
+@import "./layouts/error";
 
 //Blocks
 @import "./blocks/header";
@@ -31,4 +32,3 @@
 
 //Pages
 @import "./pages/index";
-@import "./pages/404";

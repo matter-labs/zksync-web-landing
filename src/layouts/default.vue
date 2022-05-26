@@ -19,6 +19,11 @@ export default Vue.extend({
   data() {
     return {};
   },
+  head: {
+    bodyAttrs: {
+      class: "inkline -dark",
+    },
+  },
   created() {
     AOS.init({
       once: true,

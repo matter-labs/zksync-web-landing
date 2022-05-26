@@ -1,0 +1,100 @@
+.error-layout-body {
+  overflow: hidden;
+  max-height: var(--app-height);
+  height: var(--app-height);
+
+  .error-layout {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0 30px;
+    height: calc(100vh - 90px - 84px - 40px);
+    overflow: hidden;
+    @media screen and (max-width: $mobile) {
+      height: calc(var(--app-height) - 90px - 40px - 84px);
+    }
+    &::before,
+    &::after {
+      z-index: -1;
+      content: "";
+      position: absolute;
+      opacity: 0.6;
+      width: 450px;
+      height: 200px;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 50%;
+      filter: blur(50px);
+      background-blend-mode: overlay, normal, normal, color-dodge, normal;
+      mix-blend-mode: normal;
+      will-change: opacity;
+      transition: opacity $transitionMedium;
+    }
+    &::before {
+      top: calc(50% - 40px);
+      background: $gradientRegularPieceBefore;
+    }
+    &::after {
+      top: calc(50% + 30px);
+      background: $gradientRegularPieceAfter;
+    }
+
+    .error-status-code {
+      font-size: 80px !important;
+      line-height: 1.2;
+      font-weight: 700;
+      margin: 0;
+      font-family: $openSans !important;
+    }
+    .error-description {
+      font-size: 24px;
+      line-height: 1.4;
+      color: transparentize($color: $white, $amount: 0.5);
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+    .error-links-container {
+      display: grid;
+      width: max-content;
+      height: max-content;
+      grid-auto-flow: column;
+      grid-auto-columns: max-content;
+      grid-auto-rows: max-content;
+      grid-template-rows: 100%;
+      grid-column-gap: 50px;
+      margin: 0 auto;
+    }
+    .error-underline {
+      font-size: 18px;
+      line-height: 1.4;
+      color: transparentize($color: $white, $amount: 0.5);
+      margin-top: 20px;
+      margin-bottom: 0;
+    }
+
+    @media screen and (max-width: 600px) {
+      .error-description {
+        font-size: 18px;
+        margin-bottom: 15px;
+      }
+      .error-links-container {
+        grid-auto-flow: initial;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 10px;
+
+        a {
+          margin: 0 auto;
+        }
+      }
+      .error-underline {
+        font-size: 16px;
+      }
+    }
+  }
+}

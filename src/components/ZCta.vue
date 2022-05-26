@@ -8,7 +8,7 @@
       </g>
     </svg>
   </a>
-  <a v-else :class="classAttribute" :href="href" :target="target">
+  <component :is="component" v-else v-bind="linkAttributes" :class="classAttribute">
     <slot />
     <svg class="HoverArrow" width="10" height="10" viewBox="0 0 10 10" aria-hidden="true">
       <g fill-rule="evenodd">
@@ -16,7 +16,7 @@
         <path class="HoverArrow__tipPath" d="M1 1l4 4-4 4"></path>
       </g>
     </svg>
-  </a>
+  </component>
 </template>
 
 <script lang="ts">
@@ -47,6 +47,21 @@ export default Vue.extend({
     },
   },
   computed: {
+    component(): "a" | "nuxt-link" {
+      return this.href.startsWith("http") ? "a" : "nuxt-link";
+    },
+    linkAttributes() {
+      if (this.component === "a") {
+        return {
+          href: this.href,
+          target: this.target,
+        }
+      } else {
+        return {
+          to: this.href
+        }
+      }
+    },
     classAttribute() {
       const cssClasses = ["CtaButton", "variant--Link", "CtaButton--arrow", "zk-cta"];
       if (this.cssClass) {

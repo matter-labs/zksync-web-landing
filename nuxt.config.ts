@@ -500,5 +500,6 @@ export default {
   generate: {
     dir: "public",
     devtools: false,
+    fallback: '404.html'
   },
 } as NuxtConfig;

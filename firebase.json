@@ -6,12 +6,6 @@
       "trailingSlash": true,
       "public": "public",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
       "headers": [
         {
           "source": "**",
@@ -618,12 +612,6 @@
       "trailingSlash": true,
       "public": "public",
       "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
       "headers": [
         {
           "source": "**",
