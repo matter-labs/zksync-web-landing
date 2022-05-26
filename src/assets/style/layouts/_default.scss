@@ -1,4 +1,9 @@
 .indexLayout {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 1fr max-content;
+
   .container {
     width: 90%;
     padding-right: 0;
@@ -13,8 +18,11 @@
   }
 
   .routerContainer {
-    overflow: hidden;
-    padding-top: 84px;
+    padding-top: calc(84px + 40px);
+
+    @media screen and (max-width: $mobile) {
+      padding-top: calc(60px + 40px);
+    }
   }
 }
 

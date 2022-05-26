@@ -1,5 +1,6 @@
 <template>
   <div class="indexLayout">
+    <block-top-bar />
     <block-header />
     <div class="routerContainer">
       <transition name="fade" mode="out-in">
@@ -7,7 +8,6 @@
       </transition>
     </div>
     <block-footer />
-    <block-top-bar />
   </div>
 </template>
 

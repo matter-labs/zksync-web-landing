@@ -1,21 +1,15 @@
 .error-layout-body {
-  overflow: hidden;
-  max-height: var(--app-height);
-  height: var(--app-height);
-
   .error-layout {
     position: relative;
     display: flex;
+    height: 100%;
+    width: 100%;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     padding: 0 30px;
-    height: calc(100vh - 90px - 84px - 40px);
     overflow: hidden;
-    @media screen and (max-width: $mobile) {
-      height: calc(var(--app-height) - 90px - 40px - 84px);
-    }
     &::before,
     &::after {
       z-index: -1;

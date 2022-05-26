@@ -39,6 +39,7 @@
       padding: 0 10px;
       color: $gray;
       font-size: 15px;
+      white-space: nowrap;
     }
   }
 
@@ -76,6 +77,24 @@
           a {
             padding: 15px 10px;
             font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 360px) {
+    height: max-content;
+    padding-bottom: 10px;
+    
+    .row:last-child {
+      .column {
+        .rightSideLinks {
+          flex-direction: column;
+          align-items: center;
+          padding-top: 5px;
+
+          a {
+            padding: 5px 10px;
           }
         }
       }

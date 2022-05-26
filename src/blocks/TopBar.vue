@@ -22,13 +22,6 @@ export default Vue.extend({
       multiplyBy: 10 as number,
     };
   },
-  head() {
-    return {
-      bodyAttrs: {
-        style: "padding-top: 40px !important",
-      },
-    };
-  },
   computed: {
     news(): number[] {
       const news = [];
