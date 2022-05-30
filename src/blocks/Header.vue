@@ -101,10 +101,6 @@ export default Vue.extend({
           name: "Alternative Withdrawal",
           link: "https://withdraw.zksync.io/",
         },
-        {
-          name: "Mint test tokens",
-          link: "https://wallet.zksync.io/transaction/mint?network=rinkeby",
-        },
       ] as Array<DropdownOption>,
     };
   },
