@@ -1,7 +1,7 @@
 <template>
   <div class="indexPage">
     <z-hero />
-    <block-reviews-slider class="_padding-y-2 _padding-top-md-4 _padding-bottom-md-4" />
+    <block-reviews-slider id="reviews" class="_padding-y-2 _padding-top-md-4 _padding-bottom-md-4" />
     <block-about />
     <comparison />
 

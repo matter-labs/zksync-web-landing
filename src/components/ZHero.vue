@@ -11,7 +11,7 @@
     <i-row center data-aos="fade-up" data-aos-delay="300" data-aos-duration="2000" data-aos-once="true">
       <z-cta :href="'/userdocs/'" class="exploreFAQ _margin-top-xs-1 _margin-bottom-xs-2 _margin-y-lg-3"> User Docs </z-cta>
     </i-row>
-    <a class="scrollDown" data-aos-offset="-100" data-aos="fade-up" data-aos-delay="100" data-aos-duration="700" @click.capture="scrollTo('#visionaries')">
+    <a class="scrollDown" data-aos-offset="-100" data-aos="fade-up" data-aos-delay="100" data-aos-duration="700" @click.capture="scrollTo('#reviews')">
       <i class="fal fa-arrow-down" />
     </a>
   </i-container>
