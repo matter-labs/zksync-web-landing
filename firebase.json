@@ -784,6 +784,21 @@
           "type": 301
         },
         {
+          "source": "/dev/security/ZKSYNC1-2021-01",
+          "destination": "https://docs.zksync.io/dev/security/ZKSYNC1-2021-01/",
+          "type": 301
+        },
+        {
+          "source": "/dev/security/ZKSYNC1-2021-01.html",
+          "destination": "https://docs.zksync.io/dev/security/ZKSYNC1-2021-01/",
+          "type": 301
+        },
+        {
+          "source": "/dev/security/ZKSYNC1-2021-01/",
+          "destination": "https://docs.zksync.io/dev/security/ZKSYNC1-2021-01/",
+          "type": 301
+        },
+        {
           "source": "/faq",
           "destination": "https://docs.zksync.io/userdocs/",
           "type": 301
@@ -1827,6 +1842,21 @@
         {
           "source": "/dev/bug-bounty/",
           "destination": "https://docs.zksync.io/dev/security/bug-bounty/",
+          "type": 301
+        },
+        {
+          "source": "/dev/security/ZKSYNC1-2021-01",
+          "destination": "https://docs.zksync.io/dev/security/ZKSYNC1-2021-01/",
+          "type": 301
+        },
+        {
+          "source": "/dev/security/ZKSYNC1-2021-01.html",
+          "destination": "https://docs.zksync.io/dev/security/ZKSYNC1-2021-01/",
+          "type": 301
+        },
+        {
+          "source": "/dev/security/ZKSYNC1-2021-01/",
+          "destination": "https://docs.zksync.io/dev/security/ZKSYNC1-2021-01/",
           "type": 301
         },
         {
