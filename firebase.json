@@ -204,6 +204,21 @@
           "type": 301
         },
         {
+          "source": "/dev/tutorial.html",
+          "destination": "https://docs.zksync.io/dev/",
+          "type": 301
+        },
+        {
+          "source": "/dev/tutorial/",
+          "destination": "https://docs.zksync.io/dev/",
+          "type": 301
+        },
+        {
+          "source": "/dev/tutorial",
+          "destination": "https://docs.zksync.io/dev/",
+          "type": 301
+        },
+        {
           "source": "/dev/payments/",
           "destination": "https://docs.zksync.io/dev/payments/",
           "type": 301
