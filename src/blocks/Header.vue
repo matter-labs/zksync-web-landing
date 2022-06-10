@@ -54,7 +54,7 @@
                   </i-dropdown-item>
                 </i-dropdown-menu>
               </i-dropdown>
-              <a href="//boards.eu.greenhouse.io/matterlabs" target="_blank" class="linkItem">We're hiring</a>
+              <a href="https://jobs.eu.lever.co/matterlabs" rel="nofollow noopener" target="_blank" class="linkItem">We're hiring</a>
             </div>
           </i-column>
           <i-column :xs="12" :md="4" class="_padding-right-0 _justify-content-end">
