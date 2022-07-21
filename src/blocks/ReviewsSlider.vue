@@ -58,7 +58,7 @@ export default Vue.extend({
       default: (): Review[] => {
         return [
           {
-            link: "https://resources.curve.fi/guides/more.../layer-2-meets-curve-with-zksync",
+            link: "https://blog.matter-labs.io/curve-zksync-l2-ethereums-first-user-defined-zk-rollup-smart-contract-5a72c496b350",
             thumbnail: "curve.svg",
             thumbnailAlt: "Curve Finance - automatic market-making for stablecoins and not only",
             thumbnailTitle: "Curve + zkSync L2: Ethereum’s first user-defined ZK rollup smart contract!",
