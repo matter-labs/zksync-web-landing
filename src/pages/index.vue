@@ -274,13 +274,6 @@ export default Vue.extend({
           alt: "Huobi Global",
           title: "Huobi Global",
         },
-        {
-          id: "Paraswap",
-          link: "https://paraswap.io/",
-          img: "paraswap.svg",
-          alt: "Paraswap",
-          title: "Paraswap",
-        },
       ],
       founders: [
         {
