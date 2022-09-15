@@ -2,7 +2,7 @@
   <div class="partnersBlock _padding-y-2 _margin-bottom-0 _margin-top-2" :class="extraCssClass">
     <i-container :class="{ '-fluid': makeFluid }">
       <div class="h2" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1200">{{ title }}</div>
-      <div class="sponsorsContainer _margin-y-2" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1200">
+      <div class="sponsorsContainer" data-aos="fade-up" data-aos-delay="150" data-aos-duration="1200">
         <a
           v-for="(singlePartner, itemIndex) in partnersData"
           :id="singlePartner.id"
@@ -18,10 +18,10 @@
           </template>
         </a>
       </div>
-      <div v-if="morePagesAvailable" class="_padding-bottom-2">
-        <z-button outline="outline" size="md" class="_margin-x-auto _margin-top-4 _display-block _hidden-md-and-up no-hover-effect" @click.native="showMorePages"
-          >Load more</z-button
-        >
+      <div v-if="morePagesAvailable" class="_hidden-md-and-up _padding-bottom-2">
+        <z-button outline="outline" size="md" class="_margin-x-auto _margin-top-4 _display-block no-hover-effect" @click.native="showMorePages">
+          Load more
+        </z-button>
       </div>
     </i-container>
   </div>
