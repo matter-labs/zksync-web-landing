@@ -110,8 +110,16 @@
       </i-container>
     </div>
 
-    <partners :partners-data="visionaries" id="visionaries" :title="'Backed by visionaries'" />
-    <partners :partners-data="founders" :title="'the founders and leadership of'" :custom-css-class="'partnersBlured'" />
+    <partners id="visionaries" :partners-data="visionaries" title="Backed by visionaries" />
+    <partners :partners-data="founders" title="the founders and leadership of" custom-css-class="partnersBlured" />
+    
+    <i-container class="ecosystem _margin-top-2 _margin-bottom-4 _padding-y-2">
+      <div class="ecosystem-headline h2" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1200">And a huge development ecosystem</div>
+      <p class="ecosystem-underline" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1200">Let's check all our ecosystem partners here on our ecosystem website:</p>
+      <i-row center data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
+        <z-button href="https://ecosystem.zksync.io" variant="glow" size="lg" css-class="antilink">Ecosystem</z-button>
+      </i-row>
+    </i-container>
 
     <i-container class="_margin-y-lg-2 _margin-y-xs-2 communityOwned">
       <div class="topBlock _padding-bottom-2">
@@ -137,8 +145,12 @@
 
 <script lang="ts">
 import Vue from "vue";
+import ZButton from "@/components/ZButton.vue";
 
 export default Vue.extend({
+  components: {
+    ZButton
+  },
   layout: "index",
   data() {
     return {
@@ -188,17 +200,16 @@ export default Vue.extend({
         {
           id: "blockchain",
           link: "https://medium.com/matter-labs/blockchain-com-will-onboard-the-next-billion-users-to-zksync-5b40f2641923",
-          img: "blockchain-com.png",
-          alt: "Blockchain.com",
-          title: "zkSync's new investors include Blockchain.com",
+          img: "blockchain-ventures.png",
+          alt: "Blockchain Ventures",
+          title: "zkSync's new investors include Blockchain Ventures",
         },
         {
-          id: "consensys",
-          img: "consensys.png",
-          alt: "Consensys",
-          title: "consensys",
+          id: "mirana",
+          img: "mirana.png",
+          alt: "Mirana",
+          title: "Mirana",
         },
-
         {
           id: "bybit",
           img: "bybit.png",
@@ -206,10 +217,10 @@ export default Vue.extend({
           title: "Bybit",
         },
         {
-          id: "alchemy",
-          img: "alchemy.png",
-          alt: "alchemy",
-          title: "alchemy",
+          id: "alchemy-ventures",
+          img: "alchemy-ventures.png",
+          alt: "Alchemy Ventures",
+          title: "Alchemy Ventures",
         },
         {
           id: "crypto-com",
@@ -241,33 +252,108 @@ export default Vue.extend({
         },
         {
           id: "coinbase",
-          img: "coinbase.svg",
+          img: "coinbase-ventures.svg",
           alt: "Coinbase Ventures",
           title: "Coinbase Ventures",
         },
         {
-          id: "binance",
-          img: "binance.svg",
-          alt: "Binance",
-          title: "Binance",
+          id: "binance-labs",
+          img: "binance-labs.png",
+          alt: "Binance Labs",
+          title: "Binance Labs",
         },
         {
           id: "ripio",
-          img: "ripio.svg",
+          img: "ripio.png",
           alt: "Ripio",
           title: "Ripio",
         },
         {
           id: "huobi",
-          img: "huobi.svg",
+          img: "huobi.png",
           alt: "Huobi Global",
           title: "Huobi Global",
         },
+      ],
+      founders: [
         {
-          id: "moonpay",
-          img: "moonpay.svg",
-          alt: "Moon Pay",
-          title: "Moon Pay",
+          id: "makerdao.svg",
+          img: "makerdao.svg",
+          alt: "makerdao.svg",
+          title: "makerdao.svg",
+        },
+        {
+          id: "aave",
+          img: "aave.svg",
+          alt: "Aave SAGL",
+          title: "Aave SAGL",
+        },
+        {
+          id: "argent",
+          img: "argent.svg",
+          alt: "Argent Wallet",
+          title: "Argent Wallet",
+        },
+        {
+          id: "1inch",
+          img: "1inch.svg",
+          alt: "1inch",
+          title: "1inch",
+        },
+        {
+          id: "consensys",
+          img: "consensys.png",
+          alt: "Consensys",
+          title: "consensys",
+        },
+        {
+          id: "alchemy",
+          img: "alchemy.svg",
+          alt: "Alchemy",
+          title: "Alchemy",
+        },
+        {
+          id: "lido",
+          img: "lido.svg",
+          alt: "lido",
+          title: "lido",
+        },
+        {
+          id: "chainlink.svg",
+          img: "chainlink.svg",
+          alt: "chainlink.svg",
+          title: "chainlink.svg",
+        },
+        {
+          id: "gnosis.svg",
+          img: "gnosis.svg",
+          alt: "gnosis.svg",
+          title: "gnosis.svg",
+        },
+        {
+          id: "Gitcoin",
+          link: "https://gitcoin.co/blog/gitcoin-grants-round-7/",
+          img: "gitcoin.svg",
+          alt: "Gitcoin",
+          title: "Gitcoin Grants R7 Improvements: Scalability & Identity thanks to Layer 2 Integration w/ zkSync",
+        },
+        {
+          id: "Rarible",
+          img: "rarible.png",
+          alt: "Rarible",
+          title: "Rarible",
+        },
+        {
+          id: "zerion",
+          img: "zerion.svg",
+          alt: "zerion",
+          title: "zerion",
+        },
+        {
+          id: "wintermute.svg",
+          img: "wintermute.svg",
+          alt: "wintermute.svg",
+          title: "wintermute.svg",
         },
         {
           id: "moralis",
@@ -276,27 +362,42 @@ export default Vue.extend({
           title: "moralis",
         },
         {
+          id: "moonpay",
+          img: "moonpay.svg",
+          alt: "Moon Pay",
+          title: "Moon Pay",
+        },
+        {
           id: "Paraswap",
           link: "https://paraswap.io/",
           img: "paraswap.svg",
           alt: "Paraswap",
           title: "Paraswap",
         },
-      ],
-      founders: [
+        {
+          id: "gsr",
+          img: "gsr.png",
+          alt: "gsr",
+          title: "gsr",
+        },
+        {
+          id: "figment",
+          img: "figment.png",
+          alt: "Figment",
+          title: "Figment",
+        },
+        {
+          id: "Pils",
+          img: "pils.png",
+          alt: "Pils",
+          title: "Pils",
+        },
         {
           id: "Numio",
           link: "https://twitter.com/GetNumio/status/1346421335438872576",
           img: "numio.png",
           alt: "Numio",
           title: "Numio is using zkRollups from zkSync in the mobile payments app",
-        },
-        {
-          id: "Gitcoin",
-          link: "https://gitcoin.co/blog/gitcoin-grants-round-7/",
-          img: "gitcoin.svg",
-          alt: "Gitcoin",
-          title: "Gitcoin Grants R7 Improvements: Scalability & Identity thanks to Layer 2 Integration w/ zkSync",
         },
         {
           id: "coingecko",
@@ -331,22 +432,10 @@ export default Vue.extend({
           title: "MYKEY Wallet",
         },
         {
-          id: "argent",
-          img: "argent.svg",
-          alt: "Argent Wallet",
-          title: "Argent Wallet",
-        },
-        {
           id: "imtoken",
           img: "imtoken.svg",
           alt: "imToken Ventures",
           title: "imToken Ventures",
-        },
-        {
-          id: "figment",
-          img: "figment.png",
-          alt: "Figment",
-          title: "Figment",
         },
         {
           id: "frm",
@@ -355,28 +444,22 @@ export default Vue.extend({
           title: "frm",
         },
         {
-          id: "gsr",
-          img: "gsr.png",
-          alt: "gsr",
-          title: "gsr",
-        },
-        {
           id: "opium-network",
           img: "opium-network.png",
           alt: "opium-network",
-          title: "Opium Network.png",
+          title: "Opium Network",
         },
         {
           id: "euler",
           img: "euler.png",
-          alt: "euler",
-          title: "euler",
+          alt: "Euler",
+          title: "Euler",
         },
         {
           id: "ethhub",
           img: "ethhub.svg",
-          alt: "ethhub",
-          title: "ethhub",
+          alt: "EthHub",
+          title: "EthHub",
         },
         {
           id: "nansen",
@@ -385,41 +468,22 @@ export default Vue.extend({
           title: "nansen",
         },
         {
-          id: "zerion",
-          img: "zerion.svg",
-          alt: "zerion",
-          title: "zerion",
-        },
-        {
           id: "unknown",
           img: "unknown.svg",
           alt: "unknown",
           title: "unknown",
         },
         {
-          id: "Paraswap",
-          link: "https://paraswap.io/",
-          img: "paraswap.svg",
-          alt: "Paraswap",
-          title: "Paraswap",
-        },
-        {
-          id: "lido",
-          img: "lido.svg",
-          alt: "lido",
-          title: "lido",
-        },
-        {
           id: "liquidity-network",
           img: "liquidity-network.svg",
-          alt: "liquidity-network",
-          title: "liquidity-network",
+          alt: "Liquidity network",
+          title: "Liquidity network",
         },
         {
           id: "celer",
           img: "celer.png",
-          alt: "celer",
-          title: "celer",
+          alt: "Celer",
+          title: "Celer",
         },
         {
           id: "unknown2",
@@ -428,64 +492,28 @@ export default Vue.extend({
           title: "unknown2.svg",
         },
         {
-          id: "chainlink.svg",
-          img: "chainlink.svg",
-          alt: "chainlink.svg",
-          title: "chainlink.svg",
-        },
-        {
-          id: "wintermute.svg",
-          img: "wintermute.svg",
-          alt: "wintermute.svg",
-          title: "wintermute.svg",
-        },
-        {
-          id: "connext.svg",
+          id: "connext",
           img: "connext.svg",
-          alt: "connext.svg",
-          title: "connext.svg",
+          alt: "Connext",
+          title: "Connext",
         },
         {
           id: "unknown3",
           img: "unknown3.svg",
-          alt: "unknown3.svg",
-          title: "unknown3.svg",
+          alt: "unknown3",
+          title: "unknown3",
         },
         {
-          id: "futureswap.svg",
+          id: "futureswap",
           img: "futureswap.svg",
-          alt: "futureswap.svg",
-          title: "futureswap.svg",
+          alt: "Futureswap",
+          title: "Futureswap",
         },
         {
-          id: "makerdao.svg",
-          img: "makerdao.svg",
-          alt: "makerdao.svg",
-          title: "makerdao.svg",
-        },
-        {
-          id: "unknownR",
-          img: "unknown-r.png",
-          alt: "unknown-r.png",
-          title: "unknown-r.png",
-        },
-        {
-          id: "gnosis.svg",
-          img: "gnosis.svg",
-          alt: "gnosis.svg",
-          title: "gnosis.svg",
-        },
-        {
-          id: "chainflow.svg",
+          id: "chainflow",
           img: "chainflow.svg",
-          alt: "chainflow.svg",
-          title: "chainflow.svg",
-        },
-        {
-          id: "aave",
-          img: "aave.svg",
-          alt: "Aave SAGL",
-          title: "Aave SAGL",
+          alt: "Chainflow",
+          title: "Chainflow",
         },
       ],
       dataForDevelopers: [
@@ -526,36 +554,54 @@ export default Vue.extend({
       contactInfoShown: false,
       chosenBlock: 0,
     };
-  },
+  }
 });
 </script>
 
 <style lang="scss">
-.indexPage .codeContainer .codeGrid .textItem .button {
-  //noinspection CssInvalidPropertyValue
-  .gradient-zk-evm {
-    display: inline;
-    letter-spacing: 0.0075rem;
-    color: transparent !important;
-    background-image: linear-gradient(272.04deg, #cbcbff 46.24%, #8c8dfc 99.45%) !important;
-    box-sizing: border-box !important;
-    font-weight: 700;
-    transition: all 210ms ease;
-    -webkit-background-clip: text !important;
-    -webkit-text-fill-color: transparent;
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-    -ms-background-clip: text;
-    -ms-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-  }
+.indexPage {
+  .codeContainer .codeGrid .textItem .button {
+    //noinspection CssInvalidPropertyValue
+    .gradient-zk-evm {
+      display: inline;
+      letter-spacing: 0.0075rem;
+      color: transparent !important;
+      background-image: linear-gradient(272.04deg, #cbcbff 46.24%, #8c8dfc 99.45%) !important;
+      box-sizing: border-box !important;
+      font-weight: 700;
+      transition: all 210ms ease;
+      -webkit-background-clip: text !important;
+      -webkit-text-fill-color: transparent;
+      -moz-background-clip: text;
+      -moz-text-fill-color: transparent;
+      -ms-background-clip: text;
+      -ms-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+    }
 
-  &:hover .gradient-zk-evm {
-    color: #ffffff !important;
-    background: transparent !important;
-    -webkit-background-clip: unset !important;
-    -webkit-text-fill-color: unset !important;
+    &:hover .gradient-zk-evm {
+      color: #ffffff !important;
+      background: transparent !important;
+      -webkit-background-clip: unset !important;
+      -webkit-text-fill-color: unset !important;
+    }
+  }
+  .ecosystem {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-auto-flow: row;
+    grid-auto-rows: max-content;
+    grid-gap: 40px;
+    text-align: center;
+
+    .ecosystem-headline {
+      margin: 0;
+    }
+    .ecosystem-underline {
+      margin: 0;
+      font-size: 20px;
+    }
   }
 }
 </style>
